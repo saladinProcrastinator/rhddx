@@ -23,10 +23,10 @@ Messaging
 ------
 
 Messaging Principles
-<a href="05_RHD_messaging%20principles.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/05_RHD_messaging%20principles.jpg" width="800"></a>
+<a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/05_RHD_messaging%20principles.jpg?token=AUEG-UYQ_LTKxwzdfL5ozQZRweaccaslks5a9KNkwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/05_RHD_messaging%20principles.jpg?token=AUEG-UYQ_LTKxwzdfL5ozQZRweaccaslks5a9KNkwA%3D%3D" width="800"></a>
 
 Messaging Architecture
-<a href="06_RHD_messaging%20architecture.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/06_RHD_messaging%20architecture.jpg" width="800"></a>
+<a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/06_RHD_messaging%20architecture.jpg?token=AUEG-TEkfc4B-CTuIKDGHKLKDwgqXVtfks5a9KNDwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/06_RHD_messaging%20architecture.jpg?token=AUEG-TEkfc4B-CTuIKDGHKLKDwgqXVtfks5a9KNDwA%3D%3D" width="800"></a>
 
 Supporting Headlines
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/07_RHD_supporting%20headlines.jpg?token=AUEG-b-pQkG1794Z12PTuR9YO-SYF_Saks5a9KJzwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/07_RHD_supporting%20headlines.jpg?token=AUEG-b-pQkG1794Z12PTuR9YO-SYF_Saks5a9KJzwA%3D%3D" width="800"></a>
