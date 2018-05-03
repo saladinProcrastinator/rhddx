@@ -9,6 +9,8 @@ Project brand assets and guidelines for Red Hat Developer.
 Story & Messaging
 ========
 
+<a href="01_RHD_Brand%20Layers.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg" width="800"></a>
+
 Naming
 ------
 
