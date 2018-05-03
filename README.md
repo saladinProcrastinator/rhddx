@@ -11,12 +11,12 @@ Story & Messaging
 
 Brand Layers
 ------
-<a href="01_RHD_Brand%20Layers.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg" width="800"></a>
+<a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg?token=AUEG-X1hhYwd6aZVedBsgw2L-VAEidJhks5a9KOUwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg?token=AUEG-X1hhYwd6aZVedBsgw2L-VAEidJhks5a9KOUwA%3D%3D" width="800"></a>
 &nbsp;
 
 Organizing Principle
 ----
-<a href="04_RHD_organizing%20principle.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/04_RHD_organizing%20principle.jpg" width="800"></a>
+<a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/04_RHD_organizing%20principle.jpg?token=AUEG-YgZ2meaPeW0vQC4T9iFhve_CBTHks5a9KOYwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/04_RHD_organizing%20principle.jpg?token=AUEG-YgZ2meaPeW0vQC4T9iFhve_CBTHks5a9KOYwA%3D%3D" width="800"></a>
 &nbsp;
 
 Messaging
@@ -43,7 +43,7 @@ Logo
 
 | Name   | SVG                                                                                                                                          | PNG                                                                                                                                          |
 |:-------|:--------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
-| Full Logo Color   | <a href="RHD_full_logo_color_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.svg" alt="Logo (SVG)" width="320"></a>       | <a href="RHD_full_logo_color_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.png" alt="Logo (PNG)" width="320"></a>       |
+| Full Logo Color   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.svg" alt="Logo (SVG)" width="320"></a>       | <a href="RHD_full_logo_color_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.png" alt="Logo (PNG)" width="320"></a>       |
 | Full Logo White (red background)   | <a href="RHD_full_logo_white_red_bg_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.svg" alt="Logo (SVG)" width="320"></a>       | <a href="RHD_full_logo_white_red_bg_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.png" alt="Logo (PNG)" width="320"></a>       |
 | Mark Color | <a href="RHD_mark_color_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_color_RGB.svg" alt="Symbol (SVG)" width="160"></a> | <a href="RHD_mark_color_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_color_RGB.png" alt="Symbol (PNG)" width="160"></a> |
 | Mark White (red background) | <a href="RHD_mark_white_red_bg_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_white_red_bg_RGB.svg" alt="Symbol (SVG)" width="160"></a> | <a href="RHD_mark_white_red_bg_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_white_red_bg_RGB.png" alt="Symbol (PNG)" width="160"></a> |
