@@ -1,4 +1,4 @@
-__Brand Guidelines__
+__Brand Manual__
 ========
 
 Project brand assets and guidelines for Red Hat Developer.
@@ -6,7 +6,7 @@ Project brand assets and guidelines for Red Hat Developer.
 ---
 &nbsp;
 
-Story & Messaging
+Story & Messaging Guidelines
 ========
 
 Brand Layers
@@ -35,13 +35,13 @@ Supporting Headlines
 ---
 &nbsp;
 
-Visual
+Visual Guidelines
 ========
 
 Logo
 ----
 
-| Name   | SVG                                                                                                                                          | PNG                                                                                                                                          |
+| Name   | SVG    | PNG                                                                                                                                          |
 |:-------|:--------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
 | Full Logo Color   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.png" alt="Logo (PNG)" width="320"></a>       |
 | Full Logo White (red background)   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.png" alt="Logo (PNG)" width="320"></a>       |
@@ -61,7 +61,7 @@ Color Palette
 | Dark Green       | `#3F9C35` | `63, 156, 53`  | `362C` | ![#3F9C35](http://placehold.it/60x30/3F9C35/3F9C35) |
 | Light Blue       | `#00B9E4` | `0, 185, 228`  | `306C` | ![#00B9E4](http://placehold.it/60x30/00B9E4/00B9E4) |
 | Dark Blue       | `#0088CE` | `0, 136, 206`  | `Process Blue C` | ![#0088CE](http://placehold.it/60x30/0088CE/0088CE) |
-| Dark Gray       | `#231F20` | `35, 31, 32`  | `?C` | ![#231F20](http://placehold.it/60x30/231F20/231F20) |
+| Dark Gray       | `#231F20` | `35, 31, 32`  | `XXXC` | ![#231F20](http://placehold.it/60x30/231F20/231F20) |
 
 
 
