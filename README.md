@@ -21,7 +21,6 @@ Organizing Principle
 
 Messaging
 ------
-&nbsp;
 
 Messaging Principles
 <a href="05_RHD_messaging%20principles.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/05_RHD_messaging%20principles.jpg" width="800"></a>
@@ -32,6 +31,7 @@ Messaging Architecture
 Supporting Headlines
 <a href="07_RHD_supporting%20headlines.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/07_RHD_supporting%20headlines.jpg" width="800"></a>
 
+---
 ---
 &nbsp;
 
