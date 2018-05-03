@@ -47,6 +47,10 @@ Visual Guidelines
 Logo
 ----
 
+**Clear Space**
+
+<a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_logo%20clear%20space.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_logo%20clear%20space.png" alt="Logo (SVG)" width="430"></a>        <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_mark%20clear%20space.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_mark%20clear%20space.png" alt="Logo (PNG)" width="280"></a>
+
 | Name   | SVG    | PNG                                                                                                                                          |
 |:-------|:--------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
 | Full Logo Color   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.png" alt="Logo (PNG)" width="320"></a>       |
