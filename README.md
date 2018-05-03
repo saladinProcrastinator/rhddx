@@ -11,24 +11,30 @@ Story & Messaging Guidelines
 
 Brand Layers
 ------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor eget augue id condimentum. Sed facilisis nulla eu erat iaculis, at fringilla turpis egestas. Suspendisse posuere sodales ante vitae consectetur. Maecenas ac ornare nisl. Nam sit amet erat lacinia, convallis nunc sit amet, consectetur nisi.
+
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg?token=AUEG-X1hhYwd6aZVedBsgw2L-VAEidJhks5a9KOUwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg?token=AUEG-X1hhYwd6aZVedBsgw2L-VAEidJhks5a9KOUwA%3D%3D" width="800"></a>
 &nbsp;
 
 Organizing Principle
 ----
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor eget augue id condimentum. Sed facilisis nulla eu erat iaculis, at fringilla turpis egestas. Suspendisse posuere sodales ante vitae consectetur. Maecenas ac ornare nisl. Nam sit amet erat lacinia, convallis nunc sit amet, consectetur nisi.
+
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/04_RHD_organizing%20principle.jpg?token=AUEG-YgZ2meaPeW0vQC4T9iFhve_CBTHks5a9KOYwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/04_RHD_organizing%20principle.jpg?token=AUEG-YgZ2meaPeW0vQC4T9iFhve_CBTHks5a9KOYwA%3D%3D" width="800"></a>
 &nbsp;
 
 Messaging
 ------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor eget augue id condimentum. Sed facilisis nulla eu erat iaculis, at fringilla turpis egestas. Suspendisse posuere sodales ante vitae consectetur. Maecenas ac ornare nisl. Nam sit amet erat lacinia, convallis nunc sit amet, consectetur nisi.
+&nbsp;
 
-Messaging Principles
+**Messaging Principles**
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/05_RHD_messaging%20principles.jpg?token=AUEG-UYQ_LTKxwzdfL5ozQZRweaccaslks5a9KNkwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/05_RHD_messaging%20principles.jpg?token=AUEG-UYQ_LTKxwzdfL5ozQZRweaccaslks5a9KNkwA%3D%3D" width="800"></a>
 
-Messaging Architecture
+**Messaging Architecture**
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/06_RHD_messaging%20architecture.jpg?token=AUEG-TEkfc4B-CTuIKDGHKLKDwgqXVtfks5a9KNDwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/06_RHD_messaging%20architecture.jpg?token=AUEG-TEkfc4B-CTuIKDGHKLKDwgqXVtfks5a9KNDwA%3D%3D" width="800"></a>
 
-Supporting Headlines
+**Supporting Headlines**
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/07_RHD_supporting%20headlines.jpg?token=AUEG-b-pQkG1794Z12PTuR9YO-SYF_Saks5a9KJzwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/07_RHD_supporting%20headlines.jpg?token=AUEG-b-pQkG1794Z12PTuR9YO-SYF_Saks5a9KJzwA%3D%3D" width="800"></a>
 
 ---
@@ -63,6 +69,9 @@ Color Palette
 | Dark Blue       | `#0088CE` | `0, 136, 206`  | `Process Blue C` | ![#0088CE](http://placehold.it/60x30/0088CE/0088CE) |
 | Dark Gray       | `#231F20` | `35, 31, 32`  | `XXXC` | ![#231F20](http://placehold.it/60x30/231F20/231F20) |
 
+
+Typography
+-------------
 
 
 Credits
