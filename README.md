@@ -9,19 +9,28 @@ Project brand assets and guidelines for Red Hat Developer.
 Story & Messaging
 ========
 
-<a href="01_RHD_Brand%20Layers.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg" width="800"></a>
-
-Naming
+Brand Layers
 ------
+<a href="01_RHD_Brand%20Layers.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg" width="800"></a>
+&nbsp;
 
-* Project name: **ReactPHP**
-* Slogan: **Event-driven, non-blocking I/O with PHP.**
-* Hashtag for project related content: `#reactphp`
-
-Big Brand Message
+Organizing Principle
 ----
+<a href="04_RHD_organizing%20principle.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/04_RHD_organizing%20principle.jpg" width="800"></a>
+&nbsp;
 
-'Moving Forward Together'
+Messaging
+------
+&nbsp;
+
+Messaging Principles
+<a href="05_RHD_messaging%20principles.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/05_RHD_messaging%20principles.jpg" width="800"></a>
+
+Messaging Architecture
+<a href="06_RHD_messaging%20architecture.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/06_RHD_messaging%20architecture.jpg" width="800"></a>
+
+Supporting Headlines
+<a href="07_RHD_supporting%20headlines.jpg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Story%20%2B%20Messaging/07_RHD_supporting%20headlines.jpg" width="800"></a>
 
 ---
 &nbsp;
