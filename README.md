@@ -105,18 +105,23 @@ Lorem ipsum description
 &nbsp;
 
 **Universal Code Block**  
-Lorem ipsum description  
+The Universal Code Block provides visual context for the genesis of the Red Hat Developer mark. When the mark needs background texture or additional visual support, the Universal Code Block should be used if possible. When at scale, the mark should be placed on top of the Universal Code Block like a puzzle piece (shown below), but the Universal Code Block can also be blown up or sized down as a layered textural element. 
 <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_logo_lockup.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_logo_lockup.svg" width="800"></a>  
 
-| Name   | SVG    | PNG                                                                                                                                          |
-|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
+| Name   | SVG    | PNG     |
+|:-------|:-------|:--------|
 | Universal Code Block Light Background   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.png" alt="Logo (PNG)" width="320"></a>       |
 | Universal Code Block Dark Background   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.png" alt="Logo (PNG)" width="320"></a>       |
 
 &nbsp;
 
 **Merging Branches**  
-Lorem ipsum description  
+The Merging Branches are inspired by gitbranches, a representation of the everyday development process. This full color version is a blueprint–a starting point for an endlessly flexible visual element. It can be as many or as few colors as needed (pulled from the RHD palette of course). It can contain many branches or few, as long as it is always merging toward a single branch, moving from left to right. 
+</br>
+Unlike the Universal Code Block, the logo should never rest on top of the Merging Branches. Instead, it should live in the space around the Merging Branches, wherever makes sense in order to create a strong and balanced composition.
+
+&nbsp;
+
 <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHD_merging_branches_graphic.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHD_merging_branches_graphic.svg" width="800"></a>
 
 &nbsp;
@@ -131,7 +136,7 @@ Lorem ipsum description
 Lorem ipsum description  
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_key.png?token=AUEG-dvDPJw5_LpMiMESxytcjmZrgwUFks5a9dBGwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_key.png?token=AUEG-dvDPJw5_LpMiMESxytcjmZrgwUFks5a9dBGwA%3D%3D" width="800"></a>
   
-  <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png?token=AUEG-e0g94_Yud7VLf1F37_v9VdLjVYyks5a9dAiwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png?token=AUEG-e0g94_Yud7VLf1F37_v9VdLjVYyks5a9dAiwA%3D%3D" alt="Logo (SVG)" width="400"></a>      <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png?token=AUEG-eZMaeE6NqRYkqHlOtTyNXhx-pCsks5a9dAwwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png?token=AUEG-eZMaeE6NqRYkqHlOtTyNXhx-pCsks5a9dAwwA%3D%3D" alt="Logo (PNG)" width="400"></a>
+<a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png?token=AUEG-e0g94_Yud7VLf1F37_v9VdLjVYyks5a9dAiwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png?token=AUEG-e0g94_Yud7VLf1F37_v9VdLjVYyks5a9dAiwA%3D%3D" alt="Logo (SVG)" width="400"></a>      <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png?token=AUEG-eZMaeE6NqRYkqHlOtTyNXhx-pCsks5a9dAwwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png?token=AUEG-eZMaeE6NqRYkqHlOtTyNXhx-pCsks5a9dAwwA%3D%3D" alt="Logo (PNG)" width="400"></a>
 
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/summit2018_RHDshirt_create.jpg?token=AUEG-X2cuS0mejnqN3_lFQaePdCSJm5Kks5a9dESwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/summit2018_RHDshirt_create.jpg?token=AUEG-X2cuS0mejnqN3_lFQaePdCSJm5Kks5a9dESwA%3D%3D" alt="Logo (SVG)" width="400"></a>        <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/summit2018_RHDshirt_staff.jpg?token=AUEG-ULmuXkhKu3pn9B-tEatla-49HeNks5a9dEYwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/summit2018_RHDshirt_staff.jpg?token=AUEG-ULmuXkhKu3pn9B-tEatla-49HeNks5a9dEYwA%3D%3D" alt="Logo (PNG)" width="400"></a>
 
