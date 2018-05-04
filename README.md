@@ -1,4 +1,4 @@
-__Brand Manual__
+__Red Hat Developer Brand Manual__
 ========
 
 This guide will serve as a home base for the Red Hat Developer story, messaging, and visual brand language. It's a place you can always return to when you have questions about how to best represent Red Hat Developer through messaging or visual elements.
@@ -61,24 +61,24 @@ The Red Hat Developer logo family is a unique system that distinguishes our orga
 | Name   | SVG    | PNG                                                                                                                                          |
 |:-------|:--------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
 | Full Logo Color   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_color_RGB.png" alt="Logo (PNG)" width="320"></a>       |
-| Full Logo White (red background)   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.png" alt="Logo (PNG)" width="320"></a>       |
+| Full Logo Reverse   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Full%20Logo/RHD_full_logo_white_red_bg_RGB.png" alt="Logo (PNG)" width="320"></a>       |
 | Mark Color | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_color_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_color_RGB.svg" alt="Symbol (SVG)" width="160"></a> | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_color_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_color_RGB.png" alt="Symbol (PNG)" width="160"></a> |
-| Mark White (red background) | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_white_red_bg_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_white_red_bg_RGB.svg" alt="Symbol (SVG)" width="160"></a> | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_white_red_bg_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_white_red_bg_RGB.png" alt="Symbol (PNG)" width="160"></a> |
+| Mark Reverse | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_white_red_bg_RGB.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_white_red_bg_RGB.svg" alt="Symbol (SVG)" width="160"></a> | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_white_red_bg_RGB.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Mark/RHD_mark_white_red_bg_RGB.png" alt="Symbol (PNG)" width="160"></a> |
 
 Color Palette
 -------------
 
-| Name             | HEX       | RGB           | PMS           | Sample                                              |
+| Name             | HEX       | RGB           | CMYK           | PMS           | Sample                                              |
 |:-----------------|:----------|:--------------|:--------------|:----------------------------------------------------|
-| Light Red        | `#CC0000` | `204, 0, 0` | `1797C` | ![#CC0000](http://placehold.it/60x30/CC0000/CC0000) |
-| Dark Red       | `#820000` | `130, 0, 0`  | `1815C` | ![#820000](http://placehold.it/60x30/820000/820000) |
-| Light Yellow       | `#F0AB00` | `240, 171, 0`  | `130C` | ![#F0AB00](http://placehold.it/60x30/F0AB00/F0AB00) |
-| Dark Yellow       | `#EC7A08` | `236, 122, 8`  | `716C` | ![#EC7A08](http://placehold.it/60x30/EC7A08/EC7A08) |
-| Light Green       | `#92D400` | `146, 212, 0`  | `375C` | ![#92D400](http://placehold.it/60x30/92D400/92D400) |
-| Dark Green       | `#3F9C35` | `63, 156, 53`  | `362C` | ![#3F9C35](http://placehold.it/60x30/3F9C35/3F9C35) |
-| Light Blue       | `#00B9E4` | `0, 185, 228`  | `306C` | ![#00B9E4](http://placehold.it/60x30/00B9E4/00B9E4) |
-| Dark Blue       | `#0088CE` | `0, 136, 206`  | `Process Blue C` | ![#0088CE](http://placehold.it/60x30/0088CE/0088CE) |
-| Dark Gray       | `#231F20` | `35, 31, 32`  | `XXXC` | ![#231F20](http://placehold.it/60x30/231F20/231F20) |
+| Light Red        | `#CC0000` | `204, 0, 0` | `2, 98, 85, 2` | `1797C` | ![#CC0000](http://placehold.it/60x30/CC0000/CC0000) |
+| Dark Red       | `#820000` | `130, 0, 0`  | `2, 98, 85, 42` | `1815C` | ![#820000](http://placehold.it/60x30/820000/820000) |
+| Light Yellow       | `#F0AB00` | `240, 171, 0`  | `0, 30, 100, 0` | `130C` | ![#F0AB00](http://placehold.it/60x30/F0AB00/F0AB00) |
+| Dark Yellow       | `#EC7A08` | `236, 122, 8`  | `0, 55, 90, 0` | `716C` | ![#EC7A08](http://placehold.it/60x30/EC7A08/EC7A08) |
+| Light Green       | `#92D400` | `146, 212, 0`  | `47, 0, 94, 0` | `375C` | ![#92D400](http://placehold.it/60x30/92D400/92D400) |
+| Dark Green       | `#3F9C35` | `63, 156, 53`  | `78, 2, 98, 9` | `362C` | ![#3F9C35](http://placehold.it/60x30/3F9C35/3F9C35) |
+| Light Blue       | `#00B9E4` | `0, 185, 228`  | `79, 0, 6, 5` | `306C` | ![#00B9E4](http://placehold.it/60x30/00B9E4/00B9E4) |
+| Dark Blue       | `#0088CE` | `0, 136, 206`  | `79, 13, 1, 3` | `Process Blue C` | ![#0088CE](http://placehold.it/60x30/0088CE/0088CE) |
+| Dark Gray       | `#231F20` | `35, 31, 32`  | `X, X, X, X` | `XXXC` | ![#231F20](http://placehold.it/60x30/231F20/231F20) |
 
 
 Typography
@@ -87,6 +87,23 @@ The relationship between fonts give a brand its identity and its messages a voic
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Overview.png?token=AUEG-WYu26xmGo-Tu-ExILNc33lC1JhNks5a9Z1fwA%3D%3D"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Overview.png" alt="Logo (SVG)" width="800"></a>
 * Find **Interstate** typeface [here](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Interstate)
 * Find **Overpass** typeface [here](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Overpass)
+
+
+Primary Visual Elements
+-----------------------
+Lorem ipsum description
+
+**Universal Code Block**
+
+**Merging Branches**
+
+
+Secondary Visual Elements
+-----------------------
+Lorem ipsum description
+
+**Morse Code**
+
 
 Credits
 -------
