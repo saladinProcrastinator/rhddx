@@ -100,7 +100,7 @@ The relationship between fonts give a brand its identity and its messages a voic
 
 Primary Visual Elements
 -----------------------
-Lorem ipsum description
+These are the primary visual elements that should be used whenever outward facing visual pieces need additional texture or visual interest.  
 
 &nbsp;
 
