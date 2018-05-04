@@ -116,9 +116,18 @@ Primary Visual Elements
 -----------------------
 Lorem ipsum description
 
-**Universal Code Block**
+**Universal Code Block**  
+Lorem ipsum description  
+<a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_logo_lockup.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_logo_lockup.svg" width="800"></a>  
 
-**Merging Branches**
+| Name   | SVG    | PNG                                                                                                                                          |
+|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
+| Universal Code Block Light Background   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.png" alt="Logo (PNG)" width="320"></a>       |
+| Universal Code Block Dark Background   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.png" alt="Logo (PNG)" width="320"></a>       |
+
+**Merging Branches**  
+Lorem ipsum description  
+<a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHD_merging_branches_graphic.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHD_merging_branches_graphic.svg" width="800"></a>
 
 
 Secondary Visual Elements
