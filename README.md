@@ -142,9 +142,10 @@ Lorem ipsum description
 
 **Morse Code**
 Lorem ipsum description  
-<a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_key.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_key.png" width="800"></a>
+<a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_key.png?token=AUEG-dvDPJw5_LpMiMESxytcjmZrgwUFks5a9dBGwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_key.png?token=AUEG-dvDPJw5_LpMiMESxytcjmZrgwUFks5a9dBGwA%3D%3D" width="800"></a>
   
-  <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png" alt="Logo (SVG)" width="400"></a>        <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png" alt="Logo (PNG)" width="400"></a>
+  <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png?token=AUEG-e0g94_Yud7VLf1F37_v9VdLjVYyks5a9dAiwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png?token=AUEG-e0g94_Yud7VLf1F37_v9VdLjVYyks5a9dAiwA%3D%3D" alt="Logo (SVG)" width="400"></a>        
+  <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png?token=AUEG-eZMaeE6NqRYkqHlOtTyNXhx-pCsks5a9dAwwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png?token=AUEG-eZMaeE6NqRYkqHlOtTyNXhx-pCsks5a9dAwwA%3D%3D" alt="Logo (PNG)" width="400"></a>
 
 
 
