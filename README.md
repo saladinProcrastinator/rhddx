@@ -19,7 +19,7 @@ Our brand—our reputation–is most clearly communicated when how we think is a
 
 Organizing Principle
 ----
-The Organizing Principle is a dynamic internal concept, an overarching idea that defines how we want to look, sound, and act. Whether you're writing headlines for a marketing campaign, creating images for social media, or engaging with community members at an event, this Organizing Principle is a powerful inspirational tool that should help shape the representation of Red Hat Developer.  
+The Organizing Principle is an internal dynamic concept, an overarching idea that defines how we want to look, sound, and act. Whether you're writing headlines for a marketing campaign, creating images for social media, or engaging with community members at an event, this Organizing Principle is a powerful inspirational tool that should help shape the representation of Red Hat Developer.  
 
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/04_RHD_organizing%20principle.jpg?token=AUEG-YgZ2meaPeW0vQC4T9iFhve_CBTHks5a9KOYwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/04_RHD_organizing%20principle.jpg?token=AUEG-YgZ2meaPeW0vQC4T9iFhve_CBTHks5a9KOYwA%3D%3D" width="800"></a>
 &nbsp;
