@@ -77,7 +77,10 @@ Color Palette
 
 Typography
 -------------
-
+Our type should follow the Red Hat parent brand guidelines.
+<a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Overview.png?token=AUEG-WYu26xmGo-Tu-ExILNc33lC1JhNks5a9Z1fwA%3D%3D"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Overview.png" alt="Logo (SVG)" width="800"></a>
+* Find **Interstate** typeface [here](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Interstate)
+* Find **Overpass** typeface [here](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Overpass)
 
 Credits
 -------
