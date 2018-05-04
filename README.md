@@ -12,7 +12,7 @@ Red Hat Developer will continuously evolve, grow, and expand to adapt to new too
 
 Brand Layers
 ------
-Our brand—our reputation–is most clearly communicated when how we think is aligned with how we look, sound, and act.
+Our brand—our reputation—is most clearly communicated when how we think is aligned with how we look, sound, and act.
 
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg?token=AUEG-X1hhYwd6aZVedBsgw2L-VAEidJhks5a9KOUwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg?token=AUEG-X1hhYwd6aZVedBsgw2L-VAEidJhks5a9KOUwA%3D%3D" width="800"></a>
 &nbsp;
