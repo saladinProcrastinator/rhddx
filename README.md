@@ -12,14 +12,14 @@ Red Hat Developer will continuously evolve, grow, and expand to adapt to new too
 
 Brand Layers
 ------
-Our brand—our reputation-is most clearly communicated when how we think is aligned with how we look, sound, and act.
+Our brand—our reputation–is most clearly communicated when how we think is aligned with how we look, sound, and act.
 
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg?token=AUEG-X1hhYwd6aZVedBsgw2L-VAEidJhks5a9KOUwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg?token=AUEG-X1hhYwd6aZVedBsgw2L-VAEidJhks5a9KOUwA%3D%3D" width="800"></a>
 &nbsp;
 
 Organizing Principle
 ----
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor eget augue id condimentum. Sed facilisis nulla eu erat iaculis, at fringilla turpis egestas. Suspendisse posuere sodales ante vitae consectetur. Maecenas ac ornare nisl. Nam sit amet erat lacinia, convallis nunc sit amet, consectetur nisi.
+The Organizing Principle is a dynamic internal concept, an overarching idea that defines how we want to look, sound, and act. Whether you're writing headlines for a marketing campaign, creating images for social media, or engaging with community members at an event, this Organizing Principle is a powerful inspirational tool that should help shape the representation of Red Hat Developer.  
 
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/04_RHD_organizing%20principle.jpg?token=AUEG-YgZ2meaPeW0vQC4T9iFhve_CBTHks5a9KOYwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/04_RHD_organizing%20principle.jpg?token=AUEG-YgZ2meaPeW0vQC4T9iFhve_CBTHks5a9KOYwA%3D%3D" width="800"></a>
 &nbsp;
