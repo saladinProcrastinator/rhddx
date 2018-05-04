@@ -116,6 +116,8 @@ Primary Visual Elements
 -----------------------
 Lorem ipsum description
 
+&nbsp;
+
 **Universal Code Block**  
 Lorem ipsum description  
 <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_logo_lockup.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_logo_lockup.svg" width="800"></a>  
@@ -124,6 +126,8 @@ Lorem ipsum description
 |:-------|:--------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
 | Universal Code Block Light Background   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.png" alt="Logo (PNG)" width="320"></a>       |
 | Universal Code Block Dark Background   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.png" alt="Logo (PNG)" width="320"></a>       |
+
+&nbsp;
 
 **Merging Branches**  
 Lorem ipsum description  
@@ -134,7 +138,14 @@ Secondary Visual Elements
 -----------------------
 Lorem ipsum description
 
+&nbsp;
+
 **Morse Code**
+Lorem ipsum description  
+<a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_key.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_key.png" width="800"></a>
+  
+  <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png" alt="Logo (SVG)" width="400"></a>        <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png" alt="Logo (PNG)" width="400"></a>
+
 
 
 Credits
