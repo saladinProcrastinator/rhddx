@@ -10,12 +10,9 @@ Story & Messaging Guidelines
 ========
 Red Hat Developer will continuously evolve, grow, and expand to adapt to new tools and practices. But there are key elements about Red Hat Developer that will never change. This document captures the foundational story and messaging elements core to the Red Hat Developer story.
 
-This document is a tool for internal use—to refer to whenever you have questions about the story. That said, this story and messaging guide is not meant to limit your creativity, but instead help guide any future content creation, marketing materials, or campaigns. 
-
-
 Brand Layers
 ------
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor eget augue id condimentum. Sed facilisis nulla eu erat iaculis, at fringilla turpis egestas. Suspendisse posuere sodales ante vitae consectetur. Maecenas ac ornare nisl. Nam sit amet erat lacinia, convallis nunc sit amet, consectetur nisi.
+Our brand—our reputation-is most clearly communicated when how we think is aligned with how we look, sound, and act.
 
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg?token=AUEG-X1hhYwd6aZVedBsgw2L-VAEidJhks5a9KOUwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Story%20%2B%20Messaging/01_RHD_Brand%20Layers.jpg?token=AUEG-X1hhYwd6aZVedBsgw2L-VAEidJhks5a9KOUwA%3D%3D" width="800"></a>
 &nbsp;
@@ -29,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor eget a
 
 Messaging
 ------
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor eget augue id condimentum. Sed facilisis nulla eu erat iaculis, at fringilla turpis egestas. Suspendisse posuere sodales ante vitae consectetur. Maecenas ac ornare nisl. Nam sit amet erat lacinia, convallis nunc sit amet, consectetur nisi.
+This document is a tool for internal use—to refer to whenever you have questions about the story. That said, this story and messaging guide is not meant to limit your creativity, but instead help guide any future content creation, marketing materials, or campaigns. 
 &nbsp;
 
 **Messaging Principles**
@@ -47,6 +44,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor eget a
 
 Visual Guidelines
 ========
+This visual guide will serve as a home base for Red Hat Developer's visual brand language. It's a place you can always return to when you have questions about visual elements for Red Hat Developer, or when you're creating brand materials. 
+
+The visual guide is for internal use, to help you ensure you're creating a cohesive visual experience for customers across all brand touchpoints. It's meant to be a living, breathing document—a place where you can continue building your visual language to reflect changes in the brand. 
 
 Logo
 ----
