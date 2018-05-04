@@ -82,18 +82,21 @@ Color Palette
 | Dark Blue       | `#0088CE` | `0, 136, 206`  | `79, 13, 1, 3` | `Process Blue` | ![#0088CE](http://placehold.it/60x30/0088CE/0088CE) |
 | Black       | `#000000` | `0, 0, 0`  | `60, 40, 40, 100` | `Rich Black` | ![#000000](http://placehold.it/60x30/000000/000000) |
 
+&nbsp;
 
 Typography
 -------------
 The relationship between fonts give a brand its identity and its messages a voice. When used effectively, typography plays a critical role in establishing the tone of Red Hat Developer's brand expression. Our typography should follow the Red Hat parent brand guidelines.
-</br>
+
+&nbsp;
 
 | Typeface      | Description      | Example      | Uses      | Files       |
 |:-------|:--------|:--------|:--------|:--------|
 | **Interstate** | Interstate is our corporate typeface. It’s part of a large and versatile type family, which allows us to speak in many voices—from big and bold to calm and confident. </br></br> Interstate looks best in print and when used for big headlines. We use it for all printed material, like collateral and stationery; for advertising, like printed ads and web banners; and anywhere text is embedded in an image, like diagrams and videos. | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_interstate.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_interstate.png" width="200"></a> | <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_interstate1.png"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_interstate1.png" width="400"></a> | [Interstate family](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Interstate) |
 | **Overpass** | Overpass is an open-licensed alternative to Interstate that is specifically for use on-screen and in our software. Like Interstate, Overpass is based on the FHWA (Federal Highway Administration) series of fonts, which has been used for US Highway signage since 1945. </br></br> Overpass can be used in a lot of the same ways as Interstate. We use Overpass for all web text, editable presentations, and product interfaces. | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_overpass.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_overpass.png" width="200"></a> | <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_overpass1.png"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_overpass1.png" width="400"></a> | [Overpass family](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Overpass) |
 | **Liberation** | Liberation is metrically equivalent to the default fonts on non-Linux platforms. That means there are fewer issues with font conflicts and formatting when a document moves between platforms. </br></br> Use Liberation Sans for live, editable documents that will be shared outside of Red Hat. </br></br> Use Liberation Mono for code samples. | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_liberation.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_liberation.png" width="200"></a> | <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_liberation1.png"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_liberation1.png" width="400"></a> | [Liberation family](https://pagure.io/liberation-fonts) |
-  
+
+&nbsp;
 
 Primary Visual Elements
 -----------------------
@@ -116,6 +119,7 @@ Lorem ipsum description
 Lorem ipsum description  
 <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHD_merging_branches_graphic.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHD_merging_branches_graphic.svg" width="800"></a>
 
+&nbsp;
 
 Secondary Visual Elements
 -----------------------
