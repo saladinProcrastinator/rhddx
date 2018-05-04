@@ -1,13 +1,17 @@
 __Brand Manual__
 ========
 
-Project brand assets and guidelines for Red Hat Developer.
+This guide will serve as a home base for the Red Hat Developer story, messaging, and visual brand language. It's a place you can always return to when you have questions about how to best represent Red Hat Developer through messaging or visual elements.
 
 ---
 &nbsp;
 
 Story & Messaging Guidelines
 ========
+Red Hat Developer will continuously evolve, grow, and expand to adapt to new tools and practices. But there are key elements about Red Hat Developer that will never change. This document captures the foundational story and messaging elements core to the Red Hat Developer story.
+
+This document is a tool for internal use—to refer to whenever you have questions about the story. That said, this story and messaging guide is not meant to limit your creativity, but instead help guide any future content creation, marketing materials, or campaigns. 
+
 
 Brand Layers
 ------
@@ -46,6 +50,8 @@ Visual Guidelines
 
 Logo
 ----
+The Red Hat Developer logo family is a unique system that distinguishes our organization from all others. Use of the logo, typography, and color should follow the guidelines within this document so that we present a consistent image to our various audiences.
+
 **Clear Space**
 
 <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_logo%20clear%20space.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_logo%20clear%20space.png" alt="Logo (SVG)" width="430"></a>        <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_mark%20clear%20space.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_mark%20clear%20space.png" alt="Logo (PNG)" width="280"></a>
@@ -77,7 +83,7 @@ Color Palette
 
 Typography
 -------------
-Our type should follow the Red Hat parent brand guidelines.
+The relationship between fonts give a brand its identity and its messages a voice. When used effectively, typography plays a critical role in establishing the tone of Red Hat Developer's brand expression. Our typography should follow the Red Hat parent brand guidelines.
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Overview.png?token=AUEG-WYu26xmGo-Tu-ExILNc33lC1JhNks5a9Z1fwA%3D%3D"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Overview.png" alt="Logo (SVG)" width="800"></a>
 * Find **Interstate** typeface [here](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Interstate)
 * Find **Overpass** typeface [here](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Overpass)
