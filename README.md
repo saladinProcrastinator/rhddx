@@ -80,7 +80,7 @@ Color Palette
 | Dark Green       | `#3F9C35` | `63, 156, 53`  | `78, 2, 98, 9` | `362` | ![#3F9C35](http://placehold.it/60x30/3F9C35/3F9C35) |
 | Light Blue       | `#00B9E4` | `0, 185, 228`  | `79, 0, 6, 5` | `306` | ![#00B9E4](http://placehold.it/60x30/00B9E4/00B9E4) |
 | Dark Blue       | `#0088CE` | `0, 136, 206`  | `79, 13, 1, 3` | `Process Blue` | ![#0088CE](http://placehold.it/60x30/0088CE/0088CE) |
-| Black       | `#000000` | `0, 0, 0`  | `60, 40, 40, 100` | `Rich Black` | ![#231F20](http://placehold.it/60x30/231F20/231F20) |
+| Black       | `#000000` | `0, 0, 0`  | `60, 40, 40, 100` | `Rich Black` | ![#000000](http://placehold.it/60x30/000000/000000) |
 
 
 Typography
