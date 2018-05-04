@@ -86,30 +86,13 @@ Color Palette
 Typography
 -------------
 The relationship between fonts give a brand its identity and its messages a voice. When used effectively, typography plays a critical role in establishing the tone of Red Hat Developer's brand expression. Our typography should follow the Red Hat parent brand guidelines.
-<a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Overview.png?token=AUEG-WYu26xmGo-Tu-ExILNc33lC1JhNks5a9Z1fwA%3D%3D"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Overview.png" alt="Logo (SVG)" width="800"></a>
+</br>
 
-**Interstate**  
-  
-Interstate is our corporate typeface. It’s part of a large and versatile type family, which allows us to speak in many voices—from big and bold to calm and confident.
-
-Interstate looks best in print and when used for big headlines. We use it for all printed material, like collateral and stationery; for advertising, like printed ads and web banners; and anywhere text is embedded in an image, like diagrams and videos.
-* Find **Interstate** typeface [here](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Interstate)
-
-**Overpass**  
-  
-Overpass is an open-licensed alternative to Interstate that is specifically for use on-screen and in our software. Like Interstate, Overpass is based on the FHWA (Federal Highway Administration) series of fonts, which has been used for US Highway signage since 1945.
-
-Overpass can be used in a lot of the same ways as Interstate. We use Overpass for all web text, editable presentations, and product interfaces.
-* Find **Overpass** typeface [here](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Overpass)
-
-**Liberation**  
-  
-Liberation is metrically equivalent to the default fonts on non-Linux platforms. That means there are fewer issues with font conflicts and formatting when a document moves between platforms.
-
-Use Liberation Sans for live, editable documents that will be shared outside of Red Hat.
-
-Use Liberation Mono for code samples.
-* Find **Liberation** typeface [here](https://pagure.io/liberation-fonts)
+| Typeface      | Description      | Example      | Uses      | Files       |
+|:-------|:--------|:--------|:--------|:--------|
+| **Interstate** | Interstate is our corporate typeface. It’s part of a large and versatile type family, which allows us to speak in many voices—from big and bold to calm and confident. </br></br> Interstate looks best in print and when used for big headlines. We use it for all printed material, like collateral and stationery; for advertising, like printed ads and web banners; and anywhere text is embedded in an image, like diagrams and videos. | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_interstate.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_interstate.png" width="200"></a> | <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_interstate1.png"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_interstate1.png" width="400"></a> | [Interstate family](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Interstate) |
+| **Overpass** | Overpass is an open-licensed alternative to Interstate that is specifically for use on-screen and in our software. Like Interstate, Overpass is based on the FHWA (Federal Highway Administration) series of fonts, which has been used for US Highway signage since 1945. </br></br> Overpass can be used in a lot of the same ways as Interstate. We use Overpass for all web text, editable presentations, and product interfaces. | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_overpass.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_overpass.png" width="200"></a> | <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_overpass1.png"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_overpass1.png" width="400"></a> | [Overpass family](https://github.com/redhat-developer/design-manual/tree/master/RHD%20Typography/Overpass) |
+| **Liberation** | Liberation is metrically equivalent to the default fonts on non-Linux platforms. That means there are fewer issues with font conflicts and formatting when a document moves between platforms. </br></br> Use Liberation Sans for live, editable documents that will be shared outside of Red Hat. </br></br> Use Liberation Mono for code samples. | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_liberation.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_ex_liberation.png" width="200"></a> | <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_liberation1.png"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Typography/RHD%20Type%20Examples%20%26%20Uses/rh_which_typeface_liberation1.png" width="400"></a> | [Liberation family](https://pagure.io/liberation-fonts) |
   
 
 Primary Visual Elements
@@ -123,7 +106,7 @@ Lorem ipsum description
 <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_logo_lockup.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_logo_lockup.svg" width="800"></a>  
 
 | Name   | SVG    | PNG                                                                                                                                          |
-|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
+|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
 | Universal Code Block Light Background   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_light_bg.png" alt="Logo (PNG)" width="320"></a>       |
 | Universal Code Block Dark Background   | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.svg" alt="Logo (SVG)" width="320"></a>       | <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_dark_bg.png" alt="Logo (PNG)" width="320"></a>       |
 
