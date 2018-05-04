@@ -72,15 +72,15 @@ Color Palette
 
 | Name             | HEX       | RGB           | CMYK           | PMS           | Sample                                              |
 |:-----------------|:----------|:--------------|:--------------|:--------------|:----------------------------------------------------|
-| Light Red        | `#CC0000` | `204, 0, 0` | `2, 98, 85, 2` | `1797C` | ![#CC0000](http://placehold.it/60x30/CC0000/CC0000) |
-| Dark Red       | `#820000` | `130, 0, 0`  | `2, 98, 85, 42` | `1815C` | ![#820000](http://placehold.it/60x30/820000/820000) |
-| Light Yellow       | `#F0AB00` | `240, 171, 0`  | `0, 30, 100, 0` | `130C` | ![#F0AB00](http://placehold.it/60x30/F0AB00/F0AB00) |
-| Dark Yellow       | `#EC7A08` | `236, 122, 8`  | `0, 55, 90, 0` | `716C` | ![#EC7A08](http://placehold.it/60x30/EC7A08/EC7A08) |
-| Light Green       | `#92D400` | `146, 212, 0`  | `47, 0, 94, 0` | `375C` | ![#92D400](http://placehold.it/60x30/92D400/92D400) |
-| Dark Green       | `#3F9C35` | `63, 156, 53`  | `78, 2, 98, 9` | `362C` | ![#3F9C35](http://placehold.it/60x30/3F9C35/3F9C35) |
-| Light Blue       | `#00B9E4` | `0, 185, 228`  | `79, 0, 6, 5` | `306C` | ![#00B9E4](http://placehold.it/60x30/00B9E4/00B9E4) |
-| Dark Blue       | `#0088CE` | `0, 136, 206`  | `79, 13, 1, 3` | `Process Blue C` | ![#0088CE](http://placehold.it/60x30/0088CE/0088CE) |
-| Dark Gray       | `#231F20` | `35, 31, 32`  | `X, X, X, X` | `XXXC` | ![#231F20](http://placehold.it/60x30/231F20/231F20) |
+| Light Red        | `#CC0000` | `204, 0, 0` | `2, 98, 85, 2` | `1797` | ![#CC0000](http://placehold.it/60x30/CC0000/CC0000) |
+| Dark Red       | `#820000` | `130, 0, 0`  | `2, 98, 85, 42` | `1815` | ![#820000](http://placehold.it/60x30/820000/820000) |
+| Light Yellow       | `#F0AB00` | `240, 171, 0`  | `0, 30, 100, 0` | `130` | ![#F0AB00](http://placehold.it/60x30/F0AB00/F0AB00) |
+| Dark Yellow       | `#EC7A08` | `236, 122, 8`  | `0, 55, 90, 0` | `716` | ![#EC7A08](http://placehold.it/60x30/EC7A08/EC7A08) |
+| Light Green       | `#92D400` | `146, 212, 0`  | `47, 0, 94, 0` | `375` | ![#92D400](http://placehold.it/60x30/92D400/92D400) |
+| Dark Green       | `#3F9C35` | `63, 156, 53`  | `78, 2, 98, 9` | `362` | ![#3F9C35](http://placehold.it/60x30/3F9C35/3F9C35) |
+| Light Blue       | `#00B9E4` | `0, 185, 228`  | `79, 0, 6, 5` | `306` | ![#00B9E4](http://placehold.it/60x30/00B9E4/00B9E4) |
+| Dark Blue       | `#0088CE` | `0, 136, 206`  | `79, 13, 1, 3` | `Process Blue` | ![#0088CE](http://placehold.it/60x30/0088CE/0088CE) |
+| Black       | `#000000` | `0, 0, 0`  | `60, 40, 40, 100` | `Rich Black` | ![#231F20](http://placehold.it/60x30/231F20/231F20) |
 
 
 Typography
