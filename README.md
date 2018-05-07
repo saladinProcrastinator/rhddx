@@ -132,7 +132,7 @@ Unlike the Universal Code Block, the logo should never rest on top of the Mergin
 
 &nbsp;
 
-As an addition treatment, the Merging Branches can be visualized with a tilt-shift with a selective focus (as shown in the email header examples below). This treatment should be used sparingly, or as a dynamic solution when dimensions are too limiting for a good crop of the full Merging Branches graphic. 
+As an addition treatment, the Merging Branches can be visualized with a tilt-shift with a selective focus (as shown in the email header examples below). This treatment should be used sparingly, or as a dynamic solution when dimensions are not ideal for a strong composition using the full Merging Branches graphic. 
 
 &nbsp;
 
@@ -144,12 +144,14 @@ As an addition treatment, the Merging Branches can be visualized with a tilt-shi
 
 Secondary Visual Elements
 -----------------------
-Lorem ipsum description
+Secondary visual elements can be used for promotional or one-off pieces, subtle or supporting background texture, or any secondary/tertiary level branded piece that may need additional visual support.
 
 &nbsp;
 
 **Morse Code**
-Lorem ipsum description  
+The visual elements that make the Red Hat Developer mark can be rearranged in infinite combinations to create unique structures of units and paths. When combined with one of the most iconic coding languages–Morse code–we can create visuals with an underlying layer of meaning, a secret treat for those that can see it. Using the international rules of Morse code along with some specific Red Hat Developer Rules, we can create beautiful abstract shapes that contain messages, words, and ideas that resonate with our audiences. </br>
+
+The first rule of the Morse code visual element is: you do not talk about the Morse code visual element. We don't ever want to directly address that there is an underlying meaning in these visuals; it exists only for those who can find it. We know that developers are perceptive, curious, detail-oriented problem solvers. They're our people. This visual treatment is like our secret handshake.
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_key.png?token=AUEG-dvDPJw5_LpMiMESxytcjmZrgwUFks5a9dBGwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_key.png?token=AUEG-dvDPJw5_LpMiMESxytcjmZrgwUFks5a9dBGwA%3D%3D" width="800"></a>
   
 <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png?token=AUEG-e0g94_Yud7VLf1F37_v9VdLjVYyks5a9dAiwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_create.png?token=AUEG-e0g94_Yud7VLf1F37_v9VdLjVYyks5a9dAiwA%3D%3D" alt="Logo (SVG)" width="400"></a>      <a href="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png?token=AUEG-eZMaeE6NqRYkqHlOtTyNXhx-pCsks5a9dAwwA%3D%3D"><img src="https://raw.githubusercontent.com/redhat-developer/design-manual/master/RHD%20Visual%20Elements/RHD%20Morse%20Code/RHD_morse_code_ex_helloworld.png?token=AUEG-eZMaeE6NqRYkqHlOtTyNXhx-pCsks5a9dAwwA%3D%3D" alt="Logo (PNG)" width="400"></a>
