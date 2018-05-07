@@ -53,6 +53,7 @@ Logo
 The Red Hat Developer logo family is a unique system that distinguishes our organization from all others. Use of the logo, typography, and color should follow the guidelines within this document so that we present a consistent image to our various audiences.
 
 **Clear Space**
+</br>
 When we place other design elements too close to the logo family it can sometimes suggest a relationship between them. Think of the logo family as our signature. The more we keep it intact, the more recognizable and valuable it will be. To maintain the integrity of the Red Hat Developer identity, keep a fixed amount of open space around each logo to help it stand out. 
 
 <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_logo%20clear%20space.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_logo%20clear%20space.png" alt="Logo (SVG)" width="430"></a>        <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_mark%20clear%20space.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_mark%20clear%20space.png" alt="Logo (PNG)" width="280"></a>
@@ -106,7 +107,9 @@ These are the primary visual elements that should be used whenever outward facin
 &nbsp;
 
 **Universal Code Block**  
-The Universal Code Block provides visual context for the genesis of the Red Hat Developer mark. When the mark needs background texture or additional visual support, the Universal Code Block should be used if possible. When at scale, the mark should be placed on top of the Universal Code Block like a puzzle piece (shown below), but the Universal Code Block can also be blown up or sized down as a layered textural element. 
+The Universal Code Block provides visual context for the story behind the Red Hat Developer mark. When the mark needs background texture or additional visual support, the Universal Code Block should be used if possible. When at scale, the mark should be placed on top of the Universal Code Block like a puzzle piece (shown below), but the Universal Code Block can also be blown up or sized down as a layered textural element. </br>
+
+The Universal Code Block should always be left aligned, to communicate that it is an abstraction of code. It can be indented in sections to further communicate this idea, but it doesn't have to be. The Universal Code Block should be grayscale when the logo is present, but can be colorful if it is being used as a stand-alone visual element.
 <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_logo_lockup.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Universal%20Code%20Block/RHD_universal_code_block_logo_lockup.svg" width="800"></a>  
 
 | Name   | SVG    | PNG     |
@@ -117,8 +120,8 @@ The Universal Code Block provides visual context for the genesis of the Red Hat 
 &nbsp;
 
 **Merging Branches**  
-The Merging Branches are inspired by gitbranches, a representation of the everyday development process. This full color version is a blueprint–a starting point for an endlessly flexible visual element. It can be as many or as few colors as needed (pulled from the RHD palette of course). It can contain many branches or few, as long as it is always merging toward a single branch, moving from left to right. 
-</br>
+The Merging Branches are inspired by gitbranches, a representation of the everyday development process. This full color version is a blueprint–a starting point for an endlessly flexible visual element. It can be as many or as few colors as needed (pulled from the RHD palette of course). It can contain many branches or few, as long as it is always merging toward a single branch, moving from left to right. </br>
+
 Unlike the Universal Code Block, the logo should never rest on top of the Merging Branches. Instead, it should live in the space around the Merging Branches, wherever makes sense in order to create a strong and balanced composition.
 
 &nbsp;
@@ -126,6 +129,16 @@ Unlike the Universal Code Block, the logo should never rest on top of the Mergin
 <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHD_merging_branches_graphic.svg"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHD_merging_branches_graphic.svg" width="800"></a>
 
 &nbsp;
+
+As an addition treatment, the Merging Branches can be visualized with a tilt-shift with a selective focus (as shown in the email header examples below). This treatment should be used sparingly, or as a dynamic solution when dimensions are too limiting for a good crop of the full Merging Branches graphic. 
+
+&nbsp;
+
+<a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHDP_social_images-Email_600_300_actual-size.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHDP_social_images-Email_600_300_actual-size.png" alt="Logo (SVG)" width="400"></a>        <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHDP_social_images-Email_600_150_actual-size.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHDP_social_images-Email_600_150_actual-size.png" alt="Logo (PNG)" width="400"></a>
+<a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHDP_social_images-Email_655x96_actual-size.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Elements/RHD%20Merging%20Branches/RHDP_social_images-Email_655x96_actual-size.png" alt="Logo (PNG)" width="655"></a>
+
+&nbsp;
+
 
 Secondary Visual Elements
 -----------------------
