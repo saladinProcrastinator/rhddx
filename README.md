@@ -53,6 +53,7 @@ Logo
 The Red Hat Developer logo family is a unique system that distinguishes our organization from all others. Use of the logo, typography, and color should follow the guidelines within this document so that we present a consistent image to our various audiences.
 
 **Clear Space**
+When we place other design elements too close to the logo family it can sometimes suggest a relationship between them. Think of the logo family as our signature. The more we keep it intact, the more recognizable and valuable it will be. To maintain the integrity of the Red Hat Developer identity, keep a fixed amount of open space around each logo to help it stand out. 
 
 <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_logo%20clear%20space.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_logo%20clear%20space.png" alt="Logo (SVG)" width="430"></a>        <a href="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_mark%20clear%20space.png"><img src="https://github.com/redhat-developer/design-manual/blob/master/RHD%20Visual%20Guidelines/RHD_mark%20clear%20space.png" alt="Logo (PNG)" width="280"></a>
 
@@ -100,7 +101,7 @@ The relationship between fonts give a brand its identity and its messages a voic
 
 Primary Visual Elements
 -----------------------
-These are the primary visual elements that should be used whenever outward facing visual pieces need additional texture or visual interest.  
+These are the primary visual elements that should be used whenever outward facing visual pieces need additional texture or visual support.  
 
 &nbsp;
 
