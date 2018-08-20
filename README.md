@@ -89,6 +89,7 @@ Color Palette
 | Light Blue       | `#00B9E4` | `0, 185, 228`  | `79, 0, 6, 5` | `306` | ![#00B9E4](http://placehold.it/60x30/00B9E4/00B9E4) |
 | Dark Blue       | `#0088CE` | `0, 136, 206`  | `79, 13, 1, 3` | `Process Blue` | ![#0088CE](http://placehold.it/60x30/0088CE/0088CE) |
 | Black       | `#000000` | `0, 0, 0`  | `60, 40, 40, 100` | `Rich Black` | ![#000000](http://placehold.it/60x30/000000/000000) |
+| Developer White       | `#F9F9F9` | `249, 249, 249`  | `0, 0, 0, 0` | `White` | ![#F9F9F9](http://placehold.it/60x30/F9F9F9/F9F9F9) |
 
 &nbsp;
 
