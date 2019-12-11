@@ -1,8 +1,9 @@
 <header>
 
-  <h1>
-    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  </h1>
+      <!-- {{ site.title | escape }} -->
+  <a href="{{ "/" | relative_url }}" style="width: 100px;">
+    <img src="/assets/img/NewRHDFullLogo_white.svg" alt="Red Hat Developers">
+  </a>
 
   <nav>
     {% include navigation.html navigation=site.data.navigation %}

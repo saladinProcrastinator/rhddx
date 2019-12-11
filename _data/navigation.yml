@@ -2,9 +2,11 @@
 
 - text: Home
   url: /
+- text: Pages
+  url: /pages
+- text: Components
+  url: /components
+- text: Assemblies
+  url: /assemblies
 - text: About
   url: /about
-- text: Contact
-  url: /contact
-- text: Blog
-  url: /blog
