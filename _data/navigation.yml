@@ -1,12 +1,17 @@
 # specify main menu items here
 
 - text: Home
+  title: Home
   url: /
 - text: Pages
+  title: Pages
   url: /pages
 - text: Components
+  title: Components
   url: /components
 - text: Assemblies
+  title: Assemblies
   url: /assemblies
 - text: About
+  title: About
   url: /about

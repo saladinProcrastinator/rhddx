@@ -10,14 +10,14 @@ layout: compress
   <body>
 
     {% include header.html %}
-
-    <main>
-
-      {{ content }}
-
-    </main>
-
-    {% include footer.html %}
+    <div class="container">
+      <div class="row py-3">
+        <main class="col" id="main">
+          {{ content }}
+          <a href="docs/content/components/all-products-listing">Alerts</a>
+        </main>
+      </div>
+    </div>
 
   </body>
 

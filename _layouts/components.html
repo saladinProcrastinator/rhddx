@@ -1,0 +1,33 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-3" id="sticky-sidebar">
+          <div class="sticky-top">
+            {% include sidenav-components.html component=site.data.components %}
+            {% include footer.html %}
+          </div>
+        </div>
+        <main class="col" id="main">
+            <h2>{{ page.title }}</h2>
+
+            {% include page-intro.html %}
+
+            {{ content }}
+        </main>
+      </div>
+    </div>
+
+  </body>
+
+</html>

@@ -13,16 +13,16 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 * {
-	-webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
     box-sizing: border-box
 }
 
@@ -38,39 +38,39 @@ select,
 label,
 a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-	outline: none;
+  outline: none;
 }
 
 ul,
 ol,
 dl {
-	list-style: none;
+  list-style: none;
 }
 
 em {
-	font-style: italic;
+  font-style: italic;
 }
 
 body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 img {
-	display: block;
+  display: block;
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
 pre {
-	background-color: $grey-bg-color;
-	border-radius: 0.3rem;
-	padding: 1rem;
+  background-color: $grey-bg-color;
+  border-radius: 0.3rem;
+  padding: 1rem;
 }
 
 code {
-	background-color: $grey-bg-color;
+  background-color: $grey-bg-color;
   padding: 0.2rem 0.4rem;
 }
 
@@ -80,18 +80,18 @@ code {
 
 input,
 textarea {
-	border: 0.05em solid $hairline-color;
-	&:focus {
-		border: 0.05em solid $text-color;
-	}
+  border: 0.05em solid $hairline-color;
+  &:focus {
+    border: 0.05em solid $text-color;
+  }
 }
 
 textarea {
   vertical-align: top;
-	resize: vertical;
-	max-width: 100%;
+  resize: vertical;
+  max-width: 100%;
 }
 
 button {
-	@include button($link-color, $text-color-negative);
+  @include button($link-color, $text-color-negative);
 }

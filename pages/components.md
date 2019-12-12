@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: components
 title: Components
 permalink: /components
 section: components
