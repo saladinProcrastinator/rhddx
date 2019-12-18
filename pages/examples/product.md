@@ -1,11 +1,10 @@
 ---
-title: "Topic Page"
-date: 2018-04-17T14:39:40-04:00
-description: ""
-draft: false
-tags: ["page"]
-categories: ["page_example"]
-weight: 4
+layout: home
+title: Product example page
+permalink: /pages/examples/product
+section: page
+intro_paragraph: >
+  This is an example of a Product page.
 scripts: ["/@patternfly/pfelement/pfelement.umd.js","js/@fortawesome/fontawesome-svg-core/index.js","js/@fortawesome/pro-solid-svg-icons/index.js", "js/@rhd/dp-alert.js"]
 ---
 

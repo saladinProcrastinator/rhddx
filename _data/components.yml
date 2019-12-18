@@ -1,11 +1,11 @@
 # specify main menu items here
 
-- text: Events
-  title: Events
-  url: /components/events
 - text: All Products Listing
   title: All Products Listing
   url: /components/all-products-listing
 - text: Button CTAs
   title: Button CTAs
   url: /components/btn-cta
+- text: Events
+  title: Events
+  url: /components/events

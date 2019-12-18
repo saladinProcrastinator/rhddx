@@ -1,10 +1,10 @@
 ---
-title: "Katacoda Page"
-date: 2019-08-22T08:39:15-04:00
-description: ""
-draft: false
-tags: ["page"]
-categories: ["page_example"]
+layout: home
+title: Katacoda example page
+permalink: /pages/examples/katacoda
+section: page
+intro_paragraph: >
+  This is an example of the Katacoda page.
 ---
 
 <section class="pf-c-content">

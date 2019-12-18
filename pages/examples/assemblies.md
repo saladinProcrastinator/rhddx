@@ -1,10 +1,10 @@
 ---
-title: "Assemblies Page"
-date: 2019-08-22T08:39:15-04:00
-description: ""
-draft: false
-tags: ["page"]
-categories: ["page_example"]
+layout: home
+title: Assemblies example page
+permalink: /pages/examples/assemblies
+section: assemblies
+intro_paragraph: >
+  This is an example page of the available Assemblies.
 ---
 
 <!-- Mimic the Drupal page markup as much as possible -->
@@ -14,41 +14,41 @@ categories: ["page_example"]
       <div id="block-rhdp2-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block">
         <article role="article" class="node">
 
-					<!-- All Product Listing -->
-					<div class="assembly component pf-c-content rhd-c-all-products-list">
-						<div class="pf-l-grid pf-m-gutter">
-							<div class="pf-l-grid__item">
-								<h2 class="pf-c-title">Browse by product name</h2>
-							</div>
-						</div>
-						<ul>
-							<li><a href="#">.NET Core</a></li>
-							<li><a href="#">Compilers: Clang/LLVM, Go, Rust</a></li>
-							<li><a href="#">Red Hat 3scale API Management</a></li>
-							<li><a href="#">Red Hat AMQ</a></li>
-							<li><a href="#">Red Hat Application Migration Toolkit</a></li>
-							<li><a href="#">Red Hat CodeReady Studio</a></li>
-							<li><a href="#">Red Hat CodeReady Toolchain</a></li>
-							<li><a href="#">Red Hat CodeReady Workspaces</a></li>
-							<li><a href="#">Red Hat Container Development Kit</a></li>
-							<li><a href="#">Red Hat Data Grid</a></li>
-							<li><a href="#">Red Hat Decision Manager</a></li>
-							<li><a href="#">Red Hat Developer Toolset</a></li>
-							<li><a href="#">Red Hat Enterprise Linux</a></li>
-							<li><a href="#">Red Hat Enterprise Linux for SAP Solutions</a></li>
-							<li><a href="#">Red Hat Fuse</a></li>
-							<li><a href="#">Red Hat JBoss Data Virtualization</a></li>
-							<li><a href="#">Red Hat JBoss Enterprise Application Platform</a></li>
-							<li><a href="#">Red Hat JBoss Web Server</a></li>
-							<li><a href="#">Red Hat Mobile Application Platform</a></li>
-							<li><a href="#">Red Hat OpenJDK</a></li>
-							<li><a href="#">Red Hat OpenShift Application Runtimes</a></li>
-							<li><a href="#">Red Hat OpenShift Cloud Functions</a></li>
-							<li><a href="#">Red Hat OpenShift Container Platform</a></li>
-							<li><a href="#">Red Hat Process Automation Manager</a></li>
-							<li><a href="#">Red Hat Software Collections</a></li>
-							<li><a href="#">VS Code Extensions</a></li>
-						</ul>
+          <!-- All Product Listing -->
+          <div class="assembly component pf-c-content rhd-c-all-products-list">
+            <div class="pf-l-grid pf-m-gutter">
+              <div class="pf-l-grid__item">
+                <h2 class="pf-c-title">Browse by product name</h2>
+              </div>
+            </div>
+            <ul>
+              <li><a href="#">.NET Core</a></li>
+              <li><a href="#">Compilers: Clang/LLVM, Go, Rust</a></li>
+              <li><a href="#">Red Hat 3scale API Management</a></li>
+              <li><a href="#">Red Hat AMQ</a></li>
+              <li><a href="#">Red Hat Application Migration Toolkit</a></li>
+              <li><a href="#">Red Hat CodeReady Studio</a></li>
+              <li><a href="#">Red Hat CodeReady Toolchain</a></li>
+              <li><a href="#">Red Hat CodeReady Workspaces</a></li>
+              <li><a href="#">Red Hat Container Development Kit</a></li>
+              <li><a href="#">Red Hat Data Grid</a></li>
+              <li><a href="#">Red Hat Decision Manager</a></li>
+              <li><a href="#">Red Hat Developer Toolset</a></li>
+              <li><a href="#">Red Hat Enterprise Linux</a></li>
+              <li><a href="#">Red Hat Enterprise Linux for SAP Solutions</a></li>
+              <li><a href="#">Red Hat Fuse</a></li>
+              <li><a href="#">Red Hat JBoss Data Virtualization</a></li>
+              <li><a href="#">Red Hat JBoss Enterprise Application Platform</a></li>
+              <li><a href="#">Red Hat JBoss Web Server</a></li>
+              <li><a href="#">Red Hat Mobile Application Platform</a></li>
+              <li><a href="#">Red Hat OpenJDK</a></li>
+              <li><a href="#">Red Hat OpenShift Application Runtimes</a></li>
+              <li><a href="#">Red Hat OpenShift Cloud Functions</a></li>
+              <li><a href="#">Red Hat OpenShift Container Platform</a></li>
+              <li><a href="#">Red Hat Process Automation Manager</a></li>
+              <li><a href="#">Red Hat Software Collections</a></li>
+              <li><a href="#">VS Code Extensions</a></li>
+            </ul>
           </div>
 
           <!-- Collection -->
@@ -181,7 +181,7 @@ categories: ["page_example"]
 
                 <p>Presented by Alex Soto Bueno&nbsp;on September 19, 2019 at 12:00 PM ET / 16:00 UTC</p>
               </div>
-            
+
               <div class="cta__cta">
                 <a href="https://onlinexperiences.com/Launch/QReg/ShowUUID=6D298284-3770-4C13-914C-77D1033BD5AC" class="pf-c-button pf-m-heavy">Learn more</a>
               </div>
@@ -552,7 +552,7 @@ categories: ["page_example"]
                         <div class="comment-list__item-cta">
                           <a href="">Reply  <i class="fas fa-arrow-right"></i></a>
                         </div>
-                      </div> 
+                      </div>
                       <!-- End of comment item -->
                     </div>
                   </div>
@@ -856,7 +856,7 @@ categories: ["page_example"]
               <a href='#'>Item5</a>
               <a href='#'>Item6</a>
           </div>
-        
+
           <!-- Product Download Hero -->
           <div class="assembly component pf-l-grid pf-c-content rhd-c-product-download-hero has-background">
             <div class="pf-l-grid__item rhd-c-product-download-hero-aside">

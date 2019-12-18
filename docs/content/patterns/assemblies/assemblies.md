@@ -1,11 +1,10 @@
 ---
-title: "Assemblies"
-date: 2017-08-03T14:58:26-04:00
-draft: false
-tags: ["2019summit"]
-categories: ["assembly"]
-weight: 2
-scripts: [""]
+layout: assemblies
+title: Assemblies
+permalink: /docs/content/patterns/assemblies/assemblies
+section: assemblies
+intro_paragraph: >
+  Sample variations of the various assemblies.
 ---
 
 ## Content with Image

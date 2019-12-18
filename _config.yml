@@ -58,7 +58,7 @@ markdown: kramdown
 # Kramdown options
 kramdown:
   # Prevent IDs from being added to h1-h6 tags
-  auto_ids: false
+  auto_ids:   false
 
 # Include in processing (e.g. Netlify directives)
 # Uncomment before use
@@ -66,6 +66,10 @@ kramdown:
 #include:
 #  - _redirects
 #  - _headers
+
+sass:
+  sass_dir:   _sass
+  style:      :compressed
 
 # Exclude from processing.
 # The following items will not be processed.

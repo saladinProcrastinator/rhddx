@@ -1,11 +1,11 @@
 ---
-title: "Node author Page"
-date: 2018-04-17T14:39:40-04:00
-description: "A new author page"
-draft: false
-tags: ["page"]
-categories: ["page_example"]
-weight: 5
+layout: home
+title: Node Author example page
+permalink: /pages/examples/node_author
+section: page
+intro_paragraph: >
+  This is an example page of the Node Author.
+---
 ---
 
 <div class="pf-c-content">

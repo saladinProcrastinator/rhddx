@@ -1,11 +1,10 @@
 ---
-title: "All Product Listing"
-date: 2018-04-13T02:45:06-04:00
-type: "pattern"
-description: ""
-tags: ["assembly"]
-categories: ["assembly"]
-draft: false
+layout: assemblies
+title: All Products Listing
+permalink: /docs/content/patterns/assemblies/all-product-listing
+section: assemblies
+intro_paragraph: >
+  Sample variations of the All Products Listing component. Includes dark, light, and standard variations.
 ---
 
 {{< code >}}

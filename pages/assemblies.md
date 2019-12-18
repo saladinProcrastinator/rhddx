@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: assemblies
 title: Assemblies
 permalink: /assemblies
 section: assemblies

@@ -10,6 +10,19 @@ $pf-global--font-path: "/themes/custom/rhdp2/fonts/patternfly";
 
 //custom rhd theme overrides
 @import "pf4-base-variable-overrides";
+// @import "../../../node_modules/@patternfly/patternfly/components/AboutModalBox/about-modal-box.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/Accordion/accordion.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/AlertGroup/alert-group.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/Avatar/avatar.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/Badge/badge.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/Brand/brand.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/Breadcrumb/breadcrumb.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/Button/button.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/Card/card.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/Check/check.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/Chip/chip.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/ChipGroup/chip-group.scss";
+// @import "../../../node_modules/@patternfly/patternfly/components/ClipboardCopy/clipboard-copy.scss";
 @import "../../../node_modules/@patternfly/patternfly/patternfly.scss";
 @import "../../../node_modules/@patternfly/patternfly/patternfly-addons.scss";
 

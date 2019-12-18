@@ -1,11 +1,10 @@
 ---
-title: "Featured Products"
-date: 2018-04-13T00:18:55-04:00
-type: "pattern"
-description: ""
-tags: ["assembly"]
-categories: ["assembly"]
-draft: false
+layout: assemblies
+title: Featured Products
+permalink: /docs/content/patterns/assemblies/featured_products
+section: assemblies
+intro_paragraph: >
+  Sample variations of the featured products.
 ---
 
 {{< code >}}

@@ -1,0 +1,8 @@
+# specify Pages sidebar items here
+
+- text: Assemblies
+  title: Assemblies
+  url: /examples/assemblies
+- text: Home
+  title: Home
+  url: /pages/examples/homepage

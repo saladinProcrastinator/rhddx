@@ -1,0 +1,13 @@
+# specify main menu items here
+- text: Assemblies - Home
+  title: Assemblies - Home
+  url: /assemblies
+- text: All Product Listing
+  title: All Product Listing
+  url: /docs/content/patterns/assemblies/all-product-listing
+- text: Assemblies
+  title: Assemblies
+  url: /docs/content/patterns/assemblies/assemblies
+- text: Featured Products
+  title: Featured Products
+  url: /docs/content/patterns/assemblies/featured_products
