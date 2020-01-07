@@ -1,0 +1,17 @@
+/*
+** Add the external link icon to any URLs that contain 'patternfly.org', signifying that the user is leaving the site.
+*/
+a[href*="patternfly.org"]:after {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+  content: "\f35d";
+  margin-left: 4px;
+  .pf-c-nav__list > .pf-c-nav__item & {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+    content: "\f35d";
+    margin-left: 4px;
+    position: initial;
+    background-color: transparent;
+  }
+}

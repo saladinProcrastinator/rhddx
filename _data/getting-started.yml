@@ -1,0 +1,11 @@
+# specify main menu items here
+
+- text: About
+  title: Getting Started
+  url: /getting-started
+- text: Fonts
+  title: Fonts
+  url: /pages/getting-started/fonts
+- text: Accessibility
+  title: Accessibility
+  url: https://www.patternfly.org/v4/get-started/accessibility-guide

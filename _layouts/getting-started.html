@@ -12,7 +12,16 @@ layout: compress
     {% include header.html %}
     <div class="container-fluid">
       <div class="row">
+        <div class="col-3" id="sticky-sidebar">
+          <div class="sticky-top">
+            {% include sidenav-getting-started.html component=site.data.getting-started %}
+            {% include footer.html %}
+          </div>
+        </div>
         <main class="col pf-c-content py-3 pl-3" id="main">
+          <h1>{{ page.title }}</h1>
+          <blockquote>{% include page-intro.html %}</blockquote>
+
           {{ content }}
         </main>
       </div>
