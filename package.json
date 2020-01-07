@@ -15,10 +15,11 @@
     ]
   },
   "repository": "https://github.com/mindreeper2420/rhddx.git",
+  "url": "https://rhddx.netlify.com",
   "author": "Adam J. Jolicoeur",
   "license": "MIT",
   "devDependencies": {
-    "@patternfly/patternfly": "2.45.2"
+    "@patternfly/patternfly": "2.46.1"
   },
   "dependencies": {}
 }

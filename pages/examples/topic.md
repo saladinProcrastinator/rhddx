@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Topic example page
+title: Example - Topic
 permalink: /pages/examples/topic
 section: page
 intro_paragraph: >

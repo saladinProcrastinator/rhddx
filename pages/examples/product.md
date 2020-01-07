@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Product example page
+title: Example - Product
 permalink: /pages/examples/product
 section: page
 intro_paragraph: >

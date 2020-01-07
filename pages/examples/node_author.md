@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Node Author example page
+title: Example - Node Author
 permalink: /pages/examples/node_author
 section: page
 intro_paragraph: >
