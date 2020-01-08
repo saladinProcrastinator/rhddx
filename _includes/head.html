@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.section == "home" %}{{ site.title }}{% else %}{{ page.title | default: site.title }}{% endif %}</title>
+  <title>{% if page.section == "home" %}{{ site.title }}{% else %} RHDDX: {{ page.title | default: site.title }}{% endif %}</title>
   <link rel="prefetch stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="prefetch stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="prefetch stylesheet" href="{{ "/assets/patternfly.min.css" | relative_url }}">

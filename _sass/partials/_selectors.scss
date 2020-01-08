@@ -1,5 +1,5 @@
 /*
-** Add the external link icon to any URLs that contain 'patternfly.org', signifying that the user is leaving the site.
+** Add the external link icon to any URLs that contain 'patternfly.org', signifying that the user is leaving for the PatternFly site.
 */
 a[href*="patternfly.org"]:after {
   font-family: "Font Awesome 5 Pro";
@@ -13,5 +13,135 @@ a[href*="patternfly.org"]:after {
     margin-left: 4px;
     position: initial;
     background-color: transparent;
+  }
+}
+
+/*
+** Add the GitHub icon to any URLs that contain 'github.com', signifying that the user is leaving the site and proceeding to GitHub.
+*/
+a[href*="github.com"]:after {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+  content: "\f35d";
+  margin-left: 4px;
+  .pf-c-nav__list > .pf-c-nav__item & {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+    content: "\f35d";
+    margin-left: 4px;
+    position: initial;
+    background-color: transparent;
+  }
+}
+
+/*
+** Customize text selection/highlight colors
+*/
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background-color: rgb(0, 116, 232);
+}
+
+::selection {
+  color: #fff;
+  background-color: rgb(0, 116, 232);
+}
+
+/*
+** Label blocks of code with their language and apply colors
+*/
+
+pre[rel="CSS"]::before,
+pre[rel="SCSS"]::before,
+pre[rel="css"]::before,
+pre[rel="scss"]::before {
+  color: #ff8a00;
+}
+
+code.highlighter-rouge {
+  background: #3e464d;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.language-json.highlighter-rouge * {
+  color: #f5d67b;
+}
+.language-json.highlighter-rouge .highlight pre.highlight::before {
+  font-size: 14px;
+  font-weight: 700;
+  content: "JSON";
+  color: #f7e3a9;
+  position: absolute;
+  top: .33rem;
+  left: 90%;
+  width: 100%;
+  padding: 0;
+}
+
+.language-toml.highlighter-rouge * {
+  color: #f7b0ae;
+}
+.language-toml.highlighter-rouge .highlight pre.highlight::before {
+  font-size: 14px;
+  font-weight: 700;
+  content: "TOML";
+  color: #fdd6d5f2;
+  position: absolute;
+  top: .33rem;
+  left: 90%;
+  width: 100%;
+  padding: 0;
+}
+
+// color: #a0ceff;
+
+pre[rel] {
+  padding-top: 20px;
+}
+pre {
+  clear: both;
+  color: #fff;
+  background: #03192b;
+  padding: 1rem !important;
+  margin: 1rem !important;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -ms-word-break: normal;
+  word-break: normal;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  position: relative;
+  line-height: 20px;
+  border-radius: 5px;
+  min-width: 100px;
+  max-width: 95%;
+  overflow: hidden;
+}
+pre[rel]::before {
+  font-size: 14px;
+  font-weight: 700;
+  content: attr(rel);
+  color: #fff;
+  position: absolute;
+  top: .33rem;
+  left: .52rem;
+  width: 100%;
+  padding: 0;
+}
+
+code {
+  background-color: transparent;
+}
+
+/*
+** Add the link URL after the link when the page is printed
+*/
+
+@media print {
+  a[href]:after {
+    content: " (" attr(href) ") ";
   }
 }
