@@ -20,14 +20,14 @@ a[href*="patternfly.org"]:after {
 ** Add the GitHub icon to any URLs that contain 'github.com', signifying that the user is leaving the site and proceeding to GitHub.
 */
 a[href*="github.com"]:after {
-  font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
-  content: "\f35d";
+  content: "\f09b";
   margin-left: 4px;
   .pf-c-nav__list > .pf-c-nav__item & {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 5 Brands";
     font-weight: 400;
-    content: "\f35d";
+    content: "\f09b";
     margin-left: 4px;
     position: initial;
     background-color: transparent;
@@ -94,7 +94,23 @@ code.highlighter-rouge {
   padding: 0;
 }
 
-// color: #a0ceff;
+.language-css.highlighter-rouge *,
+.language-scss.highlighter-rouge * {
+  color: #74b5fc;
+}
+.language-css.highlighter-rouge .highlight pre.highlight::before,
+.language-scss.highlighter-rouge .highlight pre.highlight::before {
+  font-size: 14px;
+  font-weight: 700;
+  content: "CSS";
+  color: #a0ceff;
+  position: absolute;
+  top: .33rem;
+  left: 90%;
+  width: 100%;
+  padding: 0;
+}
+
 
 pre[rel] {
   padding-top: 20px;

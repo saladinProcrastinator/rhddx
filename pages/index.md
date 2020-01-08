@@ -7,7 +7,7 @@ intro_paragraph: >
   The RHDDX site provides the basics for creating components and assemblies for the Red Hat Developer site.
 ---
 
-<div class="pf-l-gallery">
+<div class="pf-l-gallery pf-m-gutter">
   <div class="pf-l-gallery__item">
     <div class="pf-c-card">
       <div class="pf-c-card__header">Components</div>
