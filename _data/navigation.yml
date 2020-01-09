@@ -1,20 +1,20 @@
-# specify main menu items here
-
-- text: Getting Started
-  title: Getting Started
-  url: /getting-started
-- text: Design
-  title: Design
-  url: /design
-- text: Components
-  title: Components
-  url: /components
-- text: Pages
-  title: Pages
-  url: /pages
-- text: Assemblies
-  title: Assemblies
-  url: /assemblies
-- text: About
-  title: About
-  url: /about
+# _data/navigation.yml
+items:
+  - name: Getting Started
+    title: Getting Started
+    url: /getting-started
+  - name: Design
+    title: Design
+    url: /design
+  - name: Components
+    title: Components
+    url: /components
+  - name: Pages
+    title: Pages
+    url: /pages
+  - name: Assemblies
+    title: Assemblies
+    url: /assemblies
+  - name: About
+    title: About
+    url: /about

@@ -19,9 +19,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the documentation site for the developers.redhat.com site.
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://rhddx.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
+logo_url: https://rhddx.netlify.com/assets/img/NewRHDFullLogo_white.svg
 
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title
+
+# Enable the Publish Mode
+# The publish_mode option allows you to enable "Editorial Workflow" mode for
+# more control over the content publishing phases. All unpublished entries will be
+# arranged in a board according to their status, and they can be further reviewed and edited before going live.
+publish_mode: editorial_workflow
 
 # Enable section IDs in frontmatter, useful for identifying current page
 # (used as a hook for styling etc)
