@@ -8,16 +8,30 @@ intro_paragraph: >
 ---
 
 IDENTIFIERS:
-- <span class="badge badge-dark"><i class="fas fa-user-lock"></i></span> Requires Administrative Access
-- <span class="badge badge-dark"><i class="fab fa-github"></i></span> Requires GitHub Access
-- <span class="badge badge-success"><i class="fab fa-sketch"></i></span> Requires Sketch Access
+<ul class="fa-ul">
+  <li>
+    <span class="fa-li">
+      <span class="badge badge-dark"><i class="fas fa-user-lock"></i></span>
+    </span> Requires Administrative Access
+  </li>
+  <li>
+    <span class="fa-li">
+      <span class="badge badge-dark"><i class="fab fa-github"></i></span>
+    </span> Requires GitHub Access
+  </li>
+  <li>
+    <span class="fa-li">
+      <span class="badge badge-success"><i class="fab fa-sketch"></i></span>
+    </span> Requires Sketch Access
+  </li>
+</ul>
 
 ## Access
 If you would like to use our built-in administration environment, you will need to <a href="mailto:mindreeper2420@gmail.com">request an account</a>. Otherwise, all contributions can be done through GitHub.
 
 ## Creating pages
 <span class="badge badge-dark"><i class="fas fa-user-lock"></i></span> OR <span class="badge badge-dark"><i class="fab fa-github"></i></span>
-
+1. Before adding a new page, you will first need to know where you want the page to go.
 
 ## Editing pages
 <span class="badge badge-dark"><i class="fas fa-user-lock"></i></span> OR <span class="badge badge-dark"><i class="fab fa-github"></i></span>

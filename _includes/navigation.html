@@ -1,14 +1,8 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 <ul class="navbar-nav">
-{% for item in include.navigation %}
-  {% if item.subitems %}
-  <li class="nav-item dropdown">
-    <a href="{{ item.url }}" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.text }}</a>
-  </li>
-  {% else %}
+{% for item in site.data.navigation.items %}
   <li class="nav-item">
-    <a href="{{ item.url }}" {% if page.title == item.title %} class="nav-link active" data-current="current page" {% else %} class="nav-link" {% endif %} >{{ item.text }}</a>
+    <a href="{{ item.url }}" {% if page.title == item.title %} class="nav-link active" data-current="current page" {% else %} class="nav-link" {% endif %} >{{ item.name }}</a>
   </li>
-  {% endif %}
 {% endfor %}
 </ul>
