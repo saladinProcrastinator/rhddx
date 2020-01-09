@@ -37,7 +37,6 @@ The following information is related to the frontend code under [redhat-develope
     - **Create** a `limit.maxfiles.plist` file
 
         ```xml
-          <code>
           <?xml version="1.0" encoding="UTF-8"?>
           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
             "http://www.apple.com/DTDs/PropertyList-1.0.dtd">

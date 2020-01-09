@@ -1,3 +1,10 @@
+:root {
+  --rhddx-code--highlight--XML-Color: #aef7b4;
+  --rhddx-code--highlight--XML-Color-alt: #ddfdd5f2;
+  --rhddx-code--highlight--TOML-Color: #f7b0ae;
+  --rhddx-code--highlight--TOML-Color-alt: #fdd6d5f2;
+}
+
 /*
 ** Add the external link icon to any URLs that contain 'patternfly.org', signifying that the user is leaving for the PatternFly site.
 */
@@ -63,35 +70,38 @@ code.highlighter-rouge {
   color: #fff;
   border-radius: 4px;
 }
+.highlighter-rouge .highlight pre.highlight::before {
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  top: .33rem;
+  left: 90%;
+  width: 100%;
+  padding: 0;
+}
 
 .language-json.highlighter-rouge * {
   color: #f5d67b;
 }
 .language-json.highlighter-rouge .highlight pre.highlight::before {
-  font-size: 14px;
-  font-weight: 700;
   content: "JSON";
   color: #f7e3a9;
-  position: absolute;
-  top: .33rem;
-  left: 90%;
-  width: 100%;
-  padding: 0;
 }
 
 .language-toml.highlighter-rouge * {
-  color: #f7b0ae;
+  color: var(--rhddx-code--highlight--TOML-Color);
 }
 .language-toml.highlighter-rouge .highlight pre.highlight::before {
-  font-size: 14px;
-  font-weight: 700;
   content: "TOML";
-  color: #fdd6d5f2;
-  position: absolute;
-  top: .33rem;
-  left: 90%;
-  width: 100%;
-  padding: 0;
+  color: var(--rhddx-code--highlight--TOML-Color-alt);
+}
+
+.language-xml.highlighter-rouge * {
+  color: var(--rhddx-code--highlight--XML-Color);
+}
+.language-xml.highlighter-rouge .highlight pre.highlight::before {
+  content: "XML";
+  color: var(--rhddx-code--highlight--XML-Color-alt);
 }
 
 .language-css.highlighter-rouge *,
@@ -100,15 +110,8 @@ code.highlighter-rouge {
 }
 .language-css.highlighter-rouge .highlight pre.highlight::before,
 .language-scss.highlighter-rouge .highlight pre.highlight::before {
-  font-size: 14px;
-  font-weight: 700;
   content: "CSS";
   color: #a0ceff;
-  position: absolute;
-  top: .33rem;
-  left: 90%;
-  width: 100%;
-  padding: 0;
 }
 
 

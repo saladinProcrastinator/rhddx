@@ -1,6 +1,6 @@
 ---
 layout: assemblies
-title: Assemblies
+title: Assemblies - Home
 permalink: /assemblies
 section: assemblies
 intro_paragraph: >

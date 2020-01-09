@@ -6,6 +6,7 @@ section: components
 intro_paragraph: >
   Sample variations of the Button CTAs.
 ---
+STATUS: <span class="badge badge-primary">RELEASED</span>
 
 <h2 class="pf-c-title">Button variations</h2>
 
