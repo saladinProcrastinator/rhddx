@@ -1,8 +1,9 @@
-# specify Pages sidebar items here
+# _data/pages.yml
 
-- text: Assemblies
-  title: Assemblies
-  url: /examples/assemblies
-- text: Home
-  title: Home
-  url: /pages/examples/homepage
+items:
+  - name: Assemblies
+    title: Assemblies
+    url: /examples/assemblies
+  - name: Home
+    title: Home
+    url: /pages/examples/homepage
