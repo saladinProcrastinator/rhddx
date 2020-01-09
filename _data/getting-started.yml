@@ -3,9 +3,12 @@
 - text: About
   title: Getting Started
   url: /getting-started
+- text: Update this Documentation
+  title: Update this Documentation
+  url: /getting-started/update-this-documentation
 - text: Fonts
   title: Fonts
-  url: /pages/getting-started/fonts
+  url: /getting-started/fonts
 - text: Accessibility
   title: Accessibility
   url: https://www.patternfly.org/v4/get-started/accessibility-guide
