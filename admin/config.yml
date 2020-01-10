@@ -59,7 +59,5 @@ collections: # A list of collections the CMS should be able to edit
             widget: "list"
             fields:
               - {label: "Name", name: name, widget: string}
-              - {label: Link, name: link, widget: string}
-              - label: "Item Type"
-                name: itemType
-                width: select
+              - {label: URL, name: url, widget: string}
+              - {label: "Title", name: title, width: string}
