@@ -12,7 +12,7 @@ intro_paragraph: >
 The RHDDX site is the reference environment for developers.redhat.com. We strive to keep this site as up-to-date as possible but occasionally differences arrise between here and developers.redhat.com. If you find an error/difference/concern, feel free to report and issue on our [GitHub](https://github.com/redhat-developer/developers.redhat.com/issues) page.
 
 ## Development
-The following information is related to the frontend code under [redhat-developer/developers.redhat.com](https://github.com/redhat-developer/developers.redhat.com/) and not for this demo environment. If you wish to contribute to this site, see [Improve This Site](reference).
+The following information is related to the frontend code under [redhat-developer/developers.redhat.com](https://github.com/redhat-developer/developers.redhat.com/) and not for this demo environment. If you wish to contribute to this site, see [Updating this documentation](/getting-started/update-this-documentation).
 
 ### Installation, Scripts, and Contributing
 
