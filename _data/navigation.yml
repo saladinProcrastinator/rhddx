@@ -18,5 +18,5 @@ items:
     title: About
     url: /about
   - name: <i class="fab fa-github"></i>
-    title: <i class="fab fa-github"></i>
+    title: ' '
     url: 'https://github.com/mindreeper2420/rhddx'
