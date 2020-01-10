@@ -24,7 +24,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "author"
         widget: "select"
         options:
-          - { label: "Dan Urbanowicz", value: "dan_urbanowicz" }
+          - { label: "Adam Jolicoeur", value: "adam_jolicoeur" }
           - { label: "John Doe", value: "john_doe" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
@@ -40,10 +40,10 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Permalink", name: "permalink", widget: "hidden"}
-      - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Section", name: "section", widget: "string", default: "{{name}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation
   - name: "config"
     label: "Config"
@@ -60,16 +60,3 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Link, name: link, widget: string}
-  # About page
-  - name: 'pages'
-    label: 'Pages'
-    editor:
-      preview: false
-    files:
-      - label: 'About Page'
-        name: 'about'
-        file: 'about.md'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
