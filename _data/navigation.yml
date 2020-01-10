@@ -1,4 +1,3 @@
-# _data/navigation.yml
 items:
   - name: Getting Started
     title: Getting Started
@@ -18,3 +17,6 @@ items:
   - name: About
     title: About
     url: /about
+  - name: GitHub
+    title: ' GitHub'
+    url: 'https://github.com/mindreeper2420/rhddx'
