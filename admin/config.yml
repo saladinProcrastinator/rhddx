@@ -45,18 +45,22 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation
-  - name: "config"
-    label: "Config"
+  - name: "options"
+    label: "Sitewide Options"
     editor:
       preview: false
     files:
-      - label: "Navigation"
-        name: "navigation"
+      - label: "Navigation Menu"
+        name: "nav"
         file: "_data/navigation.yml"
         fields:
           - label: "Navigation Items"
             name: "items"
             widget: "list"
             fields:
-              - {label: Name, name: name, widget: string}
+              - {label: "Name", name: name, widget: string}
               - {label: Link, name: link, widget: string}
+              - label: "Item Type"
+                name: itemType
+                width: select
+                options: ["Link, "Button"]
