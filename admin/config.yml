@@ -63,4 +63,4 @@ collections: # A list of collections the CMS should be able to edit
               - label: "Item Type"
                 name: itemType
                 width: select
-                options: ["Link, "Button"]
+                options: ["Link "Button"]
