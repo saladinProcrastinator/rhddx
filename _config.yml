@@ -40,11 +40,6 @@ netlifycms: true
 # set to 'true' to enable Google Analytics tracking code in production builds
 analytics: false
 
-# Compress CSS
-sass:
-  style: compressed
-  sass_dir: _sass
-
 # Compress HTML (in liquid via layouts/compress.html)
 compress_html:
   clippings: all
@@ -77,6 +72,15 @@ kramdown:
 sass:
   sass_dir:   _sass
   style:      :compressed
+  load_paths:
+    - node_modules
+
+# Keep files in the _site directory
+keep_files:
+  - assets/img
+  - assets/main.css
+  - assets/rhdp.css
+  - themes
 
 # Exclude from processing.
 # The following items will not be processed.
@@ -87,10 +91,10 @@ exclude:
   - feed.xml
   - Gemfile
   - Gemfile.lock
+  - gulpfile.js
   - package.json
   - package-lock.json
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - _sass
+  - styles
+  - assets

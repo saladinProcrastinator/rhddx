@@ -5,11 +5,11 @@
 
 ## Local Development
 
-Clone this repository and run:
+All processes are controlled through Node/Gulp. As such, clone this repository and run:
 
 ```bash
-bundle install
-bundle exec jekyll server --watch
+npm install
+gulp development
 ```
 Jekyll will watch your project folder for changes.
 

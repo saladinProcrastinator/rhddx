@@ -1,0 +1,124 @@
+<div ng-app="search">
+  <div class="row" ng-controller="SearchController">
+    <div class="large-24 columns">
+      <div class="row">
+        <div class="large-24 columns">
+          <form class="search-bar" ng-submit="updateSearch(); resetPagination();" role="search"> </form>
+        </div>
+
+        <div class="large-24 columns" id="scrollPoint">
+          <div class="row">
+            <div class="large-14 columns stackoverflow-filters">
+              <label for="filterByProduct">Filter by Product</label>
+
+              <div class="styled-select">
+                <select id="filterByProduct" name="filter-by-product" ng-change="updateSearch(); resetPagination();" ng-model="params.product"><option value="">Show all</option>
+<option value="openjdk">OpenJDK</option>
+<option value="rhamt">Red Hat Application Migration Toolkit</option>
+<option value="cdk">Red Hat Developer Container Kit</option>
+<option value="developertoolset">Red Hat Developer Toolset</option>
+<option value="rhel">Red Hat Enterprise Linux</option>
+<option value="amq">Red Hat JBoss AMQ</option>
+<option value="bpmsuite">Red Hat JBoss BPM Suite</option>
+<option value="brms">Red Hat Decision Manager</option>
+<option value="datagrid">Red Hat JBoss Data Grid</option>
+<option value="datavirt">Red Hat JBoss Data Virtualization</option>
+<option value="devstudio">Red Hat JBoss Developer Studio</option>
+<option value="eap">Red Hat JBoss Enterprise Application Platform</option>
+<option value="fuse">Red Hat JBoss Fuse</option>
+<option value="webserver">Red Hat JBoss Web Server</option>
+<option value="rhmap">Red Hat Mobile Application Platform</option>
+<option value="rhoar">Red Hat Openshift Application Runtimes</option>
+<option value="openshift">Red Hat OpenShift Container Platform</option>
+<option value="softwarecollections">Red Hat Software Collections</option>
+<option value="dotnet">.NET Core for Red Hat Enterprise Linux</option></select>
+</div>
+            </div>
+
+            <div class="large-10 columns">
+              <div class="sorting so-sorting">
+                <p ng-if="totalCount &gt; 10">Show<select class="results-count" ng-change="updateSearch()" ng-model="params.size"><option value="10">10</option>
+<option value="25">25</option>
+<option value="50">50</option>
+<option value="100">100</option></select>results per page</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="large-24 columns">
+              <h3 class="results-title" ng-bind-template="No results found" ng-if="totalCount &lt;= 0"> </h3>
+
+              <h4 class="results-sub-title" ng-bind-template="Please select a different product" ng-if="totalCount &lt;= 0"> </h4>
+
+              <div class="stackoverflow-results-container" ng-class="loading ? 'invisible' : 'search-results-loaded'" ng-if="totalCount &gt; 0">
+                <div ng-init="r = result" ng-repeat="result in results">
+                  <div class="stackoverflow-update">
+                    <div class="update">
+                      <div class="update-meta">
+                        <div class="row">
+                          <div class="large-6 columns qtn-stats">
+
+                            <div class="votes-count">
+                              <h4 ng-bind="r._source.up_vote_count"> </h4>
+                              <p ng-bind-template="Votes"> </p>
+                            </div>
+                            <div class="answer-count" ng-class="(r._source.answers[0].is_accepted == true) ? 'accepted-answer' : '' ">
+                              <h4 ng-bind="r._source.answer_count"> </h4>
+                              <p ng-bind-template="Answers"> </p>
+                            </div>
+                            <div class="views-count">
+                              <h4 ng-bind="r._source.view_count"> </h4>
+                              <p ng-bind-template="Views"> </p>
+                            </div>
+                          </div>
+
+                          <div class="large-18 columns">
+                            <a class="qtn-title" ng-href="" ng-bind-html="r._source.sys_title"> </a>
+                            <p class="qtn-content" ng-bind-html="r | question"> </p>
+
+                            <div class="callout qtn-answer" ng-class="r._source.answers[0] ? 'display-answer' : 'hide-answer' ">
+                              <p ng-show="r._source.answers[0].is_accepted == true">
+                                <strong ng-bind-template="Accepted answer: "> </strong>
+                              </p>
+                              <p ng-show="r._source.answers[0].is_accepted == false">
+                                <strong ng-bind-template="Latest answer: "> </strong>
+                              </p>
+                              <p ng-bind="r._source.answers[0].body | htmlToPlaintext"></p>
+                              <a ng-href="" target="_blank" rel="noopener noreferrer" ng-bind-template="Read full question at Stack Overflow ›"> </a>
+                            </div>
+                            <div class="so-tags">
+                              <strong class="tag-label" ng-bind-template="Tags:"> </strong>
+                              <span class="tag" ng-repeat="tag in r._source.sys_tags" ng-bind="tag"> </span>
+                              <span class="so-author" ng-bind-template=" | "> </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <nav id="paginator" ng-hide="loading" ng-if="paginate.pages &gt; 1"><span ng-bind-template="Showing - of   results"></span>
+            <ul class="pagination">
+<li id="pagination-first" ng-class="paginate.currentPage &lt; 2 ? 'unavailable': 'available'">
+                <a ng-click="goToPage('first'); scrollPosition();">First</a>
+              </li>
+              <li id="pagination-prev" ng-class="paginate.currentPage &lt; 2 ? 'unavailable': 'available'">
+                <a ng-click="goToPage('prev'); scrollPosition();">Previous</a>
+              </li>
+              <li class="pagination-page-number" id="pagination-" ng-class="{current: page == paginate.currentPage}" ng-repeat="page in paginate.pagesArray track by $index">
+                &lt;a ng-click="goToPage(page); scrollPosition();" data-page="{"title"=&gt;"Stack Overflow", "date"=&gt;2018-04-30 13:12:43 -0400, "description"=&gt;"", "tags"=&gt;["component"], "categories"=&gt;["component"], "weight"=&gt;99, "draft"=&gt;false, "content"=&gt;"{{&lt; code &gt;}}&lt;div ng-app=\"search\"&gt;\n  &lt;div class=\"row\" ng-controller=\"SearchController\"&gt;\n    &lt;div class=\"large-24 columns\"&gt;\n      &lt;div class=\"row\"&gt;\n        &lt;div class=\"large-24 columns\"&gt;\n          &lt;form class=\"search-bar\" ng-submit=\"updateSearch(); resetPagination();\" role=\"search\"&gt; &lt;/form&gt;\n        &lt;/div&gt;\n\n        &lt;div class=\"large-24 columns\" id=\"scrollPoint\"&gt;\n          &lt;div class=\"row\"&gt;\n            &lt;div class=\"large-14 columns stackoverflow-filters\"&gt;\n              &lt;label for=\"filterByProduct\"&gt;Filter by Product&lt;/label&gt;\n\n              &lt;div class=\"styled-select\"&gt;\n                &lt;select id=\"filterByProduct\" name=\"filter-by-product\" ng-change=\"updateSearch(); resetPagination();\" ng-model=\"params.product\"&gt;&lt;option value=\"\"&gt;Show all&lt;/option&gt;\n&lt;option value=\"openjdk\"&gt;OpenJDK&lt;/option&gt;\n&lt;option value=\"rhamt\"&gt;Red Hat Application Migration Toolkit&lt;/option&gt;\n&lt;option value=\"cdk\"&gt;Red Hat Developer Container Kit&lt;/option&gt;\n&lt;option value=\"developertoolset\"&gt;Red Hat Developer Toolset&lt;/option&gt;\n&lt;option value=\"rhel\"&gt;Red Hat Enterprise Linux&lt;/option&gt;\n&lt;option value=\"amq\"&gt;Red Hat JBoss AMQ&lt;/option&gt;\n&lt;option value=\"bpmsuite\"&gt;Red Hat JBoss BPM Suite&lt;/option&gt;\n&lt;option value=\"brms\"&gt;Red Hat Decision Manager&lt;/option&gt;\n&lt;option value=\"datagrid\"&gt;Red Hat JBoss Data Grid&lt;/option&gt;\n&lt;option value=\"datavirt\"&gt;Red Hat JBoss Data Virtualization&lt;/option&gt;\n&lt;option value=\"devstudio\"&gt;Red Hat JBoss Developer Studio&lt;/option&gt;\n&lt;option value=\"eap\"&gt;Red Hat JBoss Enterprise Application Platform&lt;/option&gt;\n&lt;option value=\"fuse\"&gt;Red Hat JBoss Fuse&lt;/option&gt;\n&lt;option value=\"webserver\"&gt;Red Hat JBoss Web Server&lt;/option&gt;\n&lt;option value=\"rhmap\"&gt;Red Hat Mobile Application Platform&lt;/option&gt;\n&lt;option value=\"rhoar\"&gt;Red Hat Openshift Application Runtimes&lt;/option&gt;\n&lt;option value=\"openshift\"&gt;Red Hat OpenShift Container Platform&lt;/option&gt;\n&lt;option value=\"softwarecollections\"&gt;Red Hat Software Collections&lt;/option&gt;\n&lt;option value=\"dotnet\"&gt;.NET Core for Red Hat Enterprise Linux&lt;/option&gt;&lt;/select&gt;\n&lt;/div&gt;\n            &lt;/div&gt;\n\n            &lt;div class=\"large-10 columns\"&gt;\n              &lt;div class=\"sorting so-sorting\"&gt;\n                &lt;p ng-if=\"totalCount &gt; 10\"&gt;Show&lt;select class=\"results-count\" ng-change=\"updateSearch()\" ng-model=\"params.size\"&gt;&lt;option value=\"10\"&gt;10&lt;/option&gt;\n&lt;option value=\"25\"&gt;25&lt;/option&gt;\n&lt;option value=\"50\"&gt;50&lt;/option&gt;\n&lt;option value=\"100\"&gt;100&lt;/option&gt;&lt;/select&gt;results per page&lt;/p&gt;\n              &lt;/div&gt;\n            &lt;/div&gt;\n          &lt;/div&gt;\n\n          &lt;div class=\"row\"&gt;\n            &lt;div class=\"large-24 columns\"&gt;\n              &lt;h3 class=\"results-title\" ng-bind-template=\"No results found\" ng-if=\"totalCount &lt;= 0\"&gt; &lt;/h3&gt;\n\n              &lt;h4 class=\"results-sub-title\" ng-bind-template=\"Please select a different product\" ng-if=\"totalCount &lt;= 0\"&gt; &lt;/h4&gt;\n\n              &lt;div class=\"stackoverflow-results-container\" ng-class=\"loading ? 'invisible' : 'search-results-loaded'\" ng-if=\"totalCount &gt; 0\"&gt;\n                &lt;div ng-init=\"r = result\" ng-repeat=\"result in results\"&gt;\n                  &lt;div class=\"stackoverflow-update\"&gt;\n                    &lt;div class=\"update\"&gt;\n                      &lt;div class=\"update-meta\"&gt;\n                        &lt;div class=\"row\"&gt;\n                          &lt;div class=\"large-6 columns qtn-stats\"&gt;\n\n                            &lt;div class=\"votes-count\"&gt;\n                              &lt;h4 ng-bind=\"r._source.up_vote_count\"&gt; &lt;/h4&gt;\n                              &lt;p ng-bind-template=\"Votes\"&gt; &lt;/p&gt;\n                            &lt;/div&gt;\n                            &lt;div class=\"answer-count\" ng-class=\"(r._source.answers[0].is_accepted == true) ? 'accepted-answer' : '' \"&gt;\n                              &lt;h4 ng-bind=\"r._source.answer_count\"&gt; &lt;/h4&gt;\n                              &lt;p ng-bind-template=\"Answers\"&gt; &lt;/p&gt;\n                            &lt;/div&gt;\n                            &lt;div class=\"views-count\"&gt;\n                              &lt;h4 ng-bind=\"r._source.view_count\"&gt; &lt;/h4&gt;\n                              &lt;p ng-bind-template=\"Views\"&gt; &lt;/p&gt;\n                            &lt;/div&gt;\n                          &lt;/div&gt;\n\n                          &lt;div class=\"large-18 columns\"&gt;\n                            &lt;a class=\"qtn-title\" ng-href=\"{{r._source.sys_url_view}}\" ng-bind-html=\"r._source.sys_title\"&gt; &lt;/a&gt;\n                            &lt;p class=\"qtn-content\" ng-bind-html=\"r | question\"&gt; &lt;/p&gt;\n\n                            &lt;div class=\"callout qtn-answer\" ng-class=\"r._source.answers[0] ? 'display-answer' : 'hide-answer' \"&gt;\n                              &lt;p ng-show=\"r._source.answers[0].is_accepted == true\"&gt;\n                                &lt;strong ng-bind-template=\"Accepted answer: \"&gt; &lt;/strong&gt;\n                              &lt;/p&gt;\n                              &lt;p ng-show=\"r._source.answers[0].is_accepted == false\"&gt;\n                                &lt;strong ng-bind-template=\"Latest answer: \"&gt; &lt;/strong&gt;\n                              &lt;/p&gt;\n                              &lt;p ng-bind=\"r._source.answers[0].body | htmlToPlaintext\"&gt;&lt;/p&gt;\n                              &lt;a ng-href=\"{{r._source.sys_url_view}}\" target=\"_blank\" rel=\"noopener noreferrer\" ng-bind-template=\"Read full question at Stack Overflow ›\"&gt; &lt;/a&gt;\n                            &lt;/div&gt;\n                            &lt;div class=\"so-tags\"&gt;\n                              &lt;strong class=\"tag-label\" ng-bind-template=\"Tags:\"&gt; &lt;/strong&gt;\n                              &lt;span class=\"tag\" ng-repeat=\"tag in r._source.sys_tags\" ng-bind=\"tag\"&gt; &lt;/span&gt;\n                              &lt;span class=\"so-author\" ng-bind-template=\"{{r | stackDate}} | {{r | author}}\"&gt; &lt;/span&gt;\n                            &lt;/div&gt;\n                          &lt;/div&gt;\n                        &lt;/div&gt;\n                      &lt;/div&gt;\n                    &lt;/div&gt;\n                  &lt;/div&gt;\n                &lt;/div&gt;\n              &lt;/div&gt;\n            &lt;/div&gt;\n          &lt;/div&gt;\n\n          &lt;nav id=\"paginator\" ng-hide=\"loading\" ng-if=\"paginate.pages &gt; 1\"&gt;&lt;span ng-bind-template=\"Showing {{params.from + 1}}-{{paginate.lastVisible}} of  {{totalCount}} results\"&gt;&lt;/span&gt;\n            &lt;ul class=\"pagination\"&gt;\n&lt;li id=\"pagination-first\" ng-class=\"paginate.currentPage &lt; 2 ? 'unavailable': 'available'\"&gt;\n                &lt;a ng-click=\"goToPage('first'); scrollPosition();\"&gt;First&lt;/a&gt;\n              </li>\n              &lt;li id=\"pagination-prev\" ng-class=\"paginate.currentPage &lt; 2 ? 'unavailable': 'available'\"&gt;\n                &lt;a ng-click=\"goToPage('prev'); scrollPosition();\"&gt;Previous&lt;/a&gt;\n              &lt;/li&gt;\n              &lt;li class=\"pagination-page-number\" id=\"pagination-{{$index}}\" ng-class=\"{current: page == paginate.currentPage}\" ng-repeat=\"page in paginate.pagesArray track by $index\"&gt;\n                &lt;a ng-click=\"goToPage(page); scrollPosition();\" data-page=\"{{page}}\" ng-bind=\"page\"&gt; &lt;/a&gt;\n              &lt;/li&gt;\n              &lt;li id=\"pagination-next\" ng-class=\"paginate.currentPage &gt;= paginate.pages ? 'unavailable': 'available'\"&gt;\n                &lt;a ng-click=\"goToPage('next'); scrollPosition();\"&gt;Next&lt;/a&gt;\n              &lt;/li&gt;\n              &lt;li id=\"pagination-last\" ng-class=\"paginate.currentPage  == paginate.pages ? 'unavailable': 'available'\"&gt;\n                &lt;a ng-click=\"goToPage('last'); scrollPosition();\"&gt;Last&lt;/a&gt;\n              &lt;/li&gt;\n            </ul></nav>\n</div>{{&lt;/ code &gt;}}\n", "dir"=&gt;"/components/", "name"=&gt;"stack-overflow.md", "path"=&gt;"components/stack-overflow.md", "url"=&gt;"/components/stack-overflow"}" ng-bind="page"&gt; &lt;/a&gt;
+              &lt;/li&gt;
+              <li id="pagination-next" ng-class="paginate.currentPage &gt;= paginate.pages ? 'unavailable': 'available'">
+                <a ng-click="goToPage('next'); scrollPosition();">Next</a>
+              </li>
+              <li id="pagination-last" ng-class="paginate.currentPage  == paginate.pages ? 'unavailable': 'available'">
+                <a ng-click="goToPage('last'); scrollPosition();">Last</a>
+              </li>
+            &lt;/ul&gt;&lt;/nav&gt;
+</div>
+</div></div></div>

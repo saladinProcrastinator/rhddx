@@ -1,0 +1,74 @@
+# Everything you need to know about configuring the CMS can be found here:-
+# https://www.netlifycms.org/docs/configuration-options/
+
+backend:
+  name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
+  branch: master # Branch to update (master by default)
+
+media_folder: "assets/uploads" # Folder where user uploaded files should go
+
+publish_mode: editorial_workflow # Enable drafts
+
+collections: # A list of collections the CMS should be able to edit
+  # POSTS
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "_posts" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new Posts in the admin UI
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - label: "Author"
+        name: "author"
+        widget: "select"
+        options:
+          - { label: "Adam Jolicoeur", value: "adam_jolicoeur" }
+          - { label: "John Doe", value: "john_doe" }
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
+      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Categories", name: "categories", widget: "string", required: false}
+  # PAGES
+  - name: "page"
+    label: "Page"
+    folder: "pages"
+    sort: "title:asc"
+    create: true # Allow users to create new Pages in the admin UI
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Section", name: "section", widget: "string", default: "{{name}}"}
+      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
+  # Navigation
+  - name: "options"
+    label: "Sitewide Options"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation Menu"
+        name: "nav"
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+              - {label: "Title", name: title, width: string}
+      - label: "Getting Started Navigation Menu"
+        name: "nav"
+        file: "_data/getting-started.yml"
+        fields:
+          - label: "Getting Started Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+              - {label: "Title", name: title, width: string}

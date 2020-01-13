@@ -1,13 +1,16 @@
 {
   "name": "rhddx",
-  "version": "1.0.0",
+  "version": "1.0.0-prerelease",
   "description": "Front-end assets and documentation for Red Hat Developer site",
   "main": "index.js",
   "engines": {
     "node": ">=10.10.0"
   },
   "scripts": {
-    "dev": "bundle exec jekyll server --livereload"
+    "build": "gulp prod",
+    "install": "bundle install",
+    "deployment": "gulp prod",
+    "development": "gulp development"
   },
   "sass": {
     "includePaths": [
@@ -19,7 +22,27 @@
   "author": "Adam J. Jolicoeur",
   "license": "MIT",
   "devDependencies": {
-    "@patternfly/patternfly": "2.46.1"
+    "@patternfly/patternfly": "2.46.1",
+    "autoprefixer": "9.7.3",
+    "browser-sync": "2.26.7",
+    "cssnano": "4.1.10",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-sass": "4.0.2",
+    "gulp-postcss": "8.0.0",
+    "gulp-imagemin": "6.2.0",
+    "gulp-newer": "1.4.0",
+    "gulp-noop": "1.0.0",
+    "gulp-size": "3.0.0",
+    "gulp-header": "2.0.9",
+    "gulp-clean": "0.4.0",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-exec": "4.0.0",
+    "gulp-scale-images": "2.0.1",
+    "flat-map": "1.0.0",
+    "imagemin-pngquant": "8.0.0",
+    "imagemin-mozjpeg": "8.0.0",
+    "@skpm/child_process": "0.4.1"
   },
   "dependencies": {}
 }

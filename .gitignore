@@ -1,6 +1,6 @@
-_site
 .sass-cache
 .jekyll-metadata
 .users.yml
 node_modules
 .DS_Store
+.npmrc
