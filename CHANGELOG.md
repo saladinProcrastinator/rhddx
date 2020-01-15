@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.0.0-prerelease.24 (15/01/2020)
+- [Add Changelog update script](https://github.com/mindreeper2420/rhddx/commit/aeed7d88f011e2f9af1432749fa4e9a4b6f0d565) - @mindreeper2420
+
+---
+
+## v1.0.0-prerelease.23 (15/01/2020)
+- [Cleanup build processes](https://github.com/mindreeper2420/rhddx/commit/4a92b573790c9c8cacbd3944715768c1729dfb5d) - @mindreeper2420
+
+---
+
 ## v1.0.0-prerelease.22 (15/01/2020)
 
 ---
