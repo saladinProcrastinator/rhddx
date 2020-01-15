@@ -94,6 +94,7 @@ exclude:
   - gulpfile.js
   - package.json
   - package-lock.json
+  - CHANGELOG.md
   - node_modules
   - _sass
   - styles
