@@ -1,6 +1,6 @@
 {
   "name": "rhddx",
-  "version": "1.0.0-prerelease.23",
+  "version": "1.0.0-prerelease.24",
   "description": "Front-end assets and documentation for Red Hat Developer site",
   "main": "index.js",
   "engines": {
@@ -10,7 +10,8 @@
     "build": "gulp prod",
     "install": "bundle install",
     "deployment": "gulp deploy",
-    "development": "gulp development"
+    "development": "gulp development",
+    "release": "gren release --override"
   },
   "sass": {
     "includePaths": [
