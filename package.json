@@ -1,13 +1,13 @@
 {
   "name": "rhddx",
-  "version": "1.0.0-prerelease.25",
+  "version": "1.0.0-prerelease.26",
   "description": "Front-end assets and documentation for Red Hat Developer site",
   "main": "index.js",
   "engines": {
     "node": ">=10.10.0"
   },
   "scripts": {
-    "build": "gulp prod",
+    "build": "gulp build",
     "install": "bundle install",
     "deployment": "gulp deploy",
     "development": "gulp development",
