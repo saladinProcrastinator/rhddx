@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.0-prerelease.26 (16/01/2020)
+- [Update Readme and add Issue Templates](https://github.com/mindreeper2420/rhddx/commit/aca07f8381f6dbed5d24f6bb2caeda8c547b2bdf) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/1a9c154b56da2e7f0223bc459ca95fed4fdd2f96) - @mindreeper2420
+
+---
+
 ## v1.0.0-prerelease.25 (15/01/2020)
 - [Update release script to build Changelog](https://github.com/mindreeper2420/rhddx/commit/40b6ae664968608ce569ec7539235f6c7aa021e3) - @mindreeper2420
 
