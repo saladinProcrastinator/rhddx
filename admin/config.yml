@@ -29,9 +29,24 @@ collections: # A list of collections the CMS should be able to edit
   #     - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
   #     - {label: "Body", name: "body", widget: "markdown", required: false}
   #     - {label: "Categories", name: "categories", widget: "string", required: false}
+  # COMPONENTS
+  - name: "components"
+    label: "Components"
+    folder: "components"
+    sort: "title:asc"
+    create: true # Allow users to create new Components in the admin UI
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Permalink", name: "permalink", widget: "string", required: true}
+      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "Released", name: "released", width: "string", default: "RELEASED", required: false}
+      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "code", default_language: "html", allow_language_selection: true, required: true}
   # PAGES
   - name: "page"
-    label: "Page"
+    label: "Pages"
     folder: "pages"
     sort: "title:asc"
     create: true # Allow users to create new Pages in the admin UI
@@ -41,7 +56,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
       - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
-      - {label: "Released", name: "released", width: "string", default: "RELEASED", required: false}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation
