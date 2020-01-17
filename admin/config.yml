@@ -46,11 +46,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation
   - name: "options"
-    label: "Sitewide Options"
+    label: "Navigations"
     editor:
       preview: true
     files:
-      - label: "Navigation Menu"
+      - label: "Main Navigation"
         name: "nav"
         file: "_data/navigation.yml"
         fields:
@@ -61,11 +61,44 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Name", name: name, widget: string}
               - {label: URL, name: url, widget: string}
               - {label: "Title", name: title, width: string}
-      - label: "Getting Started Navigation Menu"
+      - label: "Getting Started Page Navigation"
         name: "getting-started-nav"
         file: "_data/getting-started.yml"
         fields:
           - label: "Getting Started Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+              - {label: "Title", name: title, width: string}
+      - label: "Components Page Navigation"
+        name: "components-nav"
+        file: "_data/components.yml"
+        fields:
+          - label: "Components Page Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+              - {label: "Title", name: title, width: string}
+      - label: "Pages Page Navigation"
+        name: "pages-nav"
+        file: "_data/pages.yml"
+        fields:
+          - label: "Pages Page Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+              - {label: "Title", name: title, width: string}
+      - label: "Assemblies Page Navigation"
+        name: "assemblies-nav"
+        file: "_data/assemblies.yml"
+        fields:
+          - label: "Assemblies Page Items"
             name: "items"
             widget: "list"
             fields:
