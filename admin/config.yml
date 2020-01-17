@@ -43,7 +43,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
       - {label: "Released", name: "released", width: "string", default: "RELEASED", required: false}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
-      - {label: "Body", name: "body", widget: "code", default_language: "html", allow_language_selection: true, required: true}
+      - {label: "Body", name: "body", widget: "code", required: true}
   # PAGES
   - name: "page"
     label: "Pages"
