@@ -11,24 +11,24 @@ publish_mode: editorial_workflow # Enable drafts
 
 collections: # A list of collections the CMS should be able to edit
   # POSTS
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "_posts" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: false # Allow users to create new Posts in the admin UI
-    slug: "{{month}}-{{day}}-{{year}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - label: "Author"
-        name: "author"
-        widget: "select"
-        options:
-          - { label: "Adam Jolicoeur", value: "adam_jolicoeur" }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "MM-DD-YYYY HH:mm:ss"}
-      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Categories", name: "categories", widget: "string", required: false}
+  # - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+  #   label: "Post" # Used in the UI, ie.: "New Post"
+  #   folder: "_posts" # The path to the folder where the documents are stored
+  #   sort: "date:desc" # Default is title:asc
+  #   create: false # Allow users to create new Posts in the admin UI
+  #   slug: "{{month}}-{{day}}-{{year}}-{{slug}}"
+  #   fields: # The fields each document in this collection have
+  #     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+  #     - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+  #     - label: "Author"
+  #       name: "author"
+  #       widget: "select"
+  #       options:
+  #         - { label: "Adam Jolicoeur", value: "adam_jolicoeur" }
+  #     - {label: "Publish Date", name: "date", widget: "datetime", format: "MM-DD-YYYY HH:mm:ss"}
+  #     - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+  #     - {label: "Body", name: "body", widget: "markdown", required: false}
+  #     - {label: "Categories", name: "categories", widget: "string", required: false}
   # PAGES
   - name: "page"
     label: "Page"
