@@ -20,6 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://rhddx.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
 logo_url: https://rhddx.netlify.com/assets/img/NewRHDFullLogo_white.svg
+NODE_VERSION: 10.16.0
+NPM_VERSION: 6.13.2
 
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title

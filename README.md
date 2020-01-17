@@ -43,11 +43,15 @@ git remote add -f upstream git@github.com:mindreeper2420/rhddx.git
 All processes are controlled through Node/Gulp (even though this is a Jekyll JAMstack site). As such, after cloning this repository run:
 
 ```bash
+# Install devDependencies
 npm install
+
+# Run Gulp Build
 gulp build
 ```
 alternatively, you can run something like
 ```bash
+# Install devDependencies and run Build steps
 npm install && npm run build
 ```
 
@@ -57,6 +61,20 @@ When in development mode, Gulp will watch the project folders for changes. Chang
 
 To view the site locally, navigate to [localhost:4000](http://localhost:4000/).
 
+### Run Netlify locally
+
+Would you like to run the Netlify build locally? If so, you will need to run the following:
+
+```bash
+# Install the Netlify CLI
+npm install netlify-cli -g
+
+# Start Netlify dev
+netlify dev
+```
+
+When running [Netlify locally](https://www.netlify.com/products/dev/), you can stream your dev server to a URL that you can then share. This is best used for local, collaborative development.
+
 ## Browser support
 
 RHDDX is supported on the latest version of the following browsers:
@@ -65,7 +83,6 @@ RHDDX is supported on the latest version of the following browsers:
  - Firefox
  - Safari
  - Edge
-
 
 ## Performance
 
