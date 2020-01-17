@@ -10,21 +10,18 @@ layout: compress
   <body class="pf-m-redhat-font">
 
     {% include header.html %}
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col col-sm-3 col-md-2" id="sticky-sidebar">
-          <div class="sticky-top">
-            {% include sidenav-assemblies.html component=site.data.assemblies %}
-            {% include footer.html %}
-          </div>
+    <div class="pf-l-grid">
+      <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-sm pf-m-2-col-on-md" id="sticky-sidebar">
+        <div class="sticky-top">
+          {% include sidenav-assemblies.html component=site.data.assemblies %}
+          {% include footer.html %}
         </div>
-        <main class="col-12 col-sm-9 col-md-10 pf-c-content py-3 pl-3" id="main">
-          <h1>{{ page.title }}</h1>
-          <blockquote>{% include page-intro.html %}</blockquote>
-
-          {{ content }}
-        </main>
       </div>
+      <main class="pf-l-grid__item pf-m-12-col pf-m-9-col-on-sm pf-m-10-col-on-md pf-u-py-md pf-u-pl-md pf-c-content" id="main">
+        <h1>{{ page.title }}</h1>
+        <blockquote>{% include page-intro.html %}</blockquote>
+        {{ content }}
+      </main>
     </div>
 
   </body>

@@ -10,12 +10,10 @@ layout: compress
   <body class="pf-m-redhat-font">
 
     {% include header.html %}
-    <div class="container-fluid">
-      <div class="row">
-        <main class="col pf-c-content py-3 pl-3" id="main">
-          {{ content }}
-        </main>
-      </div>
+    <div class="pf-l-grid">
+      <main class="pf-l-grid__item pf-u-py-md pf-u-pl-md pf-c-content" id="main">
+        {{ content }}
+      </main>
     </div>
 
   </body>

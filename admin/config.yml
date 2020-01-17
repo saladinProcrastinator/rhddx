@@ -15,8 +15,8 @@ collections: # A list of collections the CMS should be able to edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "_posts" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new Posts in the admin UI
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: false # Allow users to create new Posts in the admin UI
+    slug: "{{month}}-{{day}}-{{year}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -25,8 +25,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "select"
         options:
           - { label: "Adam Jolicoeur", value: "adam_jolicoeur" }
-          - { label: "John Doe", value: "john_doe" }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "MM-DD-YYYY HH:mm:ss"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}
@@ -39,16 +38,17 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Section", name: "section", widget: "string", default: "{{name}}"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Permalink", name: "permalink", widget: "string", required: true}
+      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "Released", name: "released", width: "string", default: "RELEASED", required: false}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation
   - name: "options"
     label: "Sitewide Options"
     editor:
-      preview: false
+      preview: true
     files:
       - label: "Navigation Menu"
         name: "nav"
@@ -62,7 +62,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: URL, name: url, widget: string}
               - {label: "Title", name: title, width: string}
       - label: "Getting Started Navigation Menu"
-        name: "nav"
+        name: "getting-started-nav"
         file: "_data/getting-started.yml"
         fields:
           - label: "Getting Started Items"

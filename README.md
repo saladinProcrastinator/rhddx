@@ -75,6 +75,29 @@ netlify dev
 
 When running [Netlify locally](https://www.netlify.com/products/dev/), you can stream your dev server to a URL that you can then share. This is best used for local, collaborative development.
 
+## Page construction
+
+Each page under `/components` is build using Jekyll Frontmatter. All pages require **layout**, **title**, **permalink**, and **section** definitions. Optional definitions are **released** and **intro_paragraph**.
+
+```markdown
+---
+layout: components
+title: Button CTAs
+permalink: /components/btn-cta
+section: components
+released: >
+  RELEASED
+intro_paragraph: >
+  Sample variations of the Button CTAs.
+---
+```
+
+When adding the **released** definition, it will add a label to the top of the page, signifying that it is available on developers.redhat.com.
+
+
+
+When adding the **intro_paragraph** definition, an introductory paragraph will be added to the top of the page. This is useful when you want to give the user any information up front that may help them in the use of the component.
+
 ## Browser support
 
 RHDDX is supported on the latest version of the following browsers:
