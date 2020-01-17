@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.0-prerelease.27 (17/01/2020)
+
+---
+
 ## v1.0.0-prerelease.28 (17/01/2020)
 - [Update Readme with Netlify info](https://github.com/mindreeper2420/rhddx/commit/43a552b80a35b265d8aa722270e100d26025bdc8) - @mindreeper2420
 
