@@ -1,13 +1,13 @@
 # specify main menu items here
-- text: Assemblies - Home
-  title: Assemblies - Home
+- text: Overview
+  title: Assemblies
   url: /assemblies
 - text: All Products Listing
   title: All Products Listing
   url: /docs/content/patterns/assemblies/all-product-listing
-- text: Assemblies
-  title: Assemblies
-  url: /docs/content/patterns/assemblies/assemblies
+- text: All Assemblies
+  title: All Assemblies
+  url: /docs/content/patterns/assemblies/all-assemblies
 - text: Featured Products
   title: Featured Products
   url: /docs/content/patterns/assemblies/featured_products

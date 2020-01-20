@@ -1,9 +1,7 @@
 {% if page.intro_paragraph and page.intro_paragraph != '' %}
-  <blockquote>
-    <p class="intro">
-      {{ page.intro_paragraph | markdownify | remove: '<p>' | remove: '</p>' }}
-    </p>
-  </blockquote>
+  <p class="intro">
+    {{ page.intro_paragraph | markdownify | remove: '<p>' | remove: '</p>' }}
+  </p>
 {% endif %}
 {% if page.released and page.released != '' %}
   <span class="pf-c-label pf-m-compact">

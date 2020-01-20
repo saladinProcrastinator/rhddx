@@ -1,9 +1,30 @@
 # _data/pages.yml
 
 items:
-  - name: Assemblies
-    title: Assemblies
-    url: /examples/assemblies
-  - name: Home
-    title: Home
-    url: /pages/examples/homepage
+  - name: Overview
+    title: Pages
+    url: /pages
+  - name: Products
+    title: Products
+    url: /pages/products
+  - name: Articles
+    title: Articles
+    url: /pages/articles
+  - name: Topics
+    title: Topics
+    url: /pages/topics
+  - name: Collection
+    title: Collection
+    url: /pages/collection
+  - name: Videos
+    title: Videos
+    url: /pages/videos
+  - name: Cheatsheets
+    title: Cheatsheets
+    url: /pages/cheatsheets
+  - name: Ebooks
+    title: Ebooks
+    url: /pages/ebooks
+  - name: Katacoda
+    title: Katacoda
+    url: /pages/katacoda

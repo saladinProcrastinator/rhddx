@@ -1,7 +1,7 @@
 ---
 layout: assemblies
-title: Assemblies
-permalink: /docs/content/patterns/assemblies/assemblies
+title: All Assemblies
+permalink: /docs/content/patterns/assemblies/all-assemblies
 section: assemblies
 intro_paragraph: >
   Sample variations of the various assemblies.

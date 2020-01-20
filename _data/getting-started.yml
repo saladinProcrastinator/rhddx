@@ -1,7 +1,7 @@
 # _data/getting-started.yml
 
 items:
-  - name: About
+  - name: Overview
     title: Getting Started
     url: /getting-started
   - name: Update this Documentation

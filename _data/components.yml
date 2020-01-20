@@ -1,5 +1,8 @@
 # _data/components.yml
 items:
+  - name: Overview
+    title: Components
+    url: /components
   - name: All Products Listing
     title: All Products Listing
     url: /components/all-products-listing

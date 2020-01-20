@@ -3,7 +3,7 @@ items:
     title: Getting Started
     url: /getting-started
   - name: Design
-    title: Design
+    title: Design Overview
     url: /design
   - name: Components
     title: Components
@@ -14,9 +14,9 @@ items:
   - name: Assemblies
     title: Assemblies
     url: /assemblies
-  - name: About
+  - name: '<i class="fas fa-info-circle"></i>'
     title: About
     url: /about
-  - name: GitHub
-    title: ' GitHub'
+  - name: ''
+    title: GitHub
     url: 'https://github.com/mindreeper2420/rhddx'

@@ -4,8 +4,8 @@
   <title>{% if page.section == "home" %}{{ site.title }}{% else %} RHDDX: {{ page.title | default: site.title }}{% endif %}</title>
   <link rel="shortcut icon" href="{{ "/assets/img/favicon.io" }}">
   <link rel="prefetch stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="prefetch stylesheet" href="{{ "/assets/rhdp.css" | relative_url }}">
   <link rel="prefetch stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="prefetch stylesheet" href="{{ "/assets/rhdp.css" | relative_url }}">
   {% if jekyll.environment == 'production' and site.analytics %}
     {% include analytics.html %}
   {% endif %}
