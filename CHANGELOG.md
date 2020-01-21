@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.0.0-prerelease.31 (21/01/2020)
+- [Add Additional Pages to CMS UI](https://github.com/mindreeper2420/rhddx/commit/b182fd099a6994f8152dd69254e280545289e973) - @mindreeper2420
+- [Add Design Pages to CMS UI](https://github.com/mindreeper2420/rhddx/commit/1a5ecb9619ab8d0932b523e9c199a173f8e11b80) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/37ca2fe56a588f9ff34a6d0b9a86090af69857d6) - @mindreeper2420
+
+---
+
 ## v1.0.0-prerelease.30 (21/01/2020)
 - [Bump version](https://github.com/mindreeper2420/rhddx/commit/944047bb748e2a27c89b6bad6c96bdfc0686a9a3) - @mindreeper2420
 - [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/f7238b9f1643b69244b1f2e11993ae4cac410ebc) - @mindreeper2420
@@ -130,7 +137,3 @@
 ---
 
 ## v1.0.0-prerelease.2 (13/01/2020)
-
----
-
-## v1.0.0-prerelease.1 (10/01/2020)
