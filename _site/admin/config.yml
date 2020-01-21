@@ -46,10 +46,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "code", required: true}
   # PAGES
   - name: "page"
-    label: "Pages"
+    label: "Overview Pages"
     folder: "pages"
     sort: "title:asc"
-    create: true # Allow users to create new Pages in the admin UI
+    create: true # Allow users to create new Overview Pages in the admin UI
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
@@ -58,11 +58,50 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "page"
-    label: "Design"
+  - name: "design subpages"
+    label: "Design Pages"
     folder: "pages/design"
     sort: "title:asc"
     create: true # Allow users to create new Design pages in the admin UI
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Permalink", name: "permalink", widget: "string", required: true}
+      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
+  - name: "gettingstarted subpages"
+    label: "Getting Started Pages"
+    folder: "pages/getting-started"
+    sort: "title:asc"
+    create: true # Allow users to create new Getting Started pages in the admin UI
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Permalink", name: "permalink", widget: "string", required: true}
+      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
+  - name: "pages subpages"
+    label: "Page Example Pages"
+    folder: "pages/pages"
+    sort: "title:asc"
+    create: true # Allow users to create new Page example pages in the admin UI
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Permalink", name: "permalink", widget: "string", required: true}
+      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
+  - name: "example subpages"
+    label: "Example Pages"
+    folder: "pages/examples"
+    sort: "title:asc"
+    create: true # Allow users to create new Example pages in the admin UI
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}

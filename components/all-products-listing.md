@@ -3,11 +3,11 @@ layout: components
 title: All Products Listing
 permalink: /components/all-products-listing
 section: components
+released: >
+  RELEASED
 intro_paragraph: >
   Sample variations of the All Products Listing component. Includes dark, light, and standard variations.
 ---
-
-<span class="pf-c-label">RELEASED</span>
 
 ## Default
   <div class="component pf-c-content rhd-c-all-products-list">

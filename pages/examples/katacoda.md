@@ -52,10 +52,10 @@ intro_paragraph: >
     <div class="pf-l-grid pf-m-gutter pf-u-pt-lg pf-u-pb-lg">
         <div class="pf-l-grid__item pf-m-5-col-on-lg pf-m-12-col-on-sm pf-u-text-align-center pf-u-text-align-right-on-md">
           <picture class="rich-text-aside">
-            <source media="(min-width: 576px)" srcset="https://developers.redhat.com/sites/default/files/styles/large/public/istio-book-221x300.png">
-            <source media="(min-width: 768px)" srcset="https://developers.redhat.com/sites/default/files/styles/large/public/istio-book-221x300.png">
-            <source media="(min-width: 992px)" srcset="https://developers.redhat.com/sites/default/files/styles/large/public/istio-book-221x300.png">
-            <img src="https://developers.redhat.com/sites/default/files/styles/large/public/istio-book-221x300.png" alt="" class=""/>
+            <source media="(min-width: 576px)" srcset="/assets/img/istio-book-221x300.png">
+            <source media="(min-width: 768px)" srcset="/assets/img/istio-book-221x300.png">
+            <source media="(min-width: 992px)" srcset="/assets/img/istio-book-221x300.png">
+            <img src="/assets/img/istio-book-221x300.png" alt="" class=""/>
           </picture>
         </div>
         <div class="pf-l-grid__item pf-m-7-col-on-lg pf-m-12-col-on-sm">
@@ -204,7 +204,7 @@ intro_paragraph: >
       <div class="pf-l-gallery__item">
         <div class="pf-c-card rhd-c-card">
           <div class="rhd-c-card__dynamic-content--image">
-            <img src="https://developers.redhat.com/sites/default/files/styles/static_item/public/externals/96d2c9705c691867a96c50f9674bf6d4.png?itok=haGpFT3Y">
+            <img src="/assets/img/96d2c9705c691867a96c50f9674bf6d4.png">
           </div>
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
@@ -216,7 +216,7 @@ intro_paragraph: >
       <div class="pf-l-gallery__item">
         <div class="pf-c-card rhd-c-card">
           <div class="rhd-c-card__dynamic-content--image">
-            <img src="https://developers.redhat.com/sites/default/files/styles/static_item/public/externals/3d5bbd0521d712aa8014cdbe9f43c67e.jpg?itok=VCpQ0G7P">
+            <img src="/assets/img/3d5bbd0521d712aa8014cdbe9f43c67e.jpg">
           </div>
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
@@ -228,7 +228,7 @@ intro_paragraph: >
       <div class="pf-l-gallery__item">
         <div class="pf-c-card rhd-c-card">
           <div class="rhd-c-card__dynamic-content--image">
-            <img src="https://developers.redhat.com/sites/default/files/styles/static_item/public/externals/295fe5f282ee65dfc45acdc21472d1d4.png?itok=BTYAfkKd">
+            <img src="/assets/img/295fe5f282ee65dfc45acdc21472d1d4.png">
           </div>
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">

@@ -5,6 +5,6 @@
 {% endif %}
 {% if page.released and page.released != '' %}
   <span class="pf-c-label pf-m-compact">
-    {{ page.released | markdownify | remove: '<span>' | remove: '</span>' }}
+    {{ page.released | markdownify | remove: '<p>' | remove: '</p>' }}
   </span>
 {% endif %}

@@ -1,4 +1,46 @@
 @charset "utf-8";
 
 /* stylelint-ignore */
-@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/rhd.scss";
+/// Post-2018 redesign styles
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/mixins";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/mq-mixins";
+
+/// Post-2018 redesign styles
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/colors/brand";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/colors/accent";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/colors/grayscale";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/colors/link";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/colors/product";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/colors/text";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/container";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/backgrounds";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/spacing";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/background";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/link-type";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/spacing";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/comments";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/slick";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/learning-paths";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/rhd-accordion";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/rh-universal-nav";
+
+//drupal admin override
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/drupal-user-login-form";
+
+// Drupal Akamai cache clear block styles
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/akamai-block";
+
+// Curated Links assembly type
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/curated-links";
+
+// Basic Page Styles
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/basic-page";
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/2019/rh-universal-nav";
+
+//RHD theme
+@import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/rhd-theme/rhd-theme";
+
+// @import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/rhd-theme/pf4-import.scss";
+// @import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/rhd.scss";
+// @import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/rhd-theme/rhd-theme.scss";
+// @import "../developers.redhat.com/_docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/src/styles/rhd-theme/components/video-hero.scss";
