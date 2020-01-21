@@ -82,6 +82,7 @@ keep_files:
   - assets/img
   - assets/main.css
   - assets/rhdp.css
+  - assets/prism
   - themes
 
 # Exclude from processing.

@@ -7,9 +7,9 @@ items:
   - name: Update this Documentation
     title: Update this Documentation
     url: /getting-started/update-this-documentation
-  - name: Fonts
-    title: Fonts
-    url: /getting-started/fonts
+  - name: Typography
+    title: Typography
+    url: /getting-started/typography
   - name: Accessibility
     title: Accessibility
     url: https://www.patternfly.org/v4/get-started/accessibility-guide

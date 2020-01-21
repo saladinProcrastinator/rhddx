@@ -57,6 +57,18 @@ a[href*="github.com"]:after {
 /*
 ** Label blocks of code with their language and apply colors
 */
+// pre[class*="language-"] {
+//   overflow-x: hidden;
+//   overflow-y: auto;
+// }
+
+/*
+** Position 'Copy' toolbar button
+*/
+div.code-toolbar > .toolbar {
+  top: .33em;
+  right: 4.5em;
+}
 
 pre[rel="CSS"]::before,
 pre[rel="SCSS"]::before,
@@ -75,43 +87,51 @@ code.highlighter-rouge {
   font-size: 14px;
   font-weight: 700;
   position: absolute;
-  top: .33rem;
-  left: 90%;
+  top: .5em;
+  left: 88%;
   width: 100%;
   padding: 0;
 }
 
-.language-json.highlighter-rouge * {
-  color: #f5d67b;
-}
+// .language-json.highlighter-rouge * {
+//   color: #f5d67b;
+// }
 .language-json.highlighter-rouge .highlight pre.highlight::before {
   content: "JSON";
   color: #f7e3a9;
 }
 
-.language-toml.highlighter-rouge * {
-  color: var(--rhddx-code--highlight--TOML-Color);
-}
+// .language-toml.highlighter-rouge * {
+//   color: var(--rhddx-code--highlight--TOML-Color);
+// }
 .language-toml.highlighter-rouge .highlight pre.highlight::before {
   content: "TOML";
   color: var(--rhddx-code--highlight--TOML-Color-alt);
 }
 
-.language-xml.highlighter-rouge * {
-  color: var(--rhddx-code--highlight--XML-Color);
-}
+// .language-xml.highlighter-rouge * {
+//   color: var(--rhddx-code--highlight--XML-Color);
+// }
 .language-xml.highlighter-rouge .highlight pre.highlight::before {
   content: "XML";
   color: var(--rhddx-code--highlight--XML-Color-alt);
 }
 
-.language-css.highlighter-rouge *,
-.language-scss.highlighter-rouge * {
-  color: #74b5fc;
-}
+// .language-css.highlighter-rouge *,
+// .language-scss.highlighter-rouge * {
+//   color: #74b5fc;
+// }
 .language-css.highlighter-rouge .highlight pre.highlight::before,
 .language-scss.highlighter-rouge .highlight pre.highlight::before {
   content: "CSS";
+  color: #a0ceff;
+}
+
+// .language-html.highlighter-rouge {
+//   color: #74b5fc;
+// }
+.language-html.highlighter-rouge .highlight pre.highlight::before {
+  content: "HTML";
   color: #a0ceff;
 }
 
@@ -133,7 +153,7 @@ pre {
   -webkit-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  position: relative;
+  // position: relative;
   line-height: 20px;
   border-radius: 5px;
   min-width: 100px;

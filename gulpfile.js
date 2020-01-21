@@ -178,6 +178,13 @@ const
     cb();
   }
 
+  // Copy Prism.js assets
+  function copyPrism(cb) {
+    gulp.src('./assets/prism/*.*')
+    .pipe(gulp.dest('./_site/assets/prism/'));
+    cb();
+  }
+
   // Task to clean _site/ and other Jekyll caches
   function cleanJekyll(cb) {
     cp.exec('bundle exec jekyll clean', function(err, stdout, stderr) {
@@ -224,22 +231,25 @@ const
   exports.jekyll   =  buildJekyll;
   exports.serve    =  serveJekyll;
   exports.clean    =  cleanJekyll;
+  exports.prism    =  copyPrism;
   exports.imagemin =  minimizeImages;
 
   exports.build = gulp.series(
     cleanJekyll,
-    gulp.parallel(copyFonts, cssDev, minimizeImages),
+    gulp.parallel(copyFonts, copyPrism, cssDev, minimizeImages),
     buildJekyll
   );
 
   exports.development = gulp.series(
     copyFonts,
+    copyPrism,
     minimizeImages,
     gulp.parallel(watchSass, serveJekyll)
   );
 
   exports.deploy = gulp.series(
     copyFonts,
+    copyPrism,
     minimizeImages,
     buildSass,
     buildJekyll
