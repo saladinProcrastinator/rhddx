@@ -58,6 +58,19 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
+  - name: "subpage"
+    label: "Design"
+    folder: "pages/design"
+    sort: "title:asc"
+    create: true # Allow users to create new Design pages in the admin UI
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Permalink", name: "permalink", widget: "string", required: true}
+      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation
   - name: "options"
     label: "Navigations"
