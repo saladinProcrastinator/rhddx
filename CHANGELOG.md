@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.0-prerelease.30 (21/01/2020)
+- [Bump version](https://github.com/mindreeper2420/rhddx/commit/944047bb748e2a27c89b6bad6c96bdfc0686a9a3) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/f7238b9f1643b69244b1f2e11993ae4cac410ebc) - @mindreeper2420
+- [Update available resources](https://github.com/mindreeper2420/rhddx/commit/8c4ca4ae84ddc18978799bcb99bf7cc161b38429) - @mindreeper2420
+- [Add and Update pages to match IA](https://github.com/mindreeper2420/rhddx/commit/7f027c1eceebd6137073b01beb5e4267064e653e) - @mindreeper2420
+
+---
+
 ## v1.0.0-prerelease.29 (21/01/2020)
 - [Simplify Component requirements](https://github.com/mindreeper2420/rhddx/commit/f259cf22e3e5ee6510a265a1355d9ae28e208b8f) - @mindreeper2420
 - [Add Components Collection to the site](https://github.com/mindreeper2420/rhddx/commit/f7943075c309087aa280d19640006698c3643d6f) - @mindreeper2420
