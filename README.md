@@ -9,7 +9,7 @@
 # RHDDX Frontend Documentation Site
 This repository contains examples of components and assemblies used on the [developers.redhat.com](https://developers.redhat.com) site.
 
-This site is built using JAMstack (JavaScript, APIs, and Markup) technologies ([What is JAMstack?](https://jamstack.org/)) Specifically, we use the technologies recommended by [Netlify CMS - Jekyll](https://www.netlifycms.org/docs/jekyll/).
+This site is built using Jamstack (JavaScript, APIs, and Markup) technologies ([What is Jamstack?](https://jamstack.org/)) Specifically, we use the technologies recommended by [Netlify CMS - Jekyll](https://www.netlifycms.org/docs/jekyll/).
 
 ## Bugs, Features, etc.
 
@@ -40,7 +40,7 @@ git remote add -f upstream git@github.com:mindreeper2420/rhddx.git
 
 ### Getting started
 
-All processes are controlled through Node/Gulp (even though this is a Jekyll JAMstack site). As such, after cloning this repository run:
+All processes are controlled through Node/Gulp (even though this is a Jekyll Jamstack site). As such, after cloning this repository run:
 
 ```bash
 # Install devDependencies
@@ -63,7 +63,7 @@ To view the site locally, navigate to [localhost:4000](http://localhost:4000/).
 
 ### Run Netlify locally
 
-Would you like to run the Netlify build locally? If so, you will need to run the following:
+Would you like to run the Netlify build locally? If so, you will need to install the Netlify CLI:
 
 ```bash
 # Install the Netlify CLI
@@ -94,8 +94,6 @@ intro_paragraph: >
 
 When adding the **released** definition, it will add a label to the top of the page, signifying that it is available on developers.redhat.com.
 
-
-
 When adding the **intro_paragraph** definition, an introductory paragraph will be added to the top of the page. This is useful when you want to give the user any information up front that may help them in the use of the component.
 
 ## Browser support
@@ -105,7 +103,7 @@ RHDDX is supported on the latest version of the following browsers:
  - Chrome
  - Firefox
  - Safari
- - Edge
+ - Edge (Chromium)
 
 ## Performance
 
