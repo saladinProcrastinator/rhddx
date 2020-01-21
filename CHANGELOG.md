@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.0.0-prerelease.29 (21/01/2020)
+- [Simplify Component requirements](https://github.com/mindreeper2420/rhddx/commit/f259cf22e3e5ee6510a265a1355d9ae28e208b8f) - @mindreeper2420
+- [Add Components Collection to the site](https://github.com/mindreeper2420/rhddx/commit/f7943075c309087aa280d19640006698c3643d6f) - @mindreeper2420
+- [Hide Posts from the Collections](https://github.com/mindreeper2420/rhddx/commit/9a6e42e31874cdd00405cbf790f230f4b759fb03) - @mindreeper2420
+- [Include additional menu in CMS portal](https://github.com/mindreeper2420/rhddx/commit/7ef9501a092d2034715ec0f2ed524ca1d1f053f1) - @mindreeper2420
+- [Update UI and CMS configurations](https://github.com/mindreeper2420/rhddx/commit/9198b456332c2fe474bb7574549a6aeb998311e9) - @mindreeper2420
+- [Update Changelog.md](https://github.com/mindreeper2420/rhddx/commit/f258c33c4f20516634539f18bc0d11d7dd2f2638) - @mindreeper2420
+- [Update Changelog.md](https://github.com/mindreeper2420/rhddx/commit/80e8c8db764dcbcc905057d35f74ac8e2a8128d8) - @mindreeper2420
+
+---
+
 ## v1.0.0-prerelease.27 (17/01/2020)
 
 ---
