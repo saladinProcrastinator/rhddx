@@ -3,6 +3,7 @@ layout: getting-started
 title: Getting Started Overview
 permalink: /getting-started
 section: getting_started
+category: getting_started
 intro_paragraph: >
   Like the RHDDX library, our Getting Started guide is based off of the <a href="https://www.patternfly.org/v4/get-started/about" target="top">PatternFly</a> Getting Started guide.
 ---
@@ -25,8 +26,20 @@ Utilities are a set of classes that enable you to further customize and modify e
 
 For example, you might use a utility class to add additional spacing between elements, align content in a layout, or even add a box shadow to an element.
 
-## Informational
+## Helpful Links and Information
 
-### Released vs Unreleased
+  **Links**
+  - [GitHub Repo for developers.redhat.com](https://github.com/redhat-developer/developers.redhat.com)
+    - submodule included in this project - styles for examples components/pages are located here
+  - [CodePen Templates](https://codepen.io/collection/AEwLNY)
+    - live starter templates for a select number of components and pages
 
-Our components, assemblies, and page examples are labelled with either a <span class="badge badge-primary">RELEASED</span> or <span class="badge badge-warning">UNRELEASED</span> marker, easily signifying their status on developers.redhat.com. Anything with the <span class="badge badge-warning">UNRELEASED</span> label should be considered a work-in-progress and not recommended for use in production.
+  **Information**
+  - [Available Page Categories](/help/available-categories)
+  - [Page Construction Templates](/help/page-construction)
+  - [CodePen Examples](/help/codepen-examples)
+    - Embedded CodePen examples
+
+## Released vs Unreleased
+
+Our components, assemblies, and page examples are labelled with either a <span class="badge badge-primary">released</span> or <span class="badge badge-warning">unreleased</span> marker, easily signifying their status on developers.redhat.com. Anything with the <span class="badge badge-warning">unreleased</span> label should be considered a work-in-progress and not recommended for use in production.

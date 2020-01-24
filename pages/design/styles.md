@@ -4,7 +4,6 @@ title: Styles
 permalink: /design/styles
 section: design
 category: design
-date:
+date: '01-24-2020'
 intro_paragraph: >
-  Design styles
 ---

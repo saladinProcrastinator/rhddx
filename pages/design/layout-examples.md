@@ -4,7 +4,6 @@ title: Layout Examples
 permalink: /design/layout-examples
 section: design
 category: design
-date:
+date: '01-24-2020'
 intro_paragraph: >
-  Layout examples
 ---

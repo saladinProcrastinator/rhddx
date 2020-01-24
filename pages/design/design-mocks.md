@@ -4,7 +4,6 @@ title: Design Mocks
 permalink: /design/design-mocks
 section: design
 category: design
-date:
+date: '01-24-2020'
 intro_paragraph: >
-  Design Mocks
 ---

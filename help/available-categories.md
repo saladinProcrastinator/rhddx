@@ -1,4 +1,10 @@
-# Available Categories
+---
+layout: getting-started
+title: Available Categories
+permalink: /help/available-categories
+section: getting_started
+intro_paragraph: >
+---
 
 Below is a list of available categories for the Jekyll Frontmatter property:
 

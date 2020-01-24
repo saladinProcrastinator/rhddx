@@ -1,18 +1,18 @@
 items:
   - name: Getting Started
-    title: Getting Started
+    title: Getting Started Overview
     url: /getting-started
   - name: Design
     title: Design Overview
     url: /design
   - name: Components
-    title: Components
+    title: Components Overview
     url: /components
   - name: Pages
-    title: Pages
+    title: Pages Overview
     url: /pages
   - name: Assemblies
-    title: Assemblies
+    title: Assemblies Overview
     url: /assemblies
   - name: '<i class="fas fa-info-circle"></i>'
     title: About

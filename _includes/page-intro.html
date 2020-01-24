@@ -5,15 +5,15 @@
 {% endif %}
 
 {% if page.status == 'released' %}
-  <span class="pf-c-label pf-m-compact">
+  <span class="badge badge-primary">
     {{ page.status | markdownify | remove: '<p>' | remove: '</p>' }}
   </span>
 {% elsif page.status == 'unreleased' %}
-  <span class="pf-c-label pf-m-compact" style="background-color: orange;">
+  <span class="badge badge-warning">
     {{ page.status | markdownify | remove: '<p>' | remove: '</p>' }}
   </span>
 {% endif %}
 
-{% if page.section == 'design' and page.section != '' %}
-  Updated on: <date>{{ page.date | markdownify | remove: '<p>' | remove: '</p>' }}</date>
+{% if page.section == 'design' and page.section != '' and page.title != 'Design Overview' %}
+  <i>Last update: <date>{{ page.date | markdownify | remove: '<p>' | remove: '</p>' }}</date></i>
 {% endif %}

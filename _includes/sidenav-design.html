@@ -7,7 +7,7 @@
   {% for page in site.pages %}
     {% if page.category == "design" %}
     <li class="pf-c-nav__item">
-      <a href="{{ page.url }}" {% if page.title == page.category.title %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} >{{ page.title }}</a>
+      <a href="{{ page.url }}" {% if page.title == page.item %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} >{{ page.title }}</a>
     </li>
     {% endif %}
   {% endfor %}

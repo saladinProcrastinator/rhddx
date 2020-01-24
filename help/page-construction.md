@@ -1,4 +1,10 @@
-# Page Construction
+---
+layout: getting-started
+title: Page Construction
+permalink: /help/page-construction
+section: getting_started
+intro_paragraph: >
+---
 
 All pages require **layout**, **title**, **permalink**, and **section** definitions. The **category**, **status**, and **intro_paragraph** definitions are optional.
 

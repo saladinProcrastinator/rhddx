@@ -41,7 +41,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
       - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
-      - {label: "Released", name: "released", width: "string", default: "RELEASED", required: false}
+      - {label: "Category", name: "category", width: "string", default: "components", required: true}
+      - {label: "Status", name: "status", width: "string", default: "{{ set released or unreleased }}", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "code", required: true}
   # PAGES
@@ -55,7 +56,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}", required: false}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "design subpages"
@@ -121,39 +122,6 @@ collections: # A list of collections the CMS should be able to edit
         file: "_data/navigation.yml"
         fields:
           - label: "Navigation Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Name", name: name, widget: string}
-              - {label: URL, name: url, widget: string}
-              - {label: "Title", name: title, width: string}
-      - label: "Getting Started Page Navigation"
-        name: "getting-started-nav"
-        file: "_data/getting-started.yml"
-        fields:
-          - label: "Getting Started Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Name", name: name, widget: string}
-              - {label: URL, name: url, widget: string}
-              - {label: "Title", name: title, width: string}
-      - label: "Components Page Navigation"
-        name: "components-nav"
-        file: "_data/components.yml"
-        fields:
-          - label: "Components Page Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Name", name: name, widget: string}
-              - {label: URL, name: url, widget: string}
-              - {label: "Title", name: title, width: string}
-      - label: "Pages Page Navigation"
-        name: "pages-nav"
-        file: "_data/pages.yml"
-        fields:
-          - label: "Pages Page Items"
             name: "items"
             widget: "list"
             fields:
