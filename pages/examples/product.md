@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Example - Product
+title: Product
 permalink: /pages/examples/product
 section: page
 intro_paragraph: >
@@ -8,6 +8,4 @@ intro_paragraph: >
 scripts: ["/@patternfly/pfelement/pfelement.umd.js","js/@fortawesome/fontawesome-svg-core/index.js","js/@fortawesome/pro-solid-svg-icons/index.js", "js/@rhd/dp-alert.js"]
 ---
 
-{{< code >}}
 
-{{</ code >}}

@@ -1,6 +1,6 @@
 ---
 layout: getting-started
-title: Getting Started
+title: Getting Started Overview
 permalink: /getting-started
 section: getting_started
 intro_paragraph: >

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Example - Katacoda
+title: Katacoda
 permalink: /pages/examples/katacoda
 section: page
 intro_paragraph: >

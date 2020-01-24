@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: Pages
+title: Pages Overview
 permalink: /pages
 section: pages
 intro_paragraph: >

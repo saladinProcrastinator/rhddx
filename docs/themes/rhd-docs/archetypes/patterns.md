@@ -1,9 +1,10 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-type: "pattern"
-description: ""
-tags: [""]
-categories: ["patterns"]
-draft: true
+layout: pages
+title: Patterns
+permalink: /docs/themes/rhd-docs/archetypes/patterns
+section: patterns
+category: patterns
+status: released
+intro_paragraph: >
+
 ---

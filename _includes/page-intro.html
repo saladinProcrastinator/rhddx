@@ -3,8 +3,17 @@
     {{ page.intro_paragraph | markdownify | remove: '<p>' | remove: '</p>' }}
   </p>
 {% endif %}
-{% if page.released and page.released != '' %}
+
+{% if page.status == 'released' %}
   <span class="pf-c-label pf-m-compact">
-    {{ page.released | markdownify | remove: '<p>' | remove: '</p>' }}
+    {{ page.status | markdownify | remove: '<p>' | remove: '</p>' }}
   </span>
+{% elsif page.status == 'unreleased' %}
+  <span class="pf-c-label pf-m-compact" style="background-color: orange;">
+    {{ page.status | markdownify | remove: '<p>' | remove: '</p>' }}
+  </span>
+{% endif %}
+
+{% if page.section == 'design' and page.section != '' %}
+  Updated on: <date>{{ page.date | markdownify | remove: '<p>' | remove: '</p>' }}</date>
 {% endif %}

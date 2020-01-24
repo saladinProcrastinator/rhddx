@@ -3,6 +3,7 @@ layout: getting-started
 title: Update this Documentation
 permalink: /getting-started/update-this-documentation
 section: getting_started
+category: getting-started
 intro_paragraph: >
   Updating this documentation can be done using our Admin UI or GitHub
 ---

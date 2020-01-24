@@ -6,4 +6,6 @@ tags: ["design"]
 categories: ["design"]
 ---
 
-{{< code >}}<h1>Heading</h1>{{</ code >}}
+```html
+<h1>Heading</h1>
+```

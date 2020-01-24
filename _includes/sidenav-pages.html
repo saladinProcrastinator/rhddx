@@ -1,10 +1,15 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 <nav class="pf-c-nav" aria-label="Global">
   <ul class="pf-c-nav__list">
-  {% for item in site.data.pages.items %}
     <li class="pf-c-nav__item">
-      <a href="{{ item.url }}" {% if page.title == item.title %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} >{{ item.name }}</a>
+      <a href="/pages" {% if page.title == 'Pages Overview' %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} >Overview</a>
     </li>
+  {% for page in site.pages %}
+    {% if page.category == "pages" %}
+    <li class="pf-c-nav__item">
+      <a href="{{ page.url }}" {% if page.title == page.category.title %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} >{{ page.title }}</a>
+    </li>
+    {% endif %}
   {% endfor %}
   </ul>
 </nav>

@@ -32,7 +32,7 @@ collections: # A list of collections the CMS should be able to edit
   # COMPONENTS
   - name: "components"
     label: "Components"
-    folder: "components"
+    folder: "pages/components"
     sort: "title:asc"
     create: true # Allow users to create new Components in the admin UI
     slug: "{{slug}}"

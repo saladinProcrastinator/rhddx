@@ -8,47 +8,47 @@ categories: ["content"]
 
 # Alerts
 ## Information
-{{< code >}}
+```html
 <div class="alert-box alert-info">
 <div class="icon"></div>
 <div class="alert-content">
 <strong>Info:</strong><p>Lorem ipsum dolor sit amet, per id case aliquam expetenda.</p>
 </div>
 </div>
-{{< /code >}}
+```
 
 ## Success
-{{< code >}}
+```html
 <div class="alert-box alert-success">
 <div class="icon"></div>
 <div class="alert-content">
 <strong>Success:</strong><p>Lorem ipsum dolor sit amet, per id case aliquam expetenda.</p>
 </div>
 </div>
-{{< /code >}}
+```
 
 ## Warning
-{{< code >}}
+```html
 <div class="alert-box alert-warning">
 <div class="icon"></div>
 <div class="alert-content">
 <strong>Warning:</strong><p>Lorem ipsum dolor sit amet, per id case aliquam expetenda.</p>
 </div>
 </div>
-{{< /code >}}
+```
 
 ## Error
-{{< code >}}
+```html
 <div class="alert-box alert-error">
 <div class="icon"></div>
 <div class="alert-content">
 <strong>Error:</strong><p>Lorem ipsum dolor sit amet, per id case aliquam expetenda.</p>
 </div>
 </div>
-{{< /code >}}
+```
 
 ## Information XLarge
-{{< code >}}
+```html
 <div class="alert-box alert-xl"><div class="row">
 <div class="icon"></div>
 <div class="alert-content">
@@ -57,4 +57,4 @@ categories: ["content"]
 </div>
 <a class="close"></a>
 </div></div>
-{{< /code >}}
+```

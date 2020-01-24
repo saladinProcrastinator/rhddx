@@ -7,11 +7,12 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/mindreeper2420/rhddx/compare)
 
 # RHDDX Frontend Documentation Site
+RHDDX is short for Red Hat Developer Design Experience.
 This repository contains examples of components and assemblies used on the [developers.redhat.com](https://developers.redhat.com) site.
 
-This site is built using Jamstack (JavaScript, APIs, and Markup) technologies ([What is Jamstack?](https://jamstack.org/)) Specifically, we use the technologies recommended by [Netlify CMS - Jekyll](https://www.netlifycms.org/docs/jekyll/).
+The RHDDX documentation site is built using Jamstack (JavaScript, APIs, and Markup) technologies ([What is Jamstack?](https://jamstack.org/)) Specifically, we use the technologies recommended by [Netlify CMS - Jekyll](https://www.netlifycms.org/docs/jekyll/).
 
-## Bugs, Features, etc.
+## Info
 
 This is an ongoing project and I welcome contributions. Feel free to [file an issue](https://github.com/mindreeper2420/rhddx/issues/new) or submit a PR against an existing issue.
 
@@ -19,29 +20,46 @@ If you wish to contribute to this project, you should fork the project under you
 
 Any and all changes must be approved by a member of the developers.redhat.com team.
 
-## Local Development
+## Getting started
+
+All processes are controlled through Node/Gulp. Additionally, Jekyll requires that Ruby be installed. If you do not have these installed, you will need to do so before developing for this project. For Ruby, it is recommended to use [RVM](https://rvm.io/).
 
 Requirements:
- - Node (10+)
+ - [Node (10+)](https://nodejs.org/en/)
+    - _[NVM](https://nodejs.org/en/download/package-manager/#nvm) is recommended_
  - NPM (6+)
- - Ruby (2.6+ - for Jekyll)
-
-Optional:
- - Gulp [global install]
+ - [Gulp](https://gulpjs.com/)
    - CLI: 2.2.0
    - Local: 4.0.2
+ - Ruby (2.6+ - for Jekyll)
 
-### Fork and clone repository
+### Fork and Clone the Repository
 ```bash
 git clone git@github.com:YOUR_USER_NAME/rhddx.git
 cd rhddx
 git remote add -f upstream git@github.com:mindreeper2420/rhddx.git
 ```
 
-### Getting started
+### Initialize the Git Submodule (developers.redhat.com)
 
-All processes are controlled through Node/Gulp (even though this is a Jekyll Jamstack site). As such, after cloning this repository run:
+In order to build the project with the Red Hat Developer styles, you will need to initialize the developers.redhat.com submodule. You do so by running the follow:
+```bash
+$ git submodule init
 
+$ git submodule update
+```
+  _This will connect the submodule to the repo using the `.gitsubmodules` file and update the submodule._
+
+If you will be working on the RHDDX project for a long period of time, you will want to periodically pull in updates for the submodule in order to keep everything in sync.
+
+```bash
+$ git submodule update --remote developers.redhat.com
+```
+After running this, you should see `modified:   developers.redhat.com (new commits)` when you check the `git status`. You can then add the updated submodule to your fork but running `git add .` and `git commit -m "Update submodule"`.
+
+## Building the Project
+
+After you have connected the developers.redhat.com submodule, you can then build the site.
 ```bash
 # Install devDependencies
 npm install
@@ -49,22 +67,16 @@ npm install
 # Run Gulp Build
 gulp build
 ```
-alternatively, you can run something like
-```bash
-# Install devDependencies and run Build steps
-npm install && npm run build
-```
 
-Each subsequent startup can be done using either `npm run development` or `gulp development`.
+After the initial build, you can then run the local development environment by running `gulp development`.
 
-When in development mode, Gulp will watch the project folders for changes. Changes to `.scss` files will rebuild the styles and update the `main.css` or `rhdp.css` files under `_site/assets/`. Changes to any `.html` files will kick of the Jekyll Build process, updating the HTML files under `_site/`
+  - When in development mode, Gulp will watch the project folders for changes. Changes to `.scss` files will rebuild the styles and update the `main.css` or `rhdp.css` files under `_site/assets/`. Changes to any `.html` files will kick of the Jekyll Build process, updating the HTML files under `_site/`
 
-To view the site locally, navigate to [localhost:4000](http://localhost:4000/).
+  - To view the site locally, navigate to [localhost:4000](http://localhost:4000/).
 
-### Run Netlify locally
+### Run Netlify locally (optional)
 
-Would you like to run the Netlify build locally? If so, you will need to install the Netlify CLI:
-
+If you would like to run the build using Netlify's local configuration, you can utilize their built-in CLI and development scripts:
 ```bash
 # Install the Netlify CLI
 npm install netlify-cli -g
@@ -73,28 +85,11 @@ npm install netlify-cli -g
 netlify dev
 ```
 
-When running [Netlify locally](https://www.netlify.com/products/dev/), you can stream your dev server to a URL that you can then share. This is best used for local, collaborative development.
+  - When running [Netlify locally](https://www.netlify.com/products/dev/), you can stream your dev server to a URL that you can then share. This is best used for local, collaborative development.
 
 ## Page construction
 
-Each page under `/components` is build using Jekyll Frontmatter. All pages require **layout**, **title**, **permalink**, and **section** definitions. Optional definitions are **released** and **intro_paragraph**.
-
-```markdown
----
-layout: components
-title: Button CTAs
-permalink: /components/btn-cta
-section: components
-released: >
-  RELEASED
-intro_paragraph: >
-  Sample variations of the Button CTAs.
----
-```
-
-When adding the **released** definition, it will add a label to the top of the page, signifying that it is available on developers.redhat.com.
-
-When adding the **intro_paragraph** definition, an introductory paragraph will be added to the top of the page. This is useful when you want to give the user any information up front that may help them in the use of the component.
+Each page under is built using Jekyll Frontmatter. Due to the size and complexity of this site, we use multiple variations of the Frontmatter in order to properly sort and render the various examples and documentation. To view how to build a page, check out the [page construction](help/page-construction) file.
 
 ## Browser support
 

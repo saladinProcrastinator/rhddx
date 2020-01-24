@@ -3,6 +3,7 @@ layout: assemblies
 title: All Assemblies
 permalink: /docs/content/patterns/assemblies/all-assemblies
 section: assemblies
+category: assemblies
 intro_paragraph: >
   Sample variations of the various assemblies.
 ---
@@ -10,7 +11,7 @@ intro_paragraph: >
 ## Content with Image
 
 Has a background
-{{< code >}}
+```html
 <section class="assembly-dark assembly-image-left assembly assembly-type-content_with_image has-background" id="assembly-field-sections-9285">
     <div class="container">
         <div class="assembly-content">
@@ -36,9 +37,9 @@ Has a background
     </div>
     <div class="background" style="background-image: url(https://developers.redhat.com/sites/default/files/2019-04/RED%20HAT_SUMMIT_HOMEPAGE_BG-04_1.svg);"></div>
 </section>
-{{</ code >}}
+```
 
-{{< code >}}
+```html
 <section id="assembly-field-sections-9225" class="assembly assembly-type-dynamic_content_feed">
     <div class="container narrow">
         <h2 class="header field field--name-field-title field--type-string field--label-hidden field__items">
@@ -138,4 +139,4 @@ Has a background
         </div>
     </div>
 </section>
-{{</ code >}}
+```

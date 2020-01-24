@@ -1,8 +1,10 @@
 ---
-title: "CSS Variables"
-date: 2019-08-07
-draft: false
-layout: "css-variables"
-tags: ["code"]
-categories: ["code"]
+layout: pages
+title: CSS Variables
+permalink: /docs/content/patterns/code/css-variables
+section: patterns
+category: patterns
+status: released
+intro_paragraph: >
+
 ---

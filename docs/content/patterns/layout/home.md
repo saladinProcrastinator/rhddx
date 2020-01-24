@@ -8,9 +8,9 @@ categories: ["layout"]
 draft: false
 ---
 
-{{< code >}}
+```html
 <a class="spotlight-item dotnet-spotlight" href="https://developers.redhat.com/blog/?p=438176">.NET Core for RHEL and the OpenShift Container Platform.</a>
 <a class="spotlight-item" href="https://developers.redhat.com/blog/?p=438176">.NET Core for RHEL and the OpenShift Container Platform.</a>
 <a class="spotlight-item" href="https://developers.redhat.com/blog/?p=438176">.NET Core for RHEL and the OpenShift Container Platform.</a>
 <a class="spotlight-item" href="https://developers.redhat.com/blog/?p=438176">.NET Core for RHEL and the OpenShift Container Platform.</a>
-{{< /code >}}
+```

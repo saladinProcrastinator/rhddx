@@ -54,7 +54,7 @@ categories: ["layout"]
 </nav>
 
 ## Base grid
-{{< code >}}
+```html
 <section class="pf-l-grid">
   <div class="pf-l-grid__item pf-m-12-col">12 col</div>
   <div class="pf-l-grid__item pf-m-11-col">11 col</div><div class="pf-l-grid__item pf-m-1-col">1 col</div>
@@ -64,12 +64,12 @@ categories: ["layout"]
   <div class="pf-l-grid__item pf-m-7-col">7 col</div><div class="pf-l-grid__item pf-m-5-col">5 col</div>
   <div class="pf-l-grid__item pf-m-6-col">6 col</div><div class="pf-l-grid__item pf-m-6-col">6 col</div>
 </section>
-{{< /code >}}
+```
 
 <hr>
 
 ## Base grid with gutters
-{{< code >}}
+```html
 <section class="pf-l-grid pf-m-gutter">
   <div class="pf-l-grid__item pf-m-12-col">12 col</div>
   <div class="pf-l-grid__item pf-m-11-col">11 col</div><div class="pf-l-grid__item pf-m-1-col">1 col</div>
@@ -79,12 +79,12 @@ categories: ["layout"]
   <div class="pf-l-grid__item pf-m-7-col">7 col</div><div class="pf-l-grid__item pf-m-5-col">5 col</div>
   <div class="pf-l-grid__item pf-m-6-col">6 col</div><div class="pf-l-grid__item pf-m-6-col">6 col</div>
 </section>
-{{< /code >}}
+```
 
 <hr>
 
 ## Smart grid
-{{< code >}}
+```html
 <div class="pf-l-grid pf-m-all-6-col-on-sm pf-m-all-4-col-on-md pf-m-all-2-col-on-lg pf-m-all-1-col-on-xl">
   <div class="pf-l-grid__item">
     item 1
@@ -123,12 +123,12 @@ categories: ["layout"]
     item 12
   </div>
 </div>
-{{< /code >}}
+```
 
 <hr>
 
 ## Row span
-{{< code >}}
+```html
 <div class="pf-l-grid pf-m-gutter">
   <div class="pf-l-grid__item pf-m-8-col">
     8 col
@@ -167,12 +167,12 @@ categories: ["layout"]
     4 col
   </div>
 </div>
-{{< /code >}}
+```
 
 <hr>
 
 ## Example
-{{< code >}}
+```html
 <div class="pf-l-grid">
   <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-md">
     <div class="pf-l-grid">
@@ -274,4 +274,4 @@ categories: ["layout"]
     </div>
   </div>
 </div>
-{{< /code >}}
+```

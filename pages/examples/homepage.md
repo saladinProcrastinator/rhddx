@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Example - Home
+title: Home
 permalink: /pages/examples/home
 section: pages
 intro_paragraph: >
