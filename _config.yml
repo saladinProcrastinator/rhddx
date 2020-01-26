@@ -102,3 +102,4 @@ exclude:
   - _sass
   - styles
   - assets
+  - developers.redhat.com

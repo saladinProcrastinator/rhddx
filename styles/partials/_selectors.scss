@@ -80,11 +80,26 @@ a[href*="codepen.io"]:after {
 //   overflow-y: auto;
 // }
 
+// .highlighter-rouge {
+//   display: inline-flex;
+//   // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { max-width: 570px; }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { max-width: 990px; }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { max-width: 1100px; }
+
+// // Extra large devices (large desktops, 1200px and up)
+// // @media (min-width: 1200px) { max-width: 1440px; }
+// }
+
 /*
 ** Position 'Copy' toolbar button
 */
 div.code-toolbar > .toolbar {
-  top: .33em;
+  top: .3em;
   right: 4.5em;
 }
 
@@ -95,7 +110,7 @@ pre {
   clear: both;
   color: #fff;
   background: #03192b;
-  padding: 1rem !important;
+  padding: 1.5rem !important;
   margin: 1rem !important;
   -moz-tab-size: 2;
   -o-tab-size: 2;
@@ -109,7 +124,7 @@ pre {
   line-height: 20px;
   border-radius: 5px;
   min-width: 100px;
-  max-width: 95%;
+  // max-width: 95%;
   overflow: hidden;
 }
 pre[rel]::before {
@@ -140,8 +155,8 @@ code.highlighter-rouge {
 .highlighter-rouge .highlight pre.highlight::before {
   font-size: 14px;
   font-weight: 700;
-  position: absolute;
-  top: .5em;
+  position: relative;
+  top: -1.3rem;
   left: 88%;
   width: 100%;
   padding: 0;

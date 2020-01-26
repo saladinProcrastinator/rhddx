@@ -36,34 +36,35 @@ The following information is related to the frontend code under [redhat-develope
 - Mac users: Increase max file limit so that you can run the Hugo server
     - **Create** a `limit.maxfiles.plist` file
 
-        ```xml
-          <?xml version="1.0" encoding="UTF-8"?>
-          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-            "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-            <plist version="1.0">
-              <dict>
-                <key>Label</key>
-                <string>limit.maxfiles</string>
-                <key>ProgramArguments</key>
-                <array>
-                  <string>launchctl</string>
-                  <string>limit</string>
-                  <string>maxfiles</string>
-                  <string>262144</string>
-                  <string>524288</string>
-                </array>
-                <key>RunAtLoad</key>
-                <true/>
-                <key>ServiceIPC</key>
-                <false/>
-              </dict>
-            </plist>
-        ```
+```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+        <dict>
+        <key>Label</key>
+        <string>limit.maxfiles</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>launchctl</string>
+            <string>limit</string>
+            <string>maxfiles</string>
+            <string>262144</string>
+            <string>524288</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>ServiceIPC</key>
+        <false/>
+        </dict>
+    </plist>
+```
 
-    - **Run** `chown root:wheel /Library/LaunchDaemons/limit.maxfiles.plist` to properly set the owner
-    - **Run** `chmod 0644 /Library/LaunchDaemons/limit.maxfiles.plist` to properly set the file permissions
-    - **Run** `launchctl load -w /Library/LaunchDaemons/limit.maxfiles.plist` to load the `limit.maxfiles.plist` to the LaunchAgent
-    - **Restart** you Mac so that the LaunchAgent can run and increase you max file limit
+- Run the following:
+  - **Run** `chown root:wheel /Library/LaunchDaemons/limit.maxfiles.plist` to properly set the owner
+  - **Run** `chmod 0644 /Library/LaunchDaemons/limit.maxfiles.plist` to properly set the file permissions
+  - **Run** `launchctl load -w /Library/LaunchDaemons/limit.maxfiles.plist` to load the `limit.maxfiles.plist` to the LaunchAgent
+  - **Restart** you Mac so that the LaunchAgent can run and increase you max file limit
 - Run the Hugo server
     - **Run** default dev server `hugo serve` (pulls from `config/development/config.toml)`)
     - **Run** bound dev server `hugo serve --bind=0.0.0.0 --port=8080` (for VMs or other sandbox environments)
@@ -87,61 +88,65 @@ The following information is related to the frontend code under [redhat-develope
     * **Add** a data folder for your component in `/src/data/components/yourcomponent`
     * **Add** a `variant` file in the component's data folder
 
-        ```toml
-        [[variant]]
-        id = "default"
-        name = "Default Variant"
-        order = 1
+```toml
+    [[variant]]
+    id = "default"
+    name = "Default Variant"
+    order = 1
 
-        [[variant]]
-        id = "default2"
-        name = "Default Variant 2"
-        order = 2
-        ```
+    [[variant]]
+    id = "default2"
+    name = "Default Variant 2"
+    order = 2
+```
 
-        ```json
+```json
+{
+    "variant": [
         {
-            "variant": [
-                {
-                    "id": "variant1",
-                    "name": "Variation 1",
-                    "order": 1
-                },
-                {
-                    "id": "variant2",
-                    "name": "Variation 2",
-                    "order": 2
-                }
-            ]
-        }
-        ```
-    * **Add** a `context` folder in your component's data folder for each different context you want to express for your component
-    * **Add** a `details` file (JSON, YAML, or TOML) to the context folder
-        ```toml
-        name = "DEFAULT CONTEXT"
-        ```
-        ```json
+            "id": "variant1",
+            "name": "Variation 1",
+            "order": 1
+        },
         {
-            "name": "New Component Name"
+            "id": "variant2",
+            "name": "Variation 2",
+            "order": 2
         }
-        ```
-    * **Add** a `{variantname}` file (JSON, YAML, or TOML) to the context folder with the context's template(s) for that variant
+    ]
+}
+```
 
-        ```toml
-          templates = ["""
-          <span>Variant Template 1</span>
-          ""","""
-          <span>Variant Template 2</span>
-          """]
-        ```
+Now do the following:
+  * **Add** a `context` folder in your component's data folder for each different context you want to express for your component
+  * **Add** a `details` file (JSON, YAML, or TOML) to the context folder
 
-        ```json
-        {
-            "templates": [
-                "<span>Variant Template 1</span>",
-                "<span>Variant Template 2</span>"
-            ]
-        }
-        ```
+```toml
+  name = "DEFAULT CONTEXT"
+```
+
+```json
+  {
+    "name": "New Component Name"
+  }
+```
+  * **Add** a `{variantname}` file (JSON, YAML, or TOML) to the context folder with the context's template(s) for that variant
+
+```toml
+  templates = ["""
+  <span>Variant Template 1</span>
+  ""","""
+  <span>Variant Template 2</span>
+  """]
+```
+
+```json
+{
+  "templates": [
+      "<span>Variant Template 1</span>",
+      "<span>Variant Template 2</span>"
+  ]
+}
+```
 
 * **View** your new component page `/components/newcomponent`

@@ -9,6 +9,27 @@ intro_paragraph: >
 
 ---
 
-__JUMP-TO NAV COMPONENT__
-
-Jump-To Nav Variations
+## Default
+<div class="rhd-jump-to-nav pf-c-content">
+    <div class="pf-l-flex">
+        <a href='#'>Oracle JDK Alternative</a>
+        <a href='#'>Post &amp; Guides</a>
+        <a href='#'>Docs</a>
+        <a href='#'>Support</a>
+        <a href='#'>Contact</a>
+    </div>
+</div>
+<div class="rhd-jump-to-nav pf-c-content">
+    <div class="pf-l-flex">
+        <a href='#'>Oracle JDK Alternative</a>
+        <a href='#'>Post &amp; Guides</a>
+        <a href='#'>Docs</a>
+        <a href='#'>Support</a>
+        <a href='#'>Contact</a>
+        <a href='#'>Docs</a>
+        <a href='#'>Support</a>
+        <a href='#'>Contact</a>
+        <a href='#'>Post &amp; Guides</a>
+        <a href='#'>Oracle JDK Alternative</a>
+    </div>
+</div>
