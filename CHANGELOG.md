@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.0.0-prerelease.1 (27/01/2020)
+- [Organize component variations](https://github.com/mindreeper2420/rhddx/commit/d972a4fe8d8443b433e156cd90f2f6378b4790e4) - @mindreeper2420
+- [Add Component references to site](https://github.com/mindreeper2420/rhddx/commit/4832d533243c15c860696caa69d2bc1a33dbc3cd) - @mindreeper2420
+- [Embed Marvel Design into Site](https://github.com/mindreeper2420/rhddx/commit/e45da1b6f57872c0218d1bca5efafcdef98badca) - @mindreeper2420
+- [Update documentation](https://github.com/mindreeper2420/rhddx/commit/bbab940dabb6c2378cd6cf219733356f55d44580) - @mindreeper2420
+- [Update package.json](https://github.com/mindreeper2420/rhddx/commit/930b3fd3cd8f94374cf71ecb81441e28089a3856) - @mindreeper2420
+- [Retool site configuration](https://github.com/mindreeper2420/rhddx/commit/4b2cab07a52270a5d07874fc914bc31554e2ad7b) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/19359ed8bb04a5c2d9fc4890a2b7589c26bf1b7c) - @mindreeper2420
+
+---
+
 ## v1.0.0-prerelease.34 (24/01/2020)
 - [Update submodule](https://github.com/mindreeper2420/rhddx/commit/30614d2f848537b3b5a00758053313d4a0122bbf) - @mindreeper2420
 
@@ -134,7 +145,3 @@
 ---
 
 ## v1.0.0-prerelease.6 (13/01/2020)
-
----
-
-## v1.0.0-prerelease.5 (13/01/2020)
