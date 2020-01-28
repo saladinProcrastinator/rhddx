@@ -119,7 +119,13 @@ RHDDX is supported on the latest version of the following browsers:
 
 ## Performance
 
+### Time to First Byte
 You can test the demo site's TTFB (Time To First Byte) at [testmysite.io](https://testmysite.io/5b50abe51f12b74b81dd5442/rhddx.netlify.com)
+
+### Lighthouse Scores
+**Desktop**
+
+![Lighthouse](./assets/img/Lighthouse_01282020.png)
 
 ----
 

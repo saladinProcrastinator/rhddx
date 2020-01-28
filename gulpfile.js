@@ -163,7 +163,7 @@ const
   // Minimize all of the images located under './assets/img/'
   // Only touches .jpg, .jpeg, .png, and .svg files
   function minimizeImages(cb) {
-    return gulp.src('./assets/img/**/*.{jpg,jpeg,png,svg}')
+    return gulp.src('./assets/img/**/*.{jpg,jpeg,png,svg,ico}')
       .pipe(newer('./_site/assets/img/'))
       .pipe(flatMap(retinaVersions))
       .pipe(scaleImages(imageFileName))
