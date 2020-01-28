@@ -14,9 +14,3 @@ items:
   - name: Assemblies
     title: Assemblies Overview
     url: /assemblies
-  - name: '<i class="fas fa-info-circle"></i>'
-    title: About
-    url: /about
-  - name: ''
-    title: GitHub
-    url: 'https://github.com/mindreeper2420/rhddx'

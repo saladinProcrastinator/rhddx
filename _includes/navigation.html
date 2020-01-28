@@ -1,8 +1,9 @@
 {% assign navurl = page.url | remove: 'index.html' %}
-<ul class="navbar-nav">
+<ul class="pf-c-nav__horizontal-list">
 {% for item in site.data.navigation.items %}
-  <li class="nav-item">
-    <a href="{{ item.url }}" {% if page.title == item.title %} class="nav-link active" data-current="current page" {% else %} class="nav-link" {% endif %} aria-label="{{item.title}}">{{ item.name }}</a>
+  <li class="pf-c-nav__item">
+    <a href="{{ item.url }}" {% if page.title == item.title %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} aria-label="{{item.title}}">{{ item.name }}</a>
   </li>
 {% endfor %}
 </ul>
+

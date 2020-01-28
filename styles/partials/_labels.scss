@@ -1,0 +1,10 @@
+.pf-c-label {
+  &.label-released {
+    --pf-c-label--Color: var(--pf-global--success-color--200);
+    --pf-c-label--BackgroundColor: var(--pf-global--success-color--100);
+  }
+  &.label-unreleased {
+    --pf-c-label--Color: var(--pf-global--warning-color--200);
+    --pf-c-label--BackgroundColor: var(--pf-global--warning-color--100);
+  }
+}

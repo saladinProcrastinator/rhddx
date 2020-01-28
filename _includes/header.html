@@ -1,11 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
-  <a class="navbar-brand pf-m-3-col-on-sm pf-m-2-col-on-md pf-u-mr-0" href="{{ "/" | relative_url }}" style="max-width: 150px;">
-    <img src="/assets/img/NewRHDFullLogo_white.png" alt="Red Hat Developers">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarText">
-    {% include navigation.html navigation=site.data.navigation %}
+<header role="banner" class="pf-c-page__header">
+  <div class="pf-c-page__header-brand">
+    <a class="pf-c-page__header-brand-link" href="/">
+      <img class="pf-c-brand" src="/assets/img/NewRHDFullLogo_white.png" alt="Red Hat Developers logo" />
+    </a>
   </div>
-</nav>
+  <div class="pf-c-page__header-nav">
+    <nav class="pf-c-nav" aria-label="Global">
+      <button class="pf-c-nav__scroll-button" aria-label="Scroll left">
+        <i class="fas fa-angle-left" aria-hidden="true"></i>
+      </button>
+        {% include navigation.html navigation=site.data.navigation %}
+      <button class="pf-c-nav__scroll-button" aria-label="Scroll right">
+        <i class="fas fa-angle-right" aria-hidden="true"></i>
+      </button>
+    </nav>
+  </div>
+  <div class="pf-c-page__header-tools">
+    <div class="pf-c-page__header-tools-group pf-m-icons">
+      <button class="pf-c-button pf-m-plain" type="button" aria-label="About" onclick="window.location.href = '/about';">
+        <i class="fas fa-info-circle" aria-hidden="true"></i>
+      </button>
+      <button class="pf-c-button pf-m-plain" type="button" aria-label="GitHub URL" onclick="window.location.href = 'https://github.com/mindreeper2420/rhddx';">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</header>

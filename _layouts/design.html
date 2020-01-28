@@ -3,23 +3,31 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html data-current="{{ page.section }}" lang="en">
+<html class="pf-m-redhat-font" data-current="{{ page.section }}" lang="en-us">
 
   {% include head.html %}
 
-  <body class="pf-m-redhat-font">
-
-    {% include header.html %}
-    <div class="pf-l-grid">
-      <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-sm pf-m-2-col-on-md" id="sticky-sidebar">
-        <div class="sticky-top">
-          {% include sidenavs/sidenav-design.html component=site.data.design %}
+  <body>
+    <div class="pf-c-page">
+      {% include header.html %}
+      <div class="pf-c-page__sidebar pf-m-dark">
+        <div class="pf-c-page__sidebar-body">
+          <nav class="pf-c-nav pf-m-dark" id="expandable-vertical-nav">
+            {% include sidenavs/sidenav-design.html component=site.data.design %}
+          </nav>
         </div>
       </div>
-      <main class="pf-l-grid__item pf-m-12-col pf-m-9-col-on-sm pf-m-10-col-on-md pf-u-py-md pf-u-pl-md pf-c-content" id="main">
-        <h1>{{ page.title }}</h1>
-        {% include page-intro.html %}
-        {{ content }}
+      <main class="pf-c-page__main" role="main" tab-index="-1">
+        <section class="pf-c-page__main-section pf-m-light pf-m-fill">
+          <div class="pf-l-grid pf-c-content">
+            <div class="pf-l-grid__item pf-m-12-col" id="main">
+              <h1>{{ page.title }}</h1>
+              {% include page-intro.html %}
+              {{ content }}
+            </div>
+          </div>
+        </section>
+        {% include footer.html %}
       </main>
     </div>
 
