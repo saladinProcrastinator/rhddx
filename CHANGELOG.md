@@ -1,6 +1,13 @@
 # Changelog
 
-## vv2.0.0-prerelease.11 (29/01/2020)
+## vv2.0.0-prerelease.12 (29/01/2020)
+- [2.0.0-prerelease.12](https://github.com/mindreeper2420/rhddx/commit/b83a1a3d4d44bce7c755011bf735c937dedd65b9) - @mindreeper2420
+- [Fix CMS UI templates](https://github.com/mindreeper2420/rhddx/commit/d3f7946331c2389e8c84b096b6da5376dfd8972c) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/b4ffea928f124a4eb42f63a025eac57483b180e1) - @mindreeper2420
+
+---
+
+## v2.0.0-prerelease.11 (29/01/2020)
 - [2.0.0-prerelease.11](https://github.com/mindreeper2420/rhddx/commit/396f1e0584857cfd773ec1606cb701dbaea175d4) - @mindreeper2420
 - [Update collection labels](https://github.com/mindreeper2420/rhddx/commit/b30f4a83c29276ef1cb0ea5a83014f9dcbe3b9b8) - @mindreeper2420
 - [Merge pull request #40 from mindreeper2420/cms/design-subpages/styles](https://github.com/mindreeper2420/rhddx/commit/6eb92bc59e2cd3d543496f6d1353a2ce2b551054) - @mindreeper2420
@@ -158,7 +165,3 @@
 ---
 
 ## v1.0.0-prerelease.16 (15/01/2020)
-
----
-
-## v1.0.0-prerelease.15 (15/01/2020)
