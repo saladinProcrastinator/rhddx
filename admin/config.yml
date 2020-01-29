@@ -71,7 +71,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
       - {label: "Section", name: "section", widget: "string", default: "pages, design, getting started, etc", required: false}
-            - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
+      - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "gettingstartedsubpages"
@@ -85,7 +85,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
       - {label: "Section", name: "section", widget: "string", default: "pages, design, getting started, etc", required: false}
-            - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
+      - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "pagessubpages"
@@ -99,7 +99,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
       - {label: "Section", name: "section", widget: "string", default: "pages, design, getting started, etc", required: false}
-            - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
+      - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "examplesubpages"
@@ -113,7 +113,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
       - {label: "Section", name: "section", widget: "string", default: "pages, design, getting started, etc", required: false}
-            - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
+      - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation
