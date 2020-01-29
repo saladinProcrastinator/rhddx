@@ -53,11 +53,42 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new Overview Pages in the admin UI
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - label: "Layout"
+        name: "layout"
+        widget: "select"
+        options:
+          - { label: "Select a layout to use (should match where page will reside)", value: "" }
+          - { label: "Example pages", value: "pages" }
+          - { label: "Design pages", value: "design" }
+          - { label: "Getting Started", value: "getting-started" }
+          - { label: "Assembly Examples", value: "assemblies" }
+          - { label: "Contact pages", value: "contact" }
+          - { label: "About pages", value: "page" }
+        required: true
+      - {label: "Layout", name: "layout", widget: "string", default: ""}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "What does this fall under? pages, design, getting started, etc", required: false}
-      - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
+      - label: "Section"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "What section does this page fall under?", value: "" }
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting_started", value: "getting_started" }
+          - { label: "assemblies", value: "assemblies" }
+          - { label: "contact", value: "contact" }
+          - { label: "about", value: "about" }
+        required: true
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "What category does this page fall under?", value: "" }
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting-started", value: "getting-started" }
+        required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "design-subpages"
@@ -67,11 +98,31 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new Design pages in the admin UI
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "design"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "pages, design, getting started, etc", required: false}
-      - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
+      - label: "Section"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "What section does this page fall under?", value: "" }
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting_started", value: "getting_started" }
+          - { label: "assemblies", value: "assemblies" }
+          - { label: "contact", value: "contact" }
+          - { label: "about", value: "about" }
+        required: true
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "What category does this page fall under?", value: "" }
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting-started", value: "getting-started" }
+        required: true
+      - {label: "Date", name: "date", widget: "datetime", format: "MM-DD-YYYY", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "gettingstartedsubpages"
@@ -81,11 +132,30 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new Getting Started pages in the admin UI
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "getting-started"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "pages, design, getting started, etc", required: false}
-      - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
+      - label: "Section"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "What section does this page fall under?", value: "" }
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting_started", value: "getting_started" }
+          - { label: "assemblies", value: "assemblies" }
+          - { label: "contact", value: "contact" }
+          - { label: "about", value: "about" }
+        required: true
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "What category does this page fall under?", value: "" }
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting-started", value: "getting-started" }
+        required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "pagessubpages"
@@ -95,11 +165,30 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new Page example pages in the admin UI
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "pages"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "pages, design, getting started, etc", required: false}
-      - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
+      - label: "Section"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "What section does this page fall under?", value: "" }
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting_started", value: "getting_started" }
+          - { label: "assemblies", value: "assemblies" }
+          - { label: "contact", value: "contact" }
+          - { label: "about", value: "about" }
+        required: true
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "What category does this page fall under?", value: "" }
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting-started", value: "getting-started" }
+        required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "examplesubpages"
@@ -112,8 +201,27 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "pages, design, getting started, etc", required: false}
-      - {label: "Category", name: "category", widget: "string", default: "Used to update navigations - tell the system where this page should live. page, design, getting-started", required: true}
+      - label: "Section"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "What section does this page fall under?", value: "" }
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting_started", value: "getting_started" }
+          - { label: "assemblies", value: "assemblies" }
+          - { label: "contact", value: "contact" }
+          - { label: "about", value: "about" }
+        required: true
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "What category does this page fall under?", value: "" }
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting-started", value: "getting-started" }
+        required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation
