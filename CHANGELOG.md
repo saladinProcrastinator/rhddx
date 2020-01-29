@@ -1,16 +1,13 @@
 # Changelog
 
-## v2.0.0-prerelease.8 (29/01/2020)
-
----
-
-## v2.0.0-prerelease.8 (29/01/2020)
+## vv2.0.0-prerelease.9 (29/01/2020)
+- [2.0.0-prerelease.9](https://github.com/mindreeper2420/rhddx/commit/7ede8d47fd575ae0b6f22ca1b4d93a0a1c7c82b9) - @mindreeper2420
+- [Simplify scripts](https://github.com/mindreeper2420/rhddx/commit/da1be205bbcaa0ef9d654e1a0f357f1b8328a0b8) - @mindreeper2420
 - [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/36e1229651641a5369701cdb6a9a954e0b3d630c) - @mindreeper2420
 
 ---
 
-## vprerelease (29/01/2020)
-- [2.0.0-prerelease.8](https://github.com/mindreeper2420/rhddx/commit/78f11b67519404f665857ff00d7c5309dd6a4743) - @mindreeper2420
+## v2.0.0-prerelease.8 (29/01/2020)
 
 ---
 
@@ -152,3 +149,7 @@
 ---
 
 ## v1.0.0-prerelease.14 (15/01/2020)
+
+---
+
+## v1.0.0-prerelease.13 (15/01/2020)
