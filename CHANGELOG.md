@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.0.0-prerelease.18 (29/01/2020)
+- [2.0.0-prerelease.18](https://github.com/mindreeper2420/rhddx/commit/5c6fb6c9679dc3307eb6e44267f9bb82a4229acc) - @mindreeper2420
+- [Remove requirement for category on overview pages](https://github.com/mindreeper2420/rhddx/commit/2454ba98842ba1c0170c412aa020a661d1078737) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/7b4c9e80b563c0f7f844ee3f0b7009683ab9cefb) - @mindreeper2420
+- [2.0.0-prerelease.17](https://github.com/mindreeper2420/rhddx/commit/b77dac3873d78330eaf04ed9eefe1915e91ded6c) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.17 (29/01/2020)
 - [Add select options to page creator](https://github.com/mindreeper2420/rhddx/commit/63d4d03a39553db1faaf2291e6f33bfeae57782d) - @mindreeper2420
 - [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/57c56f52bc14d303336b8a90eef83f48548b79a6) - @mindreeper2420
@@ -170,7 +178,3 @@
 ---
 
 ## v1.0.0-prerelease.22 (15/01/2020)
-
----
-
-## v1.0.0-prerelease.21 (15/01/2020)
