@@ -1,5 +1,14 @@
 # Changelog
 
+## v2.0.0-prerelease.16 (29/01/2020)
+- [2.0.0-prerelease.16](https://github.com/mindreeper2420/rhddx/commit/8b1ce70da29fe3dc4c7fe14f4b3ff16e99b1c3fb) - @mindreeper2420
+
+---
+
+## BROKEN RELEASE (29/01/2020)
+
+---
+
 ## v2.0.0-prerelease.14 (29/01/2020)
 - [2.0.0-prerelease.14](https://github.com/mindreeper2420/rhddx/commit/18812c1f49857bd0801d326be1aaf2f237f0f05c) - @mindreeper2420
 - [Patch release process](https://github.com/mindreeper2420/rhddx/commit/56fcb7fbdfe6d8bf745c72b582651f70e765434c) - @mindreeper2420
@@ -163,11 +172,3 @@
 ---
 
 ## v1.0.0-prerelease.20 (15/01/2020)
-
----
-
-## v1.0.0-prerelease.19 (15/01/2020)
-
----
-
-## v1.0.0-prerelease.18 (15/01/2020)
