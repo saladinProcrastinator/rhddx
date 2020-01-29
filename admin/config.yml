@@ -53,11 +53,10 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new Overview Pages in the admin UI
     slug: "{{slug}}"
     fields:
-      - label: "Layout"
+      - label: "Layout - Select a layout to use (should match where page will reside)"
         name: "layout"
         widget: "select"
         options:
-          - { label: "Select a layout to use (should match where page will reside)", value: "" }
           - { label: "Example pages", value: "pages" }
           - { label: "Design pages", value: "design" }
           - { label: "Getting Started", value: "getting-started" }
@@ -65,14 +64,12 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Contact pages", value: "contact" }
           - { label: "About pages", value: "page" }
         required: true
-      - {label: "Layout", name: "layout", widget: "string", default: ""}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - label: "Section"
+      - {label: "URL", name: "permalink", widget: "string", required: true}
+      - label: "Section - What section does this page fall under?"
         name: "section"
         widget: "select"
         options:
-          - { label: "What section does this page fall under?", value: "" }
           - { label: "pages", value: "pages" }
           - { label: "design", value: "design" }
           - { label: "getting_started", value: "getting_started" }
@@ -80,11 +77,10 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "contact", value: "contact" }
           - { label: "about", value: "about" }
         required: true
-      - label: "Category"
+      - label: "Category (used to assign navigation)"
         name: "category"
         widget: "select"
         options:
-          - { label: "What category does this page fall under?", value: "" }
           - { label: "pages", value: "pages" }
           - { label: "design", value: "design" }
           - { label: "getting-started", value: "getting-started" }
@@ -100,12 +96,11 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "design"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - label: "Section"
+      - {label: "URL", name: "permalink", widget: "string", required: true}
+      - label: "Section - What section does this page fall under?"
         name: "section"
         widget: "select"
         options:
-          - { label: "What section does this page fall under?", value: "" }
           - { label: "pages", value: "pages" }
           - { label: "design", value: "design" }
           - { label: "getting_started", value: "getting_started" }
@@ -113,11 +108,10 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "contact", value: "contact" }
           - { label: "about", value: "about" }
         required: true
-      - label: "Category"
+      - label: "Category (used to assign navigation)"
         name: "category"
         widget: "select"
         options:
-          - { label: "What category does this page fall under?", value: "" }
           - { label: "pages", value: "pages" }
           - { label: "design", value: "design" }
           - { label: "getting-started", value: "getting-started" }
@@ -134,12 +128,11 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "getting-started"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - label: "Section"
+      - {label: "URL", name: "permalink", widget: "string", required: true}
+      - label: "Section - What section does this page fall under?"
         name: "section"
         widget: "select"
         options:
-          - { label: "What section does this page fall under?", value: "" }
           - { label: "pages", value: "pages" }
           - { label: "design", value: "design" }
           - { label: "getting_started", value: "getting_started" }
@@ -147,11 +140,10 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "contact", value: "contact" }
           - { label: "about", value: "about" }
         required: true
-      - label: "Category"
+      - label: "Category (used to assign navigation)"
         name: "category"
         widget: "select"
         options:
-          - { label: "What category does this page fall under?", value: "" }
           - { label: "pages", value: "pages" }
           - { label: "design", value: "design" }
           - { label: "getting-started", value: "getting-started" }
@@ -167,12 +159,11 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "pages"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - label: "Section"
+      - {label: "URL", name: "permalink", widget: "string", required: true}
+      - label: "Section - What section does this page fall under?"
         name: "section"
         widget: "select"
         options:
-          - { label: "What section does this page fall under?", value: "" }
           - { label: "pages", value: "pages" }
           - { label: "design", value: "design" }
           - { label: "getting_started", value: "getting_started" }
@@ -180,11 +171,10 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "contact", value: "contact" }
           - { label: "about", value: "about" }
         required: true
-      - label: "Category"
+      - label: "Category (used to assign navigation)"
         name: "category"
         widget: "select"
         options:
-          - { label: "What category does this page fall under?", value: "" }
           - { label: "pages", value: "pages" }
           - { label: "design", value: "design" }
           - { label: "getting-started", value: "getting-started" }
@@ -200,12 +190,11 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - label: "Section"
+      - {label: "URL", name: "permalink", widget: "string", required: true}
+      - label: "Section - What section does this page fall under?"
         name: "section"
         widget: "select"
         options:
-          - { label: "What section does this page fall under?", value: "" }
           - { label: "pages", value: "pages" }
           - { label: "design", value: "design" }
           - { label: "getting_started", value: "getting_started" }
@@ -213,11 +202,10 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "contact", value: "contact" }
           - { label: "about", value: "about" }
         required: true
-      - label: "Category"
+      - label: "Category (used to assign navigation)"
         name: "category"
         widget: "select"
         options:
-          - { label: "What category does this page fall under?", value: "" }
           - { label: "pages", value: "pages" }
           - { label: "design", value: "design" }
           - { label: "getting-started", value: "getting-started" }
