@@ -1,6 +1,6 @@
 {
   "name": "rhddx",
-  "version": "2.0.0-prerelease.10",
+  "version": "2.0.0-prerelease.11",
   "description": "Front-end assets and documentation for Red Hat Developer site",
   "main": "index.js",
   "engines": {
