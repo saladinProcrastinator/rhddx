@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.0-prerelease.17 (29/01/2020)
+- [Add select options to page creator](https://github.com/mindreeper2420/rhddx/commit/63d4d03a39553db1faaf2291e6f33bfeae57782d) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/57c56f52bc14d303336b8a90eef83f48548b79a6) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.16 (29/01/2020)
 - [2.0.0-prerelease.16](https://github.com/mindreeper2420/rhddx/commit/8b1ce70da29fe3dc4c7fe14f4b3ff16e99b1c3fb) - @mindreeper2420
 
@@ -168,7 +174,3 @@
 ---
 
 ## v1.0.0-prerelease.21 (15/01/2020)
-
----
-
-## v1.0.0-prerelease.20 (15/01/2020)
