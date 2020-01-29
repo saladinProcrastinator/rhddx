@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0-prerelease.13 (29/01/2020)
+- [2.0.0-prerelease.13](https://github.com/mindreeper2420/rhddx/commit/52ccd54597b5962281fa884bd89f1566c101d1ac) - @mindreeper2420
+- [Bad indentation error](https://github.com/mindreeper2420/rhddx/commit/70564ce939e38c220f62587ec9bdb86dc6c9fd43) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/6de39b131345d9d6dc8230cde73929b36365e551) - @mindreeper2420
+
+---
+
 ## vv2.0.0-prerelease.12 (29/01/2020)
 - [2.0.0-prerelease.12](https://github.com/mindreeper2420/rhddx/commit/b83a1a3d4d44bce7c755011bf735c937dedd65b9) - @mindreeper2420
 - [Fix CMS UI templates](https://github.com/mindreeper2420/rhddx/commit/d3f7946331c2389e8c84b096b6da5376dfd8972c) - @mindreeper2420
@@ -161,7 +168,3 @@
 ---
 
 ## v1.0.0-prerelease.17 (15/01/2020)
-
----
-
-## v1.0.0-prerelease.16 (15/01/2020)
