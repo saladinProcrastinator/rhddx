@@ -76,7 +76,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "assemblies", value: "assemblies" }
           - { label: "contact", value: "contact" }
           - { label: "about", value: "about" }
-        required: true
       - label: "Category (used to assign navigation)"
         name: "category"
         widget: "select"
