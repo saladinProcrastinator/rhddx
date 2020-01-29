@@ -73,7 +73,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "gettingstartedsubpages"
-    label: "getting-started-pages"
+    label: "Getting Started Pages"
     folder: "pages/getting-started"
     sort: "title:asc"
     create: true # Allow users to create new Getting Started pages in the admin UI
@@ -86,7 +86,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "pagessubpages"
-    label: "page-example-pages"
+    label: "Page Example Pages"
     folder: "pages/pages"
     sort: "title:asc"
     create: true # Allow users to create new Page example pages in the admin UI
@@ -99,7 +99,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "examplesubpages"
-    label: "example-pages"
+    label: "Example Pages"
     folder: "pages/examples"
     sort: "title:asc"
     create: true # Allow users to create new Example pages in the admin UI
