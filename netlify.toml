@@ -9,7 +9,7 @@
 # deploy contexts will inherit these settings.
 [context.production]
   publish = "_site"
-  command = "npm run prodDeploy"
+  command = "npm run deployment"
 
 # Deploy Preview context: all deploys generated from a pull/merge request will
 # inherit these settings.
