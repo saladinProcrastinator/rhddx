@@ -11,7 +11,7 @@ echo "Pull latest from master"
 git pull --rebase origin master
 
 echo "Update NPM Version"
-VERSION=${1?Error: deliniate major, minor, path or prerelease}
+VERSION=${1?Error: deliniate major, minor, patch or prerelease}
 npm version "$VERSION"
 
 echo "Update Changelog"
