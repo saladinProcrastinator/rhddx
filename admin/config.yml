@@ -47,7 +47,7 @@ collections: # A list of collections the CMS should be able to edit
   #     - {label: "Body", name: "body", widget: "code", required: true}
   # PAGES
   - name: "page"
-    label: "Overview Pages"
+    label: "overview-pages"
     folder: "pages"
     sort: "title:asc"
     create: true # Allow users to create new Overview Pages in the admin UI
@@ -59,7 +59,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}", required: false}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "design subpages"
+  - name: "design-subpages"
     label: "Design Pages"
     folder: "pages/design"
     sort: "title:asc"
@@ -72,8 +72,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "gettingstarted subpages"
-    label: "Getting Started Pages"
+  - name: "gettingstartedsubpages"
+    label: "getting-started-pages"
     folder: "pages/getting-started"
     sort: "title:asc"
     create: true # Allow users to create new Getting Started pages in the admin UI
@@ -85,8 +85,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "pages subpages"
-    label: "Page Example Pages"
+  - name: "pagessubpages"
+    label: "page-example-pages"
     folder: "pages/pages"
     sort: "title:asc"
     create: true # Allow users to create new Page example pages in the admin UI
@@ -98,8 +98,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "example subpages"
-    label: "Example Pages"
+  - name: "examplesubpages"
+    label: "example-pages"
     folder: "pages/examples"
     sort: "title:asc"
     create: true # Allow users to create new Example pages in the admin UI
