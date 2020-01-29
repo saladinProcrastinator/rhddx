@@ -1,6 +1,13 @@
 # Changelog
 
-## vv2.0.0-prerelease.9 (29/01/2020)
+## vv2.0.0-prerelease.10 (29/01/2020)
+- [2.0.0-prerelease.10](https://github.com/mindreeper2420/rhddx/commit/858f7e81550e8dfe60438ee2c87e213141f503de) - @mindreeper2420
+- [Fix spelling error in release script](https://github.com/mindreeper2420/rhddx/commit/510ab0d03a136975c9f1e94cbb9bafd94068ac09) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/f4a11f892ba024ac53d747cfcce52daa0c5d9861) - @mindreeper2420
+
+---
+
+## v2.0.0-prerelease.9 (29/01/2020)
 - [2.0.0-prerelease.9](https://github.com/mindreeper2420/rhddx/commit/7ede8d47fd575ae0b6f22ca1b4d93a0a1c7c82b9) - @mindreeper2420
 - [Simplify scripts](https://github.com/mindreeper2420/rhddx/commit/da1be205bbcaa0ef9d654e1a0f357f1b8328a0b8) - @mindreeper2420
 - [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/36e1229651641a5369701cdb6a9a954e0b3d630c) - @mindreeper2420
@@ -149,7 +156,3 @@
 ---
 
 ## v1.0.0-prerelease.14 (15/01/2020)
-
----
-
-## v1.0.0-prerelease.13 (15/01/2020)
