@@ -13,7 +13,9 @@
     "submodule": "git submodule init && cd developers.redhat.com/ && git submodule update && cd _docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/ && npm install && cd ../../../../../../../../../",
     "deployment": "gulp deploy",
     "development": "gulp development",
-    "release": "gren release -P --override && gren changelog --override"
+    "changelog": "gren release -P --override && gren changelog --override",
+    "push-tags": "git push origin master --follow-tags",
+    "release": "npm run push-tags && npm run changelog"
   },
   "sass": {
     "includePaths": [
