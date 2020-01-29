@@ -1,6 +1,16 @@
 # Changelog
 
-## vv2.0.0-prerelease.10 (29/01/2020)
+## vv2.0.0-prerelease.11 (29/01/2020)
+- [2.0.0-prerelease.11](https://github.com/mindreeper2420/rhddx/commit/396f1e0584857cfd773ec1606cb701dbaea175d4) - @mindreeper2420
+- [Update collection labels](https://github.com/mindreeper2420/rhddx/commit/b30f4a83c29276ef1cb0ea5a83014f9dcbe3b9b8) - @mindreeper2420
+- [Merge pull request #40 from mindreeper2420/cms/design-subpages/styles](https://github.com/mindreeper2420/rhddx/commit/6eb92bc59e2cd3d543496f6d1353a2ce2b551054) - @mindreeper2420
+- [Update Design Pages “styles”](https://github.com/mindreeper2420/rhddx/commit/bc43e3f3f58ddaafeceea47926236ebc2988a2e4) - @mindreeper2420
+- [Fix label bug](https://github.com/mindreeper2420/rhddx/commit/98e3fd65a6feba5da004f767268ac783c7c9afd0) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/965d4f7f08d6aab879784504802833c8a566b9aa) - @mindreeper2420
+
+---
+
+## v2.0.0-prerelease.10 (29/01/2020)
 - [2.0.0-prerelease.10](https://github.com/mindreeper2420/rhddx/commit/858f7e81550e8dfe60438ee2c87e213141f503de) - @mindreeper2420
 - [Fix spelling error in release script](https://github.com/mindreeper2420/rhddx/commit/510ab0d03a136975c9f1e94cbb9bafd94068ac09) - @mindreeper2420
 - [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/f4a11f892ba024ac53d747cfcce52daa0c5d9861) - @mindreeper2420
@@ -152,7 +162,3 @@
 ---
 
 ## v1.0.0-prerelease.15 (15/01/2020)
-
----
-
-## v1.0.0-prerelease.14 (15/01/2020)
