@@ -14,8 +14,8 @@
     "deployment": "gulp deploy",
     "development": "gulp development",
     "changelog": "gren release -P --override && gren changelog --override",
-    "push-tags": "git push origin master --follow-tags",
-    "release": "npm run push-tags && npm run changelog"
+    "release": "scripts/./release.sh prerelease",
+    "prodDeploy": "npm run deployment && npm run release"
   },
   "sass": {
     "includePaths": [
