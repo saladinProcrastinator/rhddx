@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0-prerelease.14 (29/01/2020)
+- [2.0.0-prerelease.14](https://github.com/mindreeper2420/rhddx/commit/18812c1f49857bd0801d326be1aaf2f237f0f05c) - @mindreeper2420
+- [Patch release process](https://github.com/mindreeper2420/rhddx/commit/56fcb7fbdfe6d8bf745c72b582651f70e765434c) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/6bceee914fdf1ceca8c0d1b90b040d19b4393278) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.13 (29/01/2020)
 - [2.0.0-prerelease.13](https://github.com/mindreeper2420/rhddx/commit/52ccd54597b5962281fa884bd89f1566c101d1ac) - @mindreeper2420
 - [Bad indentation error](https://github.com/mindreeper2420/rhddx/commit/70564ce939e38c220f62587ec9bdb86dc6c9fd43) - @mindreeper2420
@@ -164,7 +171,3 @@
 ---
 
 ## v1.0.0-prerelease.18 (15/01/2020)
-
----
-
-## v1.0.0-prerelease.17 (15/01/2020)
