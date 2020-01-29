@@ -19,7 +19,7 @@ NAME=${1?Error: no tag given}
 git tag -a $NAME -m "$NAME"
 
 echo "Update Tags/Releases"
-git push origin master --folow-tags
+git push origin master --follow-tags
 
 echo "Update Changelog"
 gren release -P --override && gren changelog --override
