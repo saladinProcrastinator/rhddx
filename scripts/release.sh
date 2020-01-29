@@ -16,3 +16,6 @@ npm version "$VERSION"
 
 echo "Update Changelog"
 gren release -P --override && gren changelog --override
+
+echo "Commit Changelog and push to master"
+git add --all && git commit -m "Update Changelog"
