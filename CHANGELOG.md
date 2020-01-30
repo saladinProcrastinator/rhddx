@@ -1,5 +1,14 @@
 # Changelog
 
+## v2.0.0-prerelease.19 (29/01/2020)
+- [2.0.0-prerelease.19](https://github.com/mindreeper2420/rhddx/commit/9aa0705ff93b18e202eb2807208fa8332983dbab) - @mindreeper2420
+- [Merge pull request #44 from mindreeper2420/cms/gettingstartedsubpages/develop](https://github.com/mindreeper2420/rhddx/commit/c2dac182fc43a7e52ee6a84b424df146f32beb1e) - @mindreeper2420
+- [Update Getting Started Pages “develop”](https://github.com/mindreeper2420/rhddx/commit/8937ddeedd48b7d1cb24af5de2c79219da45ddf7) - @mindreeper2420
+- [Create Getting Started Pages “develop”](https://github.com/mindreeper2420/rhddx/commit/ee3d60a178ac9e8552107609103eb16fc87d1379) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/049529f00785e7a48deee890845daefa50c38d23) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.18 (29/01/2020)
 - [2.0.0-prerelease.18](https://github.com/mindreeper2420/rhddx/commit/5c6fb6c9679dc3307eb6e44267f9bb82a4229acc) - @mindreeper2420
 - [Remove requirement for category on overview pages](https://github.com/mindreeper2420/rhddx/commit/2454ba98842ba1c0170c412aa020a661d1078737) - @mindreeper2420
@@ -174,7 +183,3 @@
 
 ## v1.0.0-prerelease.23 (15/01/2020)
 - [Cleanup build processes](https://github.com/mindreeper2420/rhddx/commit/4a92b573790c9c8cacbd3944715768c1729dfb5d) - @mindreeper2420
-
----
-
-## v1.0.0-prerelease.22 (15/01/2020)
