@@ -20,14 +20,17 @@ layout: compress
       <main class="pf-c-page__main" role="main" tab-index="-1">
         <section class="pf-c-page__main-section pf-m-light pf-m-fill">
           <div class="pf-l-grid pf-c-content">
-            <div class="pf-l-grid__item pf-m-12-col" id="main">
+            <div class="pf-l-grid__item pf-m-11-col" id="main">
               <h1>{{ page.title }}</h1>
               {% include page-intro.html %}
               {{ content }}
             </div>
-            <div class="pf-l-grid__item pf-m-12-col">
-              <a class="pf-c-button pf-m-primary" href="{{ site.baseurl }}/admin/#/collection/design-subpages/entries/{{ page.path | replace: '.md', '' }}" title="Edit this page in Netlify CMS">
-                <span>Edit this page <i class="fad fa-user-edit"></i></span>
+            <div class="rhddx-m-float">
+              <a class="pf-c-button pf-m-primary rhddx-c-button rhddx-m-edit" href="{{ site.baseurl }}/admin/#/collections/design-subpages/entries/{{ page.path | replace: '.md', '' }}" title="Edit this page in Netlify CMS">
+                <i class="fad fa-user-edit"></i>
+              </a>
+              <a class="pf-c-button pf-m-primary rhddx-c-button rhddx-m-new" href="{{ site.baseurl }}/admin/#/collections/design-subpages/new" title="Add a new RHDDX page in Netlify CMS">
+                <i class="fad fa-plus"></i>
               </a>
             </div>
           </div>

@@ -9,20 +9,12 @@ layout: compress
 
   <body>
     <div class="pf-c-page">
+      <!-- <a class="pf-c-skip-to-content pf-c-button pf-m-primary" href="#main">Skip to content</a> -->
       {% include header.html %}
-      <div class="pf-c-page__sidebar pf-m-dark">
-        <div class="pf-c-page__sidebar-body">
-          <nav class="pf-c-nav pf-m-dark" id="expandable-vertical-nav">
-            {% include sidenavs/sidenav-getting-started.html component=site.data.getting-started %}
-          </nav>
-        </div>
-      </div>
       <main class="pf-c-page__main" role="main" tab-index="-1">
         <section class="pf-c-page__main-section pf-m-light pf-m-fill">
           <div class="pf-l-grid pf-c-content">
-            <div class="pf-l-grid__item pf-m-11-col" id="main">
-              <h1>{{ page.title }}</h1>
-              <blockquote>{% include page-intro.html %}</blockquote>
+            <div class="pf-l-grid__item pf-u-py-md pf-u-pl-md" id="main">
               {{ content }}
             </div>
             <div class="rhddx-m-float">
@@ -38,7 +30,6 @@ layout: compress
         {% include footer.html %}
       </main>
     </div>
-
   </body>
 
 </html>
