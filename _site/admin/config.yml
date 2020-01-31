@@ -55,7 +55,7 @@ collections: # A list of collections the CMS should be able to edit
   #     - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
   #     - {label: "Body", name: "body", widget: "code", required: true}
   # PAGES
-  - name: "overview"
+  - name: "page"
     label: "Overview Pages"
     folder: "pages"
     sort: "title:asc"
@@ -96,7 +96,7 @@ collections: # A list of collections the CMS should be able to edit
         required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "design"
+  - name: "design-subpages"
     label: "Design Pages"
     folder: "pages/design"
     sort: "title:asc"

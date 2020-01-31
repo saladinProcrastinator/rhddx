@@ -26,12 +26,21 @@ layout: compress
               {{ content }}
             </div>
             <div class="rhddx-m-float">
+              {% if page.section == 'overview' %}
+              <a class="pf-c-button pf-m-primary rhddx-c-button rhddx-m-edit" href="{{ site.baseurl }}/admin/#/collections/page/entries/{{ page.path | split: '/' | last | replace: '.md', '' }}" title="Edit this page in Netlify CMS">
+                <i class="fad fa-user-edit"></i>
+              </a>
+              <a class="pf-c-button pf-m-primary rhddx-c-button rhddx-m-new" href="{{ site.baseurl }}/admin/#/collections/getting-started/new" title="Add a new RHDDX page in Netlify CMS">
+                <i class="fad fa-plus"></i>
+              </a>
+              {% else %}
               <a class="pf-c-button pf-m-primary rhddx-c-button rhddx-m-edit" href="{{ site.baseurl }}/admin/#/collections/getting-started/entries/{{ page.path | split: '/' | last | replace: '.md', '' }}" title="Edit this page in Netlify CMS">
                 <i class="fad fa-user-edit"></i>
               </a>
               <a class="pf-c-button pf-m-primary rhddx-c-button rhddx-m-new" href="{{ site.baseurl }}/admin/#/collections/getting-started/new" title="Add a new RHDDX page in Netlify CMS">
                 <i class="fad fa-plus"></i>
               </a>
+              {% endif %}
             </div>
           </div>
         </section>
