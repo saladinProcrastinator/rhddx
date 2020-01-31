@@ -1,5 +1,21 @@
 # Changelog
 
+## v2.0.0-prerelease.21 (31/01/2020)
+- [2.0.0-prerelease.21](https://github.com/mindreeper2420/rhddx/commit/6a8f1712c7ab603e7e0e9114f57cb28386c3161a) - @mindreeper2420
+- [Add a Field Hint to the Layout Dropdown](https://github.com/mindreeper2420/rhddx/commit/016f739472c8daa348cfd7e13239020fd3b30436) - @mindreeper2420
+- [Fix Broken Config](https://github.com/mindreeper2420/rhddx/commit/354e34ef3a832aaca87833dfaba45a1506a7abd5) - @mindreeper2420
+- [Add Field Hints; Remove Category Field; Cleanup Labels](https://github.com/mindreeper2420/rhddx/commit/564754f2dd03287206d9e8f12598632711796379) - @mindreeper2420
+- [Add alternate URLs for Editing Overview Pages](https://github.com/mindreeper2420/rhddx/commit/958d4b07c3ae456e331e7c3af0d4e0afa1fe3ad4) - @mindreeper2420
+- [Swap Category for Section frontmatter; Update Config](https://github.com/mindreeper2420/rhddx/commit/3ccbb663766198fc149c4c7eac4b818eb4dd823b) - @mindreeper2420
+- [Update CMS Shortcuts for Design pages](https://github.com/mindreeper2420/rhddx/commit/05549b5ba8b05fe37d8471450a93edc53c5c4116) - @mindreeper2420
+- [Add New Page button](https://github.com/mindreeper2420/rhddx/commit/cb61d0e9f8a1478682036a48cd0bceb7e0c2f020) - @mindreeper2420
+- [Add Admin CMS styles](https://github.com/mindreeper2420/rhddx/commit/7670ed0e00e39fb7e198818db76763d4f3ac2a52) - @mindreeper2420
+- [Fix backend git configuration](https://github.com/mindreeper2420/rhddx/commit/1329fd05c8109ecaf50946528034955df3b7fc09) - @mindreeper2420
+- [Add Edit Button and update page configs](https://github.com/mindreeper2420/rhddx/commit/2a160cb2de5b11db2b59e3f9ab0fa1068a26899d) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/c334223137ed00c58a9cc543dd2a40d9e27df682) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.20 (31/01/2020)
 - [2.0.0-prerelease.20](https://github.com/mindreeper2420/rhddx/commit/a598cdc42c823ca86a810dccf830dfd39269d5eb) - @mindreeper2420
 - [Automatically generated. Merged on Netlify CMS](https://github.com/mindreeper2420/rhddx/commit/d313f3a74aadc2c057983952107b18ce61841fb7) - @mindreeper2420
@@ -180,8 +196,3 @@
 
 ## v1.0.0-prerelease.25 (15/01/2020)
 - [Update release script to build Changelog](https://github.com/mindreeper2420/rhddx/commit/40b6ae664968608ce569ec7539235f6c7aa021e3) - @mindreeper2420
-
----
-
-## v1.0.0-prerelease.24 (15/01/2020)
-- [Add Changelog update script](https://github.com/mindreeper2420/rhddx/commit/aeed7d88f011e2f9af1432749fa4e9a4b6f0d565) - @mindreeper2420
