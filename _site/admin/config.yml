@@ -13,7 +13,7 @@ backend:
     uploadMedia: Upload "{{path}}"
     deleteMedia: Delete "{{path}}"
 
-logo_url: https://rhddx.netlify.com/assets/img/NewRHDFullLogo_white.png
+logo_url: https://rhddx.netlify.com/assets/img/NewRHDFullLogo_black.png
 publish_mode: editorial_workflow # Enable drafts
 media_folder: "assets/uploads" # Folder where user uploaded files should go
 pull_request_url: https://github.com/mindreeper2420/rhddx/pulls
@@ -63,9 +63,10 @@ collections: # A list of collections the CMS should be able to edit
     delete: true
     slug: "{{slug}}"
     fields:
-      - label: "Layout - Select a layout to use (should match where page will reside)"
+      - label: "Layout"
         name: "layout"
         widget: "select"
+        hint: "Select a layout to use (should match Section)"
         options:
           - { label: "Example pages", value: "pages" }
           - { label: "Design pages", value: "design" }
@@ -74,26 +75,37 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Contact pages", value: "contact" }
           - { label: "About pages", value: "page" }
         required: true
-      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "URL", name: "permalink", widget: "string", default: "/{{page-title}}", required: true}
-      - label: "Section - What section does this page fall under?"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "The title and link to the page"
+        tagname: "h1"
+        required: true
+      - label: "URL"
+        name: "permalink"
+        widget: "string"
+        default: "/{{page-title}}"
+        hint: "If applicable, replace {{page-title}} with the title of the page"
+        required: true
+      - label: "Section"
         name: "section"
         widget: "select"
+        hint: "The area (section) where this page will live"
         options:
-          - { label: "pages", value: "pages" }
-          - { label: "design", value: "design" }
-          - { label: "getting_started", value: "getting_started" }
-          - { label: "assemblies", value: "assemblies" }
-          - { label: "contact", value: "contact" }
-          - { label: "about", value: "about" }
-      - label: "Category (used to assign navigation)"
-        name: "category"
-        widget: "select"
-        options:
-          - { label: "pages", value: "pages" }
-          - { label: "design", value: "design" }
-          - { label: "getting-started", value: "getting-started" }
-        required: true
+          - { label: "Example pages", value: "pages" }
+          - { label: "Design pages", value: "design" }
+          - { label: "Getting Started", value: "getting-started" }
+          - { label: "Assembly Examples", value: "assemblies" }
+          - { label: "Contact pages", value: "contact" }
+          - { label: "About pages", value: "page" }
+      # - label: "Category (used to assign navigation)"
+      #   name: "category"
+      #   widget: "select"
+      #   options:
+      #     - { label: "pages", value: "pages" }
+      #     - { label: "design", value: "design" }
+      #     - { label: "getting-started", value: "getting-started" }
+        # required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "design-subpages"
@@ -104,33 +116,44 @@ collections: # A list of collections the CMS should be able to edit
     delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "design"}
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        hint: "Select a layout to use (should match Section)"
+        default: "design"
       - label: "Title"
         name: "title"
         widget: "string"
         hint: "The title and link to the page"
         tagname: "h1"
         required: true
-      - {label: "URL", name: "permalink", widget: "string", default: "/design/{{page-title}}", required: true}
-      - label: "Section - What section does this page fall under?"
+      - label: "URL"
+        name: "permalink"
+        widget: "string"
+        default: "/{{page-title}}"
+        hint: "If applicable, replace {{page-title}} with the title of the page"
+        required: true
+      - label: "Section"
         name: "section"
         widget: "select"
+        hint: "The area (section) where this page will live"
         options:
-          - { label: "pages", value: "pages" }
-          - { label: "design", value: "design" }
-          - { label: "getting_started", value: "getting_started" }
-          - { label: "assemblies", value: "assemblies" }
-          - { label: "contact", value: "contact" }
-          - { label: "about", value: "about" }
+          - { label: "Example pages", value: "pages" }
+          - { label: "Design pages", value: "design" }
+          - { label: "Getting Started", value: "getting-started" }
+          - { label: "Assembly Examples", value: "assemblies" }
+          - { label: "Contact pages", value: "contact" }
+          - { label: "About pages", value: "page" }
         required: true
-      - label: "Category (used to assign navigation)"
-        name: "category"
-        widget: "select"
-        options:
-          - { label: "pages", value: "pages" }
-          - { label: "design", value: "design" }
-          - { label: "getting-started", value: "getting-started" }
-        required: true
+      # - label: "Category (used to assign navigation)"
+      #   name: "category"
+      #   widget: "select"
+      #   hint: "The area (section) where this page will live"
+      #   options:
+      #     - { label: "pages", value: "pages" }
+      #     - { label: "design", value: "design" }
+      #     - { label: "getting-started", value: "getting-started" }
+      #   required: true
       - {label: "Date", name: "date", widget: "datetime", format: "MM-DD-YYYY HH:mm:ss", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
@@ -142,28 +165,43 @@ collections: # A list of collections the CMS should be able to edit
     delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "getting-started"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "URL", name: "permalink", widget: "string", default: "/getting-started/{{page-title}}", required: true}
-      - label: "Section - What section does this page fall under?"
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        hint: "Select a layout to use (should match Section)"
+        default: "getting-started"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "The title and link to the page"
+        tagname: "h1"
+        required: true
+      - label: "URL"
+        name: "permalink"
+        widget: "string"
+        default: "/{{page-title}}"
+        hint: "If applicable, replace {{page-title}} with the title of the page"
+        required: true
+      - label: "Section"
         name: "section"
         widget: "select"
+        hint: "The area (section) where this page will live"
         options:
-          - { label: "pages", value: "pages" }
-          - { label: "design", value: "design" }
-          - { label: "getting_started", value: "getting_started" }
-          - { label: "assemblies", value: "assemblies" }
-          - { label: "contact", value: "contact" }
-          - { label: "about", value: "about" }
+          - { label: "Example pages", value: "pages" }
+          - { label: "Design pages", value: "design" }
+          - { label: "Getting Started", value: "getting-started" }
+          - { label: "Assembly Examples", value: "assemblies" }
+          - { label: "Contact pages", value: "contact" }
+          - { label: "About pages", value: "page" }
         required: true
-      - label: "Category (used to assign navigation)"
-        name: "category"
-        widget: "select"
-        options:
-          - { label: "pages", value: "pages" }
-          - { label: "design", value: "design" }
-          - { label: "getting-started", value: "getting-started" }
-        required: true
+      # - label: "Category (used to assign navigation)"
+      #   name: "category"
+      #   widget: "select"
+      #   options:
+      #     - { label: "pages", value: "pages" }
+      #     - { label: "design", value: "design" }
+      #     - { label: "getting-started", value: "getting-started" }
+      #   required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "pages"
@@ -174,28 +212,43 @@ collections: # A list of collections the CMS should be able to edit
     delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "pages"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "URL", name: "permalink", widget: "string", default: "/pages/{{page-title}}", required: true}
-      - label: "Section - What section does this page fall under?"
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        hint: "Select a layout to use (should match Section)"
+        default: "pages"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "The title and link to the page"
+        tagname: "h1"
+        required: true
+      - label: "URL"
+        name: "permalink"
+        widget: "string"
+        default: "/{{page-title}}"
+        hint: "If applicable, replace {{page-title}} with the title of the page"
+        required: true
+      - label: "Section"
         name: "section"
         widget: "select"
+        hint: "The area (section) where this page will live"
         options:
-          - { label: "pages", value: "pages" }
-          - { label: "design", value: "design" }
-          - { label: "getting_started", value: "getting_started" }
-          - { label: "assemblies", value: "assemblies" }
-          - { label: "contact", value: "contact" }
-          - { label: "about", value: "about" }
+          - { label: "Example pages", value: "pages" }
+          - { label: "Design pages", value: "design" }
+          - { label: "Getting Started", value: "getting-started" }
+          - { label: "Assembly Examples", value: "assemblies" }
+          - { label: "Contact pages", value: "contact" }
+          - { label: "About pages", value: "page" }
         required: true
-      - label: "Category (used to assign navigation)"
-        name: "category"
-        widget: "select"
-        options:
-          - { label: "pages", value: "pages" }
-          - { label: "design", value: "design" }
-          - { label: "getting-started", value: "getting-started" }
-        required: true
+      # - label: "Category (used to assign navigation)"
+      #   name: "category"
+      #   widget: "select"
+      #   options:
+      #     - { label: "pages", value: "pages" }
+      #     - { label: "design", value: "design" }
+      #     - { label: "getting-started", value: "getting-started" }
+      #   required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "examplesubpages"
@@ -206,28 +259,43 @@ collections: # A list of collections the CMS should be able to edit
     delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "URL", name: "permalink", widget: "string", default: "/examples/{{page-title}}", required: true}
-      - label: "Section - What section does this page fall under?"
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        hint: "Select a layout to use (should match Section)"
+        default: "page"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "The title and link to the page"
+        tagname: "h1"
+        required: true
+      - label: "URL"
+        name: "permalink"
+        widget: "string"
+        default: "/{{page-title}}"
+        hint: "If applicable, replace {{page-title}} with the title of the page"
+        required: true
+      - label: "Section"
         name: "section"
         widget: "select"
+        hint: "The area (section) where this page will live"
         options:
-          - { label: "pages", value: "pages" }
-          - { label: "design", value: "design" }
-          - { label: "getting_started", value: "getting_started" }
-          - { label: "assemblies", value: "assemblies" }
-          - { label: "contact", value: "contact" }
-          - { label: "about", value: "about" }
+          - { label: "Example pages", value: "pages" }
+          - { label: "Design pages", value: "design" }
+          - { label: "Getting Started", value: "getting-started" }
+          - { label: "Assembly Examples", value: "assemblies" }
+          - { label: "Contact pages", value: "contact" }
+          - { label: "About pages", value: "page" }
         required: true
-      - label: "Category (used to assign navigation)"
-        name: "category"
-        widget: "select"
-        options:
-          - { label: "pages", value: "pages" }
-          - { label: "design", value: "design" }
-          - { label: "getting-started", value: "getting-started" }
-        required: true
+      # - label: "Category (used to assign navigation)"
+      #   name: "category"
+      #   widget: "select"
+      #   options:
+      #     - { label: "pages", value: "pages" }
+      #     - { label: "design", value: "design" }
+      #     - { label: "getting-started", value: "getting-started" }
+        # required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation

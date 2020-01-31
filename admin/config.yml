@@ -13,7 +13,7 @@ backend:
     uploadMedia: Upload "{{path}}"
     deleteMedia: Delete "{{path}}"
 
-logo_url: https://rhddx.netlify.com/assets/img/NewRHDFullLogo_white.png
+logo_url: https://rhddx.netlify.com/assets/img/NewRHDFullLogo_black.png
 publish_mode: editorial_workflow # Enable drafts
 media_folder: "assets/uploads" # Folder where user uploaded files should go
 pull_request_url: https://github.com/mindreeper2420/rhddx/pulls
