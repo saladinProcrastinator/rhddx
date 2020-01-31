@@ -5,10 +5,13 @@ backend:
   name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
   repo: mindreeper2420/rhddx
   branch: master # Branch to update (master by default)
+  squash_merges: true
   commit_messages:
     create: Create "{{slug}}" page
     update: Update "{{slug}}" page
     delete: Delete "{{slug}}" page
+    uploadMedia: Upload "{{path}}"
+    deleteMedia: Delete "{{path}}"
 
 logo_url: https://rhddx.netlify.com/assets/img/NewRHDFullLogo_white.png
 publish_mode: editorial_workflow # Enable drafts
