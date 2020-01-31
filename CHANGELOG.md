@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0-prerelease.20 (31/01/2020)
+- [2.0.0-prerelease.20](https://github.com/mindreeper2420/rhddx/commit/a598cdc42c823ca86a810dccf830dfd39269d5eb) - @mindreeper2420
+- [Automatically generated. Merged on Netlify CMS](https://github.com/mindreeper2420/rhddx/commit/d313f3a74aadc2c057983952107b18ce61841fb7) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/5f377de6b28df487125dd81c7fe33bd7de65ce17) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.19 (29/01/2020)
 - [2.0.0-prerelease.19](https://github.com/mindreeper2420/rhddx/commit/9aa0705ff93b18e202eb2807208fa8332983dbab) - @mindreeper2420
 - [Merge pull request #44 from mindreeper2420/cms/gettingstartedsubpages/develop](https://github.com/mindreeper2420/rhddx/commit/c2dac182fc43a7e52ee6a84b424df146f32beb1e) - @mindreeper2420
@@ -178,8 +185,3 @@
 
 ## v1.0.0-prerelease.24 (15/01/2020)
 - [Add Changelog update script](https://github.com/mindreeper2420/rhddx/commit/aeed7d88f011e2f9af1432749fa4e9a4b6f0d565) - @mindreeper2420
-
----
-
-## v1.0.0-prerelease.23 (15/01/2020)
-- [Cleanup build processes](https://github.com/mindreeper2420/rhddx/commit/4a92b573790c9c8cacbd3944715768c1729dfb5d) - @mindreeper2420
