@@ -2,8 +2,7 @@
 # https://www.netlifycms.org/docs/configuration-options/
 
 backend:
-  # name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
-  name: github
+  name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
   repo: mindreeper2420/rhddx
   branch: master # Branch to update (master by default)
   commit_messages:
