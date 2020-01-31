@@ -134,7 +134,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Date", name: "date", widget: "datetime", format: "MM-DD-YYYY HH:mm:ss", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "gettingstartedsubpages"
+  - name: "getting-started"
     label: "Getting Started Pages"
     folder: "pages/getting-started"
     sort: "title:asc"
