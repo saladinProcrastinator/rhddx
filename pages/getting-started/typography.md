@@ -2,8 +2,7 @@
 layout: getting-started
 title: Typography
 permalink: /getting-started/typography
-section: getting_started
-category: getting-started
+section: getting-started
 intro_paragraph: >
   Fonts used by RHDDX.
 ---

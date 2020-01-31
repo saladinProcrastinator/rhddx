@@ -55,7 +55,7 @@ collections: # A list of collections the CMS should be able to edit
   #     - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
   #     - {label: "Body", name: "body", widget: "code", required: true}
   # PAGES
-  - name: "page"
+  - name: "overview"
     label: "Overview Pages"
     folder: "pages"
     sort: "title:asc"
@@ -96,7 +96,7 @@ collections: # A list of collections the CMS should be able to edit
         required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "design-subpages"
+  - name: "design"
     label: "Design Pages"
     folder: "pages/design"
     sort: "title:asc"
@@ -134,7 +134,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Date", name: "date", widget: "datetime", format: "MM-DD-YYYY HH:mm:ss", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "gettingstartedsubpages"
+  - name: "getting-started"
     label: "Getting Started Pages"
     folder: "pages/getting-started"
     sort: "title:asc"
@@ -166,7 +166,7 @@ collections: # A list of collections the CMS should be able to edit
         required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "pagessubpages"
+  - name: "pages"
     label: "Page Example Pages"
     folder: "pages/pages"
     sort: "title:asc"

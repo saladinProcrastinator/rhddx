@@ -26,10 +26,10 @@ layout: compress
               {{ content }}
             </div>
             <div class="rhddx-m-float">
-              <a class="pf-c-button pf-m-primary rhddx-c-button rhddx-m-edit" href="{{ site.baseurl }}/admin/#/collections/gettingstartedsubpages/entries/{{ page.path | replace: '.md', '' }}" title="Edit this page in Netlify CMS">
+              <a class="pf-c-button pf-m-primary rhddx-c-button rhddx-m-edit" href="{{ site.baseurl }}/admin/#/collections/getting-started/entries/{{ page.path | split: '/' | last | replace: '.md', '' }}" title="Edit this page in Netlify CMS">
                 <i class="fad fa-user-edit"></i>
               </a>
-              <a class="pf-c-button pf-m-primary rhddx-c-button rhddx-m-new" href="{{ site.baseurl }}/admin/#/collections/gettingstartedsubpages/new" title="Add a new RHDDX page in Netlify CMS">
+              <a class="pf-c-button pf-m-primary rhddx-c-button rhddx-m-new" href="{{ site.baseurl }}/admin/#/collections/getting-started/new" title="Add a new RHDDX page in Netlify CMS">
                 <i class="fad fa-plus"></i>
               </a>
             </div>

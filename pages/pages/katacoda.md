@@ -3,7 +3,6 @@ layout: pages
 title: Katacoda
 permalink: /pages/katacoda
 section: pages
-category: pages
 intro_paragraph: >
   This is an example of the Katacoda page.
 ---

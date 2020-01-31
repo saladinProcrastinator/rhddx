@@ -166,7 +166,7 @@ collections: # A list of collections the CMS should be able to edit
         required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "pagessubpages"
+  - name: "pages"
     label: "Page Example Pages"
     folder: "pages/pages"
     sort: "title:asc"

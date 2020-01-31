@@ -3,7 +3,6 @@ layout: pages
 title: Layout Examples
 permalink: /pages/layouts
 section: pages
-category: layouts
 intro_paragraph: >
   Examples of various layouts available on CodePen.io
 ---

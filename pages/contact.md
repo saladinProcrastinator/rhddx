@@ -2,7 +2,7 @@
 layout: contact
 title: Contact
 permalink: /contact
-section: contact
+section: overview
 intro_paragraph: |-
 
   The contact form on this page uses

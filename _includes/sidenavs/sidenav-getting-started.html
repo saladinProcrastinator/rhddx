@@ -7,7 +7,7 @@
     <section class="pf-c-nav__subnav">
       {% for page in site.pages %}
       <ul class="pf-c-nav__simple-list">
-        {% if page.category == "getting-started" %}
+        {% if page.section == "getting-started" %}
         <li class="pf-c-nav__item">
           <a href="{{ page.url }}" {% if page.title == page.category.title %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} >{{ page.title }}</a>
         </li>
