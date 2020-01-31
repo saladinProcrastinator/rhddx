@@ -104,7 +104,7 @@ collections: # A list of collections the CMS should be able to edit
       #     - { label: "pages", value: "pages" }
       #     - { label: "design", value: "design" }
       #     - { label: "getting-started", value: "getting-started" }
-        required: true
+        # required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "design-subpages"
@@ -278,7 +278,7 @@ collections: # A list of collections the CMS should be able to edit
       #     - { label: "pages", value: "pages" }
       #     - { label: "design", value: "design" }
       #     - { label: "getting-started", value: "getting-started" }
-        required: true
+        # required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation
