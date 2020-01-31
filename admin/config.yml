@@ -2,12 +2,19 @@
 # https://www.netlifycms.org/docs/configuration-options/
 
 backend:
-  name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
+  # name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
+  name: github
+  repo: mindreeper2420/rhddx
   branch: master # Branch to update (master by default)
+  commit_messages:
+    create: Create "{{slug}}" page
+    update: Update "{{slug}}" page
+    delete: Delete "{{slug}}" page
 
-media_folder: "assets/uploads" # Folder where user uploaded files should go
-
+logo_url: https://rhddx.netlify.com/assets/img/NewRHDFullLogo_white.png
 publish_mode: editorial_workflow # Enable drafts
+media_folder: "assets/uploads" # Folder where user uploaded files should go
+pull_request_url: https://github.com/mindreeper2420/rhddx/pulls
 
 collections: # A list of collections the CMS should be able to edit
   # POSTS
@@ -47,10 +54,11 @@ collections: # A list of collections the CMS should be able to edit
   #     - {label: "Body", name: "body", widget: "code", required: true}
   # PAGES
   - name: "page"
-    label: "overview-pages"
+    label: "Overview Pages"
     folder: "pages"
     sort: "title:asc"
     create: true # Allow users to create new Overview Pages in the admin UI
+    delete: true
     slug: "{{slug}}"
     fields:
       - label: "Layout - Select a layout to use (should match where page will reside)"
@@ -65,7 +73,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "About pages", value: "page" }
         required: true
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "URL", name: "permalink", widget: "string", required: true}
+      - {label: "URL", name: "permalink", widget: "string", default: "/{{page-title}}", required: true}
       - label: "Section - What section does this page fall under?"
         name: "section"
         widget: "select"
@@ -91,11 +99,17 @@ collections: # A list of collections the CMS should be able to edit
     folder: "pages/design"
     sort: "title:asc"
     create: true # Allow users to create new Design pages in the admin UI
+    delete: true
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "design"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "URL", name: "permalink", widget: "string", required: true}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "The title and link to the page"
+        tagname: "h1"
+        required: true
+      - {label: "URL", name: "permalink", widget: "string", default: "/design/{{page-title}}", required: true}
       - label: "Section - What section does this page fall under?"
         name: "section"
         widget: "select"
@@ -115,7 +129,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "design", value: "design" }
           - { label: "getting-started", value: "getting-started" }
         required: true
-      - {label: "Date", name: "date", widget: "datetime", format: "MM-DD-YYYY", required: true}
+      - {label: "Date", name: "date", widget: "datetime", format: "MM-DD-YYYY HH:mm:ss", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "gettingstartedsubpages"
@@ -123,11 +137,12 @@ collections: # A list of collections the CMS should be able to edit
     folder: "pages/getting-started"
     sort: "title:asc"
     create: true # Allow users to create new Getting Started pages in the admin UI
+    delete: true
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "getting-started"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "URL", name: "permalink", widget: "string", required: true}
+      - {label: "URL", name: "permalink", widget: "string", default: "/getting-started/{{page-title}}", required: true}
       - label: "Section - What section does this page fall under?"
         name: "section"
         widget: "select"
@@ -154,11 +169,12 @@ collections: # A list of collections the CMS should be able to edit
     folder: "pages/pages"
     sort: "title:asc"
     create: true # Allow users to create new Page example pages in the admin UI
+    delete: true
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "pages"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "URL", name: "permalink", widget: "string", required: true}
+      - {label: "URL", name: "permalink", widget: "string", default: "/pages/{{page-title}}", required: true}
       - label: "Section - What section does this page fall under?"
         name: "section"
         widget: "select"
@@ -185,11 +201,12 @@ collections: # A list of collections the CMS should be able to edit
     folder: "pages/examples"
     sort: "title:asc"
     create: true # Allow users to create new Example pages in the admin UI
+    delete: true
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "URL", name: "permalink", widget: "string", required: true}
+      - {label: "URL", name: "permalink", widget: "string", default: "/examples/{{page-title}}", required: true}
       - label: "Section - What section does this page fall under?"
         name: "section"
         widget: "select"

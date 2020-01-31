@@ -2,12 +2,19 @@
 # https://www.netlifycms.org/docs/configuration-options/
 
 backend:
-  name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
+  # name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
+  name: github
+  repo: mindreeper2420/rhddx
   branch: master # Branch to update (master by default)
+  commit_messages:
+    create: Create "{{slug}}" page
+    update: Update "{{slug}}" page
+    delete: Delete "{{slug}}" page
 
-media_folder: "assets/uploads" # Folder where user uploaded files should go
-
+logo_url: https://rhddx.netlify.com/assets/img/NewRHDFullLogo_white.png
 publish_mode: editorial_workflow # Enable drafts
+media_folder: "assets/uploads" # Folder where user uploaded files should go
+pull_request_url: https://github.com/mindreeper2420/rhddx/pulls
 
 collections: # A list of collections the CMS should be able to edit
   # POSTS
@@ -51,64 +58,174 @@ collections: # A list of collections the CMS should be able to edit
     folder: "pages"
     sort: "title:asc"
     create: true # Allow users to create new Overview Pages in the admin UI
+    delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - label: "Layout - Select a layout to use (should match where page will reside)"
+        name: "layout"
+        widget: "select"
+        options:
+          - { label: "Example pages", value: "pages" }
+          - { label: "Design pages", value: "design" }
+          - { label: "Getting Started", value: "getting-started" }
+          - { label: "Assembly Examples", value: "assemblies" }
+          - { label: "Contact pages", value: "contact" }
+          - { label: "About pages", value: "page" }
+        required: true
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}", required: false}
+      - {label: "URL", name: "permalink", widget: "string", default: "/{{page-title}}", required: true}
+      - label: "Section - What section does this page fall under?"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting_started", value: "getting_started" }
+          - { label: "assemblies", value: "assemblies" }
+          - { label: "contact", value: "contact" }
+          - { label: "about", value: "about" }
+      - label: "Category (used to assign navigation)"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting-started", value: "getting-started" }
+        required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "design subpages"
+  - name: "design-subpages"
     label: "Design Pages"
     folder: "pages/design"
     sort: "title:asc"
     create: true # Allow users to create new Design pages in the admin UI
+    delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "design"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "The title and link to the page"
+        tagname: "h1"
+        required: true
+      - {label: "URL", name: "permalink", widget: "string", default: "/design/{{page-title}}", required: true}
+      - label: "Section - What section does this page fall under?"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting_started", value: "getting_started" }
+          - { label: "assemblies", value: "assemblies" }
+          - { label: "contact", value: "contact" }
+          - { label: "about", value: "about" }
+        required: true
+      - label: "Category (used to assign navigation)"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting-started", value: "getting-started" }
+        required: true
+      - {label: "Date", name: "date", widget: "datetime", format: "MM-DD-YYYY HH:mm:ss", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "gettingstarted subpages"
+  - name: "gettingstartedsubpages"
     label: "Getting Started Pages"
     folder: "pages/getting-started"
     sort: "title:asc"
     create: true # Allow users to create new Getting Started pages in the admin UI
+    delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "getting-started"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "URL", name: "permalink", widget: "string", default: "/getting-started/{{page-title}}", required: true}
+      - label: "Section - What section does this page fall under?"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting_started", value: "getting_started" }
+          - { label: "assemblies", value: "assemblies" }
+          - { label: "contact", value: "contact" }
+          - { label: "about", value: "about" }
+        required: true
+      - label: "Category (used to assign navigation)"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting-started", value: "getting-started" }
+        required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "pages subpages"
+  - name: "pagessubpages"
     label: "Page Example Pages"
     folder: "pages/pages"
     sort: "title:asc"
     create: true # Allow users to create new Page example pages in the admin UI
+    delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "pages"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "URL", name: "permalink", widget: "string", default: "/pages/{{page-title}}", required: true}
+      - label: "Section - What section does this page fall under?"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting_started", value: "getting_started" }
+          - { label: "assemblies", value: "assemblies" }
+          - { label: "contact", value: "contact" }
+          - { label: "about", value: "about" }
+        required: true
+      - label: "Category (used to assign navigation)"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting-started", value: "getting-started" }
+        required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
-  - name: "example subpages"
+  - name: "examplesubpages"
     label: "Example Pages"
     folder: "pages/examples"
     sort: "title:asc"
     create: true # Allow users to create new Example pages in the admin UI
+    delete: true
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: true}
-      - {label: "Section", name: "section", widget: "string", default: "{{State the area that you'd like this to live under}}"}
+      - {label: "URL", name: "permalink", widget: "string", default: "/examples/{{page-title}}", required: true}
+      - label: "Section - What section does this page fall under?"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting_started", value: "getting_started" }
+          - { label: "assemblies", value: "assemblies" }
+          - { label: "contact", value: "contact" }
+          - { label: "about", value: "about" }
+        required: true
+      - label: "Category (used to assign navigation)"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "pages", value: "pages" }
+          - { label: "design", value: "design" }
+          - { label: "getting-started", value: "getting-started" }
+        required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation

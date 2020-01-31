@@ -2,7 +2,7 @@
 layout: design
 title: Design Overview
 permalink: /design
-section: design
+section: overview
 intro_paragraph: >
 
 ---

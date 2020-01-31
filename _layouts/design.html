@@ -25,6 +25,11 @@ layout: compress
               {% include page-intro.html %}
               {{ content }}
             </div>
+            <div class="pf-l-grid__item pf-m-12-col">
+              <a class="pf-c-button pf-m-primary" href="{{ site.baseurl }}/admin/#/collection/design-subpages/entries/{{ page.path | replace: '.md', '' }}" title="Edit this page in Netlify CMS">
+                <span>Edit this page <i class="fad fa-user-edit"></i></span>
+              </a>
+            </div>
           </div>
         </section>
         {% include footer.html %}
