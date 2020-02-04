@@ -19,4 +19,3 @@ intro_paragraph: >
 
 {% include_relative cta-form-legacy-drupal-form.md %}
 
-{% include_relative cta-form-legacy-iframe.md %}

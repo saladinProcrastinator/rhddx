@@ -1,15 +1,15 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 <ul class="pf-c-nav__list">
   <li class="pf-c-nav__item pf-m-expandable pf-m-expanded">
-    <a href="/components" {% if page.title == 'Components Overview' %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} >
-      Overview <span class="pf-c-nav__toggle"><i class="fas fa-angle-right" aria-hidden="true"></i></span>
+    <a href="/components" {% if page.title == 'Components Overview' %} class="pf-c-nav__link pf-m-current rhddx-m-uppercase" aria-current="page" {% else %} class="pf-c-nav__link rhddx-m-uppercase" {% endif %} >
+      Overview
     </a>
     <section class="pf-c-nav__subnav">
       {% for page in site.pages %}
       <ul class="pf-c-nav__simple-list">
         {% if page.section == "components" %}
         <li class="pf-c-nav__item">
-          <a href="{{ page.url }}" {% if page.title == page.component.title %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} >{{ page.title }}</a>
+          <a href="{{ page.url }}" class="pf-c-nav__link">{{ page.title }}</a>
         </li>
         {% endif %}
       </ul>
