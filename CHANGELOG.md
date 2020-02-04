@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0-prerelease.22 (04/02/2020)
+- [2.0.0-prerelease.22](https://github.com/mindreeper2420/rhddx/commit/7442a5d366bffa2afb6c8cb8c0054d2d4945a773) - @mindreeper2420
+- [Update Admin UI](https://github.com/mindreeper2420/rhddx/commit/b245cfc941eb280aad261bb2f082af059c63552a) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/5938c00c4bdaefec59e62134ff684078f56832ca) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.21 (31/01/2020)
 - [2.0.0-prerelease.21](https://github.com/mindreeper2420/rhddx/commit/6a8f1712c7ab603e7e0e9114f57cb28386c3161a) - @mindreeper2420
 - [Add a Field Hint to the Layout Dropdown](https://github.com/mindreeper2420/rhddx/commit/016f739472c8daa348cfd7e13239020fd3b30436) - @mindreeper2420
@@ -191,8 +198,3 @@
 ## v1.0.0-prerelease.26 (16/01/2020)
 - [Update Readme and add Issue Templates](https://github.com/mindreeper2420/rhddx/commit/aca07f8381f6dbed5d24f6bb2caeda8c547b2bdf) - @mindreeper2420
 - [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/1a9c154b56da2e7f0223bc459ca95fed4fdd2f96) - @mindreeper2420
-
----
-
-## v1.0.0-prerelease.25 (15/01/2020)
-- [Update release script to build Changelog](https://github.com/mindreeper2420/rhddx/commit/40b6ae664968608ce569ec7539235f6c7aa021e3) - @mindreeper2420
