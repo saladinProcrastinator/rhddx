@@ -9,17 +9,32 @@
 ** Add the external link icon to any URLs that contain 'patternfly.org', signifying that the user is leaving for the PatternFly site.
 */
 a[href*="patternfly.org"]:after {
-  font-family: "Font Awesome 5 Pro";
-  font-weight: 400;
-  content: "\f35d";
+  // font-family: "Font Awesome 5 Pro";
+  // font-weight: 400;
+  // content: "\f35d";
+  content: '';
+  display: inline-block;
+  background-image: url(../../assets/img/PF_logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 17px;
   margin-left: 4px;
   .pf-c-nav__list > .pf-c-nav__item & {
-    font-family: "Font Awesome 5 Pro";
-    font-weight: 400;
-    content: "\f35d";
+    // font-family: "Font Awesome 5 Pro";
+    // font-weight: 400;
+    // content: "\f35d";
+    // margin-left: 4px;
+    // position: initial;
+    // background-color: transparent;
+    content: '';
+    display: inline-block;
+    background-image: url(../../assets/img/PF_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 17px;
     margin-left: 4px;
-    position: initial;
-    background-color: transparent;
   }
 }
 
