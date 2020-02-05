@@ -10,7 +10,6 @@
     "build": "gulp build",
     "jekyll": "bundle exec jekyll build",
     "install": "bundle install",
-    "submodule": "git submodule init && cd developers.redhat.com/ && git submodule update && cd _docker/drupal/drupal-filesystem/web/themes/custom/rhdp2/rhd-frontend/ && npm install && cd ../../../../../../../../../",
     "deployment": "gulp deploy",
     "development": "gulp development",
     "changelog": "gren release -P --override && gren changelog --override",

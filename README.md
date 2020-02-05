@@ -50,29 +50,17 @@ git remote add -f upstream git@github.com:mindreeper2420/rhddx.git
 
 ### Initialize the Git Submodule (developers.redhat.com)
 
-In order to build the project with the Red Hat Developer styles, you will need to initialize the developers.redhat.com submodule. You do so by running the follow:
+In order to build the project with the Red Hat Developer styles, you will need to initialize the developers.redhat.com submodule. You do so by running the `submodule.sh` file in the `scripts/` folder:
 ```bash
-$ cd developers.redhat.com
-
-$ git submodule init
-
-$ git submodule update
+$ scripts/./submodule.sh
 ```
-  _This will connect the submodule to the repo using the `.gitsubmodules` file and update the submodule._
 
-You will also want to install the dependencies for the `developers.redhat.com/rhd-frontend` folder in the submodule. You can either do this the long way, or by running the following:
-```bash
-$ npm run submodule
-```
-This will first move into the `/developers.redhat.com` folder, run `git submodule init` and `git submodule update`, move down into the `/rhd-frontend` folder, run `npm install` to install the necessary dependencies, and then back out to the main `rhddx` project folder.
+  _This will connect the submodule to the repo using the `.gitsubmodules` file, update the submodule, and install any necessary dependencies. It will then return you to the project root._
 
 #### NOTE
-If you will be working on the RHDDX project for a long period of time, you will want to periodically pull in updates for the submodule in order to keep everything in sync.
+If you will be working on the RHDDX project for a long period of time, you will want to periodically pull in updates for the submodule in order to keep everything in sync. You can easily check and apply updates using the same `submodule.sh` script.
 
-```bash
-$ git submodule update --remote developers.redhat.com
-```
-After running this, you should see `modified:   developers.redhat.com (new commits)` when you check the `git status`. You can then add the updated submodule to your fork but running `git add .` and `git commit -m "Update submodule"`.
+After updating, you should see `modified:   developers.redhat.com (new commits)` when you check the `git status`. You can then add the updated submodule to your fork but running `git add .` and `git commit -m "Update submodule"`.
 
 ## Building the Project
 
