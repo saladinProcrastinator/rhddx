@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.0.0-prerelease.23 (04/02/2020)
+- [2.0.0-prerelease.23](https://github.com/mindreeper2420/rhddx/commit/144ffc8e67fbdedb399caee340ae87c0bef43e9b) - @mindreeper2420
+- [Update Sidenavs; Improve Link Formatting; Update Page Interaction Buttons](https://github.com/mindreeper2420/rhddx/commit/7d28d10d8bf62f8648ef21147057e6c253ef836e) - @mindreeper2420
+- [Add New PatternFly Icon for Links](https://github.com/mindreeper2420/rhddx/commit/da39b0c7388ba03e49b9e95199d71c436e9e9f41) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/fdbb5fc56e323af912fb467c596f8678263f8df9) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.22 (04/02/2020)
 - [2.0.0-prerelease.22](https://github.com/mindreeper2420/rhddx/commit/7442a5d366bffa2afb6c8cb8c0054d2d4945a773) - @mindreeper2420
 - [Update Admin UI](https://github.com/mindreeper2420/rhddx/commit/b245cfc941eb280aad261bb2f082af059c63552a) - @mindreeper2420
@@ -192,9 +200,3 @@
 
 ## v1.0.0-prerelease.28 (17/01/2020)
 - [Update Readme with Netlify info](https://github.com/mindreeper2420/rhddx/commit/43a552b80a35b265d8aa722270e100d26025bdc8) - @mindreeper2420
-
----
-
-## v1.0.0-prerelease.26 (16/01/2020)
-- [Update Readme and add Issue Templates](https://github.com/mindreeper2420/rhddx/commit/aca07f8381f6dbed5d24f6bb2caeda8c547b2bdf) - @mindreeper2420
-- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/1a9c154b56da2e7f0223bc459ca95fed4fdd2f96) - @mindreeper2420
