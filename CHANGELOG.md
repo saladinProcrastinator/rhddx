@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0-prerelease.25 (05/02/2020)
+- [2.0.0-prerelease.25](https://github.com/mindreeper2420/rhddx/commit/5c49adecc351bc42a542300e985c42cc1c5e6177) - @mindreeper2420
+- [Update Build for Better Sourcemaps](https://github.com/mindreeper2420/rhddx/commit/f0e72c8d9627d0f1d416ec033a71871ea65431a3) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/2fee159ec37492bd35a70d26852b2748f3130738) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.24 (05/02/2020)
 - [2.0.0-prerelease.24](https://github.com/mindreeper2420/rhddx/commit/342447c4dc581f46660b2e3942eb7b8e7cf652ea) - @mindreeper2420
 - [Fix 404 Button Links](https://github.com/mindreeper2420/rhddx/commit/5dadcad96c204d0ced982b9df6bcd6858e74cc55) - @mindreeper2420
@@ -199,7 +206,3 @@
 - [Update UI and CMS configurations](https://github.com/mindreeper2420/rhddx/commit/9198b456332c2fe474bb7574549a6aeb998311e9) - @mindreeper2420
 - [Update Changelog.md](https://github.com/mindreeper2420/rhddx/commit/f258c33c4f20516634539f18bc0d11d7dd2f2638) - @mindreeper2420
 - [Update Changelog.md](https://github.com/mindreeper2420/rhddx/commit/80e8c8db764dcbcc905057d35f74ac8e2a8128d8) - @mindreeper2420
-
----
-
-## v1.0.0-prerelease.27 (17/01/2020)
