@@ -81,7 +81,9 @@ sass:
 keep_files:
   - assets/img
   - assets/main.css
+  - assets/main.css.map
   - assets/rhdp.css
+  - assets/rhdp.css.map
   - assets/prism
   - themes
 

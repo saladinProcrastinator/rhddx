@@ -111,10 +111,10 @@ const
       './styles/main.scss' // include the customized site file
     ])
     .pipe(sass(cssConfig.sassOpts).on('error', sass.logError)) // sets the configuration options for building SCSS files
+    .pipe(sourcemaps.init())
     .pipe(postcss([ autoprefixer(), cssnano() ]))
-    .pipe(sourcemaps ? sourcemaps.write() : noop())
+    .pipe(sourcemaps.write('.'))
     .pipe(size({ showFiles:true }))
-    .pipe(header(banner, { pkg: pkg }))
     .pipe(gulp.dest(cssConfig.build));
   }
 
@@ -122,12 +122,11 @@ const
   // @ts-ignore
   function cssDev(cb){
     return gulp.src(cssConfig.dev) // sets director to return as './styles/**/*.scss'
-    .pipe(sourcemaps ? sourcemaps.init() : noop())
+    .pipe(sourcemaps.init())
     .pipe(sass(cssConfig.sassOpts).on('error', sass.logError)) // sets the configuration options for building SCSS files
     .pipe(postcss([ autoprefixer() ]))
-    .pipe(sourcemaps ? sourcemaps.write() : noop())
+    .pipe(sourcemaps.write('.'))
     .pipe(size({ showFiles:true }))
-    .pipe(header(banner, { pkg: pkg }))
     .pipe(gulp.dest(cssConfig.build)); // dump compiled SCSS files to './_site/assets/'
   }
 
@@ -236,7 +235,8 @@ const
 
   exports.build = gulp.series(
     cleanJekyll,
-    gulp.parallel(copyFonts, copyPrism, cssDev, minimizeImages),
+    gulp.parallel(copyFonts, copyPrism, minimizeImages),
+    cssDev,
     buildJekyll
   );
 
@@ -244,6 +244,7 @@ const
     copyFonts,
     copyPrism,
     minimizeImages,
+    cssDev,
     gulp.parallel(watchSass, serveJekyll)
   );
 
