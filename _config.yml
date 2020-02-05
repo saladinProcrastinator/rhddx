@@ -101,5 +101,6 @@ exclude:
   - node_modules
   - _sass
   - assets
+  - styles
   - developers.redhat.com
   - scripts
