@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.0.0-prerelease.24 (05/02/2020)
+- [2.0.0-prerelease.24](https://github.com/mindreeper2420/rhddx/commit/342447c4dc581f46660b2e3942eb7b8e7cf652ea) - @mindreeper2420
+- [Fix 404 Button Links](https://github.com/mindreeper2420/rhddx/commit/5dadcad96c204d0ced982b9df6bcd6858e74cc55) - @mindreeper2420
+- [Update 404 Page](https://github.com/mindreeper2420/rhddx/commit/7c5d38895227346a825d77a38235110ce899399c) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/1f1b7465c2c703c53435f4a65896cd79a02a57db) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.23 (04/02/2020)
 - [2.0.0-prerelease.23](https://github.com/mindreeper2420/rhddx/commit/144ffc8e67fbdedb399caee340ae87c0bef43e9b) - @mindreeper2420
 - [Update Sidenavs; Improve Link Formatting; Update Page Interaction Buttons](https://github.com/mindreeper2420/rhddx/commit/7d28d10d8bf62f8648ef21147057e6c253ef836e) - @mindreeper2420
@@ -195,8 +203,3 @@
 ---
 
 ## v1.0.0-prerelease.27 (17/01/2020)
-
----
-
-## v1.0.0-prerelease.28 (17/01/2020)
-- [Update Readme with Netlify info](https://github.com/mindreeper2420/rhddx/commit/43a552b80a35b265d8aa722270e100d26025bdc8) - @mindreeper2420
