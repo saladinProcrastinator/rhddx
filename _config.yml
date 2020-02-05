@@ -100,7 +100,6 @@ exclude:
   - CHANGELOG.md
   - node_modules
   - _sass
-  - styles
   - assets
   - developers.redhat.com
   - scripts
