@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0-prerelease.27 (05/02/2020)
+- [2.0.0-prerelease.27](https://github.com/mindreeper2420/rhddx/commit/95955cb26a34db45fc06f4ebb75789d4ea989522) - @mindreeper2420
+- [Update Submodule and Submodule Script](https://github.com/mindreeper2420/rhddx/commit/cab3e5dfb35f7d0b6d9709d7e7fff6eb1df9a575) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/f7dc4e8e4f1d101dc2faeae116f0c0624102e527) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.26 (05/02/2020)
 - [2.0.0-prerelease.26](https://github.com/mindreeper2420/rhddx/commit/9ab47bf3d0c13fcab88b3ae3104d09b231f9580a) - @mindreeper2420
 - [Update Submodule script](https://github.com/mindreeper2420/rhddx/commit/f14a282efe8a59c4ae55f443009d90bb20a7f570) - @mindreeper2420
@@ -194,11 +201,3 @@
 - [Add Additional Pages to CMS UI](https://github.com/mindreeper2420/rhddx/commit/b182fd099a6994f8152dd69254e280545289e973) - @mindreeper2420
 - [Add Design Pages to CMS UI](https://github.com/mindreeper2420/rhddx/commit/1a5ecb9619ab8d0932b523e9c199a173f8e11b80) - @mindreeper2420
 - [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/37ca2fe56a588f9ff34a6d0b9a86090af69857d6) - @mindreeper2420
-
----
-
-## v1.0.0-prerelease.30 (21/01/2020)
-- [Bump version](https://github.com/mindreeper2420/rhddx/commit/944047bb748e2a27c89b6bad6c96bdfc0686a9a3) - @mindreeper2420
-- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/f7238b9f1643b69244b1f2e11993ae4cac410ebc) - @mindreeper2420
-- [Update available resources](https://github.com/mindreeper2420/rhddx/commit/8c4ca4ae84ddc18978799bcb99bf7cc161b38429) - @mindreeper2420
-- [Add and Update pages to match IA](https://github.com/mindreeper2420/rhddx/commit/7f027c1eceebd6137073b01beb5e4267064e653e) - @mindreeper2420
