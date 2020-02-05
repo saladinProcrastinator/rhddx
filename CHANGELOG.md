@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0-prerelease.26 (05/02/2020)
+- [2.0.0-prerelease.26](https://github.com/mindreeper2420/rhddx/commit/9ab47bf3d0c13fcab88b3ae3104d09b231f9580a) - @mindreeper2420
+- [Update Submodule script](https://github.com/mindreeper2420/rhddx/commit/f14a282efe8a59c4ae55f443009d90bb20a7f570) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/2147ba5e788031e84d49def6119708cf235139dd) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.25 (05/02/2020)
 - [2.0.0-prerelease.25](https://github.com/mindreeper2420/rhddx/commit/5c49adecc351bc42a542300e985c42cc1c5e6177) - @mindreeper2420
 - [Update Build for Better Sourcemaps](https://github.com/mindreeper2420/rhddx/commit/f0e72c8d9627d0f1d416ec033a71871ea65431a3) - @mindreeper2420
@@ -195,14 +202,3 @@
 - [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/f7238b9f1643b69244b1f2e11993ae4cac410ebc) - @mindreeper2420
 - [Update available resources](https://github.com/mindreeper2420/rhddx/commit/8c4ca4ae84ddc18978799bcb99bf7cc161b38429) - @mindreeper2420
 - [Add and Update pages to match IA](https://github.com/mindreeper2420/rhddx/commit/7f027c1eceebd6137073b01beb5e4267064e653e) - @mindreeper2420
-
----
-
-## v1.0.0-prerelease.29 (21/01/2020)
-- [Simplify Component requirements](https://github.com/mindreeper2420/rhddx/commit/f259cf22e3e5ee6510a265a1355d9ae28e208b8f) - @mindreeper2420
-- [Add Components Collection to the site](https://github.com/mindreeper2420/rhddx/commit/f7943075c309087aa280d19640006698c3643d6f) - @mindreeper2420
-- [Hide Posts from the Collections](https://github.com/mindreeper2420/rhddx/commit/9a6e42e31874cdd00405cbf790f230f4b759fb03) - @mindreeper2420
-- [Include additional menu in CMS portal](https://github.com/mindreeper2420/rhddx/commit/7ef9501a092d2034715ec0f2ed524ca1d1f053f1) - @mindreeper2420
-- [Update UI and CMS configurations](https://github.com/mindreeper2420/rhddx/commit/9198b456332c2fe474bb7574549a6aeb998311e9) - @mindreeper2420
-- [Update Changelog.md](https://github.com/mindreeper2420/rhddx/commit/f258c33c4f20516634539f18bc0d11d7dd2f2638) - @mindreeper2420
-- [Update Changelog.md](https://github.com/mindreeper2420/rhddx/commit/80e8c8db764dcbcc905057d35f74ac8e2a8128d8) - @mindreeper2420
