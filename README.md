@@ -73,9 +73,9 @@ npm install
 gulp build
 ```
 
-After the initial build, you can then run the local development environment by running `gulp development`.
+After the initial build, you can then run the local development environment by running either `gulp development` or `scripts/./development.sh`.
 
-  - When in development mode, Gulp will watch the project folders for changes. Changes to `.scss` files will rebuild the styles and update the `main.css` or `rhdp.css` files under `_site/assets/`. Changes to any `.html` files will kick of the Jekyll Build process, updating the HTML files under `_site/`
+  - When in development mode, Gulp will watch the project folders for changes. Changes to `.scss` files will rebuild the styles and update the `main.css` file under `_site/assets/`. Changes to any `.html` files will kick of the Jekyll Build process, updating the HTML files under `_site/`
 
   - To view the site locally, navigate to [localhost:4000](http://localhost:4000/).
 
@@ -91,6 +91,20 @@ netlify dev
 ```
 
   - When running [Netlify locally](https://www.netlify.com/products/dev/), you can stream your dev server to a URL that you can then share. This is best used for local, collaborative development.
+
+### **All Available Scripts**
+
+```bash
+  # Initializes and checks for updates to the git submodule
+  scripts/./submodule.sh
+
+  # Runs the development processes
+  scripts/./development.sh
+
+  # Run Release processes, update Changelog & push to Master
+  # replace {{version}} with either major, minor, patch or prerelease
+  scripts/./release.sh {{version}}
+````
 
 ## Page construction
 
