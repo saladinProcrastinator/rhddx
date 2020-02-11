@@ -1,5 +1,15 @@
 # Changelog
 
+## v2.0.0-prerelease.30 (11/02/2020)
+- [2.0.0-prerelease.30](https://github.com/mindreeper2420/rhddx/commit/c886cbaf0d18b8e114d7eeeb657e9f7e88b08c58) - @mindreeper2420
+- [Add alt text to FA icons](https://github.com/mindreeper2420/rhddx/commit/644fa16e3e8a5bb8ef7f4585ecd55ad65e07c211) - @mindreeper2420
+- [Improve dev build speed](https://github.com/mindreeper2420/rhddx/commit/2acddd807b3a5d5808c2f556a78c336646279b00) - @mindreeper2420
+- [Update navigation styles](https://github.com/mindreeper2420/rhddx/commit/e76ea68cf35f9d94eb758d468a6aca241de13b6e) - @mindreeper2420
+- [Add Red Hat style wrapper](https://github.com/mindreeper2420/rhddx/commit/9abd21ae6b9c1b025633230a34f024f4255a34cc) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/e9c48eaeeb5c5bfe27a6c0f362dbdae0e561efa2) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.29 (11/02/2020)
 - [2.0.0-prerelease.29](https://github.com/mindreeper2420/rhddx/commit/b3fdce2183f9acdb8da2c37168cca7080a6bcf3f) - @mindreeper2420
 - [Update RHDP style imports](https://github.com/mindreeper2420/rhddx/commit/de3c5f2ad1de21168f1190289a3052a3716992da) - @mindreeper2420
@@ -204,7 +214,3 @@
 
 ## v1.0.0-prerelease.34 (24/01/2020)
 - [Update submodule](https://github.com/mindreeper2420/rhddx/commit/30614d2f848537b3b5a00758053313d4a0122bbf) - @mindreeper2420
-
----
-
-## 1.0.0-prerelease.33 (24/01/2020)
