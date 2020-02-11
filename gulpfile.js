@@ -241,9 +241,7 @@ const
   );
 
   exports.development = gulp.series(
-    copyFonts,
-    copyPrism,
-    minimizeImages,
+    gulp.parallel(copyFonts, copyPrism, minimizeImages),
     cssDev,
     gulp.parallel(watchSass, serveJekyll)
   );
