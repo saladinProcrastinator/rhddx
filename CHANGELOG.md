@@ -1,5 +1,15 @@
 # Changelog
 
+## v2.0.0-prerelease.29 (11/02/2020)
+- [2.0.0-prerelease.29](https://github.com/mindreeper2420/rhddx/commit/b3fdce2183f9acdb8da2c37168cca7080a6bcf3f) - @mindreeper2420
+- [Update RHDP style imports](https://github.com/mindreeper2420/rhddx/commit/de3c5f2ad1de21168f1190289a3052a3716992da) - @mindreeper2420
+- [Update submodule](https://github.com/mindreeper2420/rhddx/commit/575d0bb3f2e1c6b6bbb0b626ded3e7b6a713c6d7) - @mindreeper2420
+- [Add Development Scripts](https://github.com/mindreeper2420/rhddx/commit/f3b7b21ba3dafc6b9988f3e14019669480a18a55) - @mindreeper2420
+- [Update .gitignore](https://github.com/mindreeper2420/rhddx/commit/f8f2502aeae144e5ca23006ae4b05718bc940369) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/0bcca1f92f11a5604a99385267e54c5db6dc15b9) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.28 (05/02/2020)
 - [2.0.0-prerelease.28](https://github.com/mindreeper2420/rhddx/commit/71ca579c2eac70d5193c1755a1a5ed276a5b5c8a) - @mindreeper2420
 - [Fix build to produce mapfiles](https://github.com/mindreeper2420/rhddx/commit/d6e37e70d845b83cfbc56002dc1888e181a5b000) - @mindreeper2420
@@ -198,7 +208,3 @@
 ---
 
 ## 1.0.0-prerelease.33 (24/01/2020)
-
----
-
-## 1.0.0-prerelease.32 (24/01/2020)
