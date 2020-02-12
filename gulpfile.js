@@ -77,27 +77,6 @@ const
     );
   }
 
-  // Task to watch changes to source files and rebuild
-  // function watchSass(cb) {
-  //  gulp.watch('./styles/**/*.{scss,css}', buildSass);
-  // }
-  // Configure the browserSync task
-  // gulp.task('browserSync', (done) => {
-  //   browserSync.init({
-  //     server: {
-  //       baseDir: ''
-  //     },
-  //     ui: {
-  //       port: 8001 // customize port for browserSync UI
-  //     },
-  //     port: 8080, // use 8080 to prevent conflicts with other localhosts
-  //     reloadOnRestart: true,
-  //     notify: false // prevent the browserSync notification from appearing
-  //   });
-
-  //   done();
-  // });
-
   sass.compiler = require('node-sass');
 
   //
@@ -213,17 +192,6 @@ const
     });
   }
 
-  // ---- WIP ---- //
-  // Install submodule dependencies
-  // ---- WIP ---- //
-
-  // gulp.task('buildSubmodule', function (cb) {
-  //   exec('ping localhost', function(err, stdout, stderr) {
-  //     console.log(stdout);
-  //     console.log(stderr);
-  //     cb(err);
-  //   });
-  // });
   exports.cssDev   =  cssDev;
   exports.sass     =  buildSass;
   exports.watch    =  watchSass;
