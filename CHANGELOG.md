@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0-prerelease.36 (17/02/2020)
+- [2.0.0-prerelease.36](https://github.com/mindreeper2420/rhddx/commit/79b9b3a22a6bedd561ce94ee96e6fa4d95a964e6) - @mindreeper2420
+- [Remove Changelog from _site](https://github.com/mindreeper2420/rhddx/commit/07dabbef9630349e8f65b9b2d5ceecf500275ed9) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/20227a32371efa9baffa76d223ddde3f04ab5562) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.35 (17/02/2020)
 - [2.0.0-prerelease.35](https://github.com/mindreeper2420/rhddx/commit/617e2279873e0384e6fc4c0dab602c7dee6b1560) - @mindreeper2420
 - [Bump](https://github.com/mindreeper2420/rhddx/commit/861f4ac78331db891be6bf4cf0f4f146417634ac) - @mindreeper2420
@@ -208,10 +215,3 @@
 ---
 
 ## 2.0.0-prerelease.5 (28/01/2020)
-
----
-
-## v2.0.0-prerelease.4 (28/01/2020)
-- [Version bump](https://github.com/mindreeper2420/rhddx/commit/2ec07735121fa30520c27f7db255df8c114f6cf1) - @mindreeper2420
-- [Update site accessibility](https://github.com/mindreeper2420/rhddx/commit/e02be529356b9471990df759c303479bf13e9d9f) - @mindreeper2420
-- [Bump package version](https://github.com/mindreeper2420/rhddx/commit/d608c2446ede00f22a6232cd816ec0254487fb20) - @mindreeper2420
