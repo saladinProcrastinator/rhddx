@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the documentation site for the developers.redhat.com site.
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://rhddx.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
+version: v2.0.0-prerelease
 NODE_VERSION: 10.16.0
 NPM_VERSION: 6.13.2
 RUBY_VERSION: 2.6.3
@@ -96,7 +97,6 @@ exclude:
   - gulpfile.js
   - package.json
   - package-lock.json
-  - CHANGELOG.md
   - node_modules
   - _sass
   - assets

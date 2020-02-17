@@ -3,14 +3,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="Description" content="{{ site.description }}">
   <title>{% if page.section == "home" %}{{ site.title }}{% else %} RHDDX: {{ page.title | default: site.title }}{% endif %}</title>
-  <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" }}">
-  <link rel="prefetch stylesheet" href="{{ "/assets/prism/prism.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/rhdp.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
+  <link rel="prefetch stylesheet" href="{{ site.baseurl }}/assets/prism/prism.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/rhdp.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
   {% if jekyll.environment == 'production' and site.analytics %}
     {% include analytics.html %}
   {% endif %}
-  <script async src="{{ "/assets/prism/prism.js" | relative_url }}"></script>
+  <script async src="{{ site.baseurl }}/assets/prism/prism.js"></script>
   <script src="https://kit.fontawesome.com/58cac63e31.js" crossorigin="anonymous"></script>
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>

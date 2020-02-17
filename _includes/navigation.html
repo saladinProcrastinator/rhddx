@@ -2,7 +2,7 @@
 <ul class="pf-c-nav__horizontal-list">
 {% for item in site.data.navigation.items %}
   <li class="pf-c-nav__item">
-    <a href="{{ item.url }}" {% if page.title == item.title %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} aria-label="{{item.title}}">{{ item.name }}</a>
+    <a href="{{ item.url | prepend: site.baseurl }}" {% if page.title == item.title %} class="pf-c-nav__link pf-m-current" aria-current="page" {% else %} class="pf-c-nav__link" {% endif %} aria-label="{{item.title}}">{{ item.name }}</a>
   </li>
 {% endfor %}
 </ul>
