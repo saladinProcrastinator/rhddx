@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.0-prerelease.35 (17/02/2020)
+- [2.0.0-prerelease.35](https://github.com/mindreeper2420/rhddx/commit/617e2279873e0384e6fc4c0dab602c7dee6b1560) - @mindreeper2420
+- [Bump](https://github.com/mindreeper2420/rhddx/commit/861f4ac78331db891be6bf4cf0f4f146417634ac) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.33 (17/02/2020)
 - [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/f105464d1f560d3eddbb59f7eadc663677fa3f70) - @mindreeper2420
 
@@ -209,9 +215,3 @@
 - [Version bump](https://github.com/mindreeper2420/rhddx/commit/2ec07735121fa30520c27f7db255df8c114f6cf1) - @mindreeper2420
 - [Update site accessibility](https://github.com/mindreeper2420/rhddx/commit/e02be529356b9471990df759c303479bf13e9d9f) - @mindreeper2420
 - [Bump package version](https://github.com/mindreeper2420/rhddx/commit/d608c2446ede00f22a6232cd816ec0254487fb20) - @mindreeper2420
-
----
-
-## 2.0.0-prerelease.3 (28/01/2020)
-- Replace Bootstrap UI with PatternFly UI
-- Bump package version
