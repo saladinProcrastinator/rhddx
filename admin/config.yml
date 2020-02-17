@@ -2,9 +2,10 @@
 # https://www.netlifycms.org/docs/configuration-options/
 
 backend:
-  name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
-  repo: mindreeper2420/rhddx
+  name: github
+  repo: rhddx/mindreeper2420.github.io
   branch: master # Branch to update (master by default)
+  site_domain: rhddx.netlify.com
   squash_merges: true
   commit_messages:
     create: Create "{{slug}}" page
