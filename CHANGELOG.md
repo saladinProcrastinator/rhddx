@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0-prerelease.31 (11/02/2020)
+- [2.0.0-prerelease.31](https://github.com/mindreeper2420/rhddx/commit/3543332c491b7669692574d6c543add5994f3a70) - @mindreeper2420
+- [Add Publish Script](https://github.com/mindreeper2420/rhddx/commit/d981d6bbbd52aa7fed7e582fa77db2e97db1f2cb) - @mindreeper2420
+- [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/7ac368469b278b154e814be42417e3e1791a6525) - @mindreeper2420
+
+---
+
 ## v2.0.0-prerelease.30 (11/02/2020)
 - [2.0.0-prerelease.30](https://github.com/mindreeper2420/rhddx/commit/c886cbaf0d18b8e114d7eeeb657e9f7e88b08c58) - @mindreeper2420
 - [Add alt text to FA icons](https://github.com/mindreeper2420/rhddx/commit/644fa16e3e8a5bb8ef7f4585ecd55ad65e07c211) - @mindreeper2420
@@ -209,8 +216,3 @@
 - [Update package.json](https://github.com/mindreeper2420/rhddx/commit/930b3fd3cd8f94374cf71ecb81441e28089a3856) - @mindreeper2420
 - [Retool site configuration](https://github.com/mindreeper2420/rhddx/commit/4b2cab07a52270a5d07874fc914bc31554e2ad7b) - @mindreeper2420
 - [Update Changelog](https://github.com/mindreeper2420/rhddx/commit/19359ed8bb04a5c2d9fc4890a2b7589c26bf1b7c) - @mindreeper2420
-
----
-
-## v1.0.0-prerelease.34 (24/01/2020)
-- [Update submodule](https://github.com/mindreeper2420/rhddx/commit/30614d2f848537b3b5a00758053313d4a0122bbf) - @mindreeper2420
