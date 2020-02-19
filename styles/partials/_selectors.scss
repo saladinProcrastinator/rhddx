@@ -1,0 +1,117 @@
+:root {
+  --rhddx-code--highlight--XML-Color: #aef7b4;
+  --rhddx-code--highlight--XML-Color-alt: #ddfdd5f2;
+  --rhddx-code--highlight--TOML-Color: #f7b0ae;
+  --rhddx-code--highlight--TOML-Color-alt: #fdd6d5f2;
+}
+
+.rhddx {
+  /*
+  ** Add the external link icon to any URLs that contain 'patternfly.org', signifying that the user is leaving for the PatternFly site.
+  */
+  a[href*="patternfly.org"]:after {
+    content: '';
+    display: inline-block;
+    background-image: url(../../assets/img/PF_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 17px;
+    margin-left: 4px;
+    .pf-c-nav__list > .pf-c-nav__item & {
+      content: '';
+      display: inline-block;
+      background-image: url(../../assets/img/PF_logo.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 16px;
+      width: 17px;
+      margin-left: 4px;
+    }
+  }
+
+  /*
+  ** Add the GitHub icon to any URLs that contain 'github.com', signifying that the user is leaving the site and proceeding to GitHub.
+  */
+  a[href*="github.com"]:after {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    content: "\f09b";
+    margin-left: 4px;
+    .pf-c-nav__list > .pf-c-nav__item & {
+      font-family: "Font Awesome 5 Brands";
+      font-weight: 400;
+      content: "\f09b";
+      margin-left: 4px;
+      position: initial;
+      background-color: transparent;
+    }
+  }
+
+  /*
+  ** Add the CodePen icon to any URLs that contain 'codepen.io', signifying that the user is leaving the site and proceeding to CodePen.
+  */
+  a[href*="codepen.io"]:after {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    content: "\f1cb";
+    margin-left: 4px;
+    .pf-c-nav__list > .pf-c-nav__item & {
+      font-family: "Font Awesome 5 Brands";
+      font-weight: 400;
+      content: "\f1cb";
+      margin-left: 4px;
+      position: initial;
+      background-color: transparent;
+    }
+  }
+
+  /*
+  ** Customize text selection/highlight colors
+  */
+  ::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background-color: rgb(0, 116, 232);
+  }
+
+  ::selection {
+    color: #fff;
+    background-color: rgb(0, 116, 232);
+  }
+
+  /*
+  ** Position 'Copy' toolbar button
+  */
+  div.code-toolbar > .toolbar {
+    top: .3em;
+    right: 4.5em;
+  }
+
+  figure.highlight {
+    position: relative;
+    margin: 2em 0;
+    pre {
+      code {
+        &[data-lang]::before {
+          content: attr(data-lang);
+          position: absolute;
+          top: -20px;
+          right: 20px;
+          padding: 5px 10px;
+          border: none;
+          border-radius: 4px;
+          background-color: #2a3035;
+        }
+      }
+    }
+  }
+
+  /*
+  ** Add the link URL after the link when the page is printed
+  */
+  @media print {
+    a[href]:after {
+      content: " (" attr(href) ") ";
+    }
+  }
+}
