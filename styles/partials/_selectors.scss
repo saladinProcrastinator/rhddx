@@ -79,30 +79,97 @@
     background-color: rgb(0, 116, 232);
   }
 
+  .highlighter-rouge {
+    font-family: Fira Coda, 'Andale Mono', 'Ubuntu Mono', monospace;
+    padding: .2em;
+    margin: .5em 0;
+    background-color: #2a3035;
+    border: 2px solid #2a3035;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 1.5;
+  }
+  [class*="language-"].highlighter-rouge {
+    background-color: #fff;
+    border: 0;
+  }
+
   /*
   ** Position 'Copy' toolbar button
   */
   div.code-toolbar > .toolbar {
-    top: .3em;
-    right: 4.5em;
+    top: -43px;
+    opacity: 1;
+    position: relative;
+    text-align: right;
+    right: 0;
+  }
+  pre {
+    background-color: #fff;
+    border: 2px solid;
+    border-color: #f0f0f0;
+  }
+  pre[class*="language-"] {
+    margin-bottom: 0;
+  }
+
+  div.code-toolbar > .toolbar .toolbar-item {
+    button.pf-c-button.pf-m-control {
+      padding: 8px 20px;
+      background-color: #fff;
+      border: 2px solid;
+      border-color: #f0f0f0;
+      border-bottom-color: #212121;
+      margin-top: 2px;
+      &::before {
+        content: "\f0c5";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 700;
+        color: #151515;
+      }
+      &:focus,
+      &:active {
+        border-bottom-color: #0159C2;
+      }
+    }
+  }
+  div.code-toolbar>.toolbar a,
+  div.code-toolbar>.toolbar button,
+  div.code-toolbar>.toolbar span {
+    padding: 0;
+    font-size: 16px;
+    color: #72767B;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 0;
   }
 
   figure.highlight {
     position: relative;
-    margin: 2em 0;
+    margin: 24px 0 48px 0;
     pre {
       code {
         &[data-lang]::before {
-          content: attr(data-lang);
+          content: "\f121   "attr(data-lang)""; // extra spaces provide spacing between icon and text
+          font-family: "Font Awesome 5 Free";
+          font-weight: 400;
+          text-transform: uppercase;
           position: absolute;
-          top: -20px;
-          right: 20px;
-          padding: 5px 10px;
-          border: none;
-          border-radius: 4px;
-          background-color: #2a3035;
+          top: -40px;
+          right: 0;
+          padding: 8px 20px;
+          border: 2px solid;
+          border-color: #f0f0f0;
+          border-bottom: 0;
+          color: #72767B;
+          background-color: #fff;
         }
       }
+    }
+  }
+  table.highlight {
+    tr {
+      border-bottom: 0 !important;
     }
   }
 

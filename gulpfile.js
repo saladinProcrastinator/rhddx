@@ -175,13 +175,19 @@ const
   function copyStatic(cb) {
     gulp.src('./assets/img/favicon.{png,ico}')
       .pipe(gulp.dest('./_site/assets/img/'));
-    gulp.src('./assets/prism/*.*')
-      .pipe(gulp.dest('./_site/assets/prism/'));
-    gulp.src('./assets/themes/custom/rhdp2/fonts/patternfly/**/*.*')
+      gulp.src('./assets/themes/custom/rhdp2/fonts/patternfly/**/*.*')
       .pipe(gulp.dest('./_site/themes/custom/rhdp2/fonts/patternfly/'));
+    cb();
+  }
+
+  function jsDev(cb) {
     gulp.src('./assets/js/*.*')
       .pipe(gulp.dest('./_site/assets/js/'));
     cb();
+  }
+
+  function watchJS(cb) {
+    gulp.watch('./assets/js/*.*', jsDev);
   }
 
   // Task to clean _site/ and other Jekyll caches
@@ -214,9 +220,11 @@ const
   }
 
   exports.cssDev           =  cssDev;
+  exports.jsDev            =  jsDev;
   exports.rhdpCSS          =  rhdpCSS;
   exports.sass             =  buildSass;
   exports.watch            =  watchSass;
+  exports.watchJS          =  watchJS;
   exports.jekyll           =  buildJekyll;
   exports.serve            =  serveJekyll;
   exports.clean            =  cleanJekyll;
@@ -233,8 +241,9 @@ const
 
   exports.development = gulp.series(
     gulp.parallel(copyStatic, minimizeImages, rhdpCSS),
+    jsDev,
     cssDev,
-    gulp.parallel(watchSass, serveJekyll)
+    gulp.parallel(watchSass, watchJS, serveJekyll)
   );
 
   exports.deploy = gulp.series(
