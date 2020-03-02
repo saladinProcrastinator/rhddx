@@ -2,7 +2,7 @@
 layout: design
 title: Red Hat Developer Mark
 permalink: brand-assets/RHD_Mark/mark
-section: resources
+section: design
 image1: RHD_mark_4-color_black_bg_RGB.png
 image2: RHD_mark_4-color_RGB.png
 image3: RHD_mark_black_RGB.png

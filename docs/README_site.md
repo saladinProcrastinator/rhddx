@@ -1,10 +1,10 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/eadda60c-6780-4720-869d-ea925937a7e2/deploy-status)](https://app.netlify.com/sites/rhddx/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e32bb287-6336-4657-b3d1-c9fc70a63264/deploy-status)](https://app.netlify.com/sites/redhat-developer-design-manual/deploys)
 
-[![Automated Release Notes by gren](https://img.shields.io/badge/%F0%9F%A4%96-release%20notes-00B2EE.svg)](https://github.com/mindreeper2420/rhddx/blob/master/CHANGELOG.md)
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/mindreeper2420/rhddx/releases)
+[![Automated Release Notes by gren](https://img.shields.io/badge/%F0%9F%A4%96-release%20notes-00B2EE.svg)](https://github.com/redhat-developer/design-manual/blob/master/CHANGELOG.md)
+[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/redhat-developer/design-manual/releases)
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/mindreeper2420/rhddx/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/mindreeper2420/rhddx/compare)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/redhat-developer/design-manual/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/redhat-developer/design-manual/compare)
 
 # RHDDX Frontend Documentation Site
 RHDDX is short for Red Hat Developer Design Experience.
@@ -14,7 +14,7 @@ The RHDDX documentation site is built using Jamstack (JavaScript, APIs, and Mark
 
 ## Info
 
-This is an ongoing project and I welcome contributions. Feel free to [file an issue](https://github.com/mindreeper2420/rhddx/issues/new) or submit a PR against an existing issue.
+This is an ongoing project and I welcome contributions. Feel free to [file an issue](https://github.com/redhat-developer/design-manual/issues/new) or submit a PR against an existing issue.
 
 If you wish to contribute to this project, you should fork the project under your own account, and then raise any changes via pull requests.
 
@@ -45,7 +45,7 @@ Requirements:
 ```bash
 git clone git@github.com:YOUR_USER_NAME/rhddx.git
 cd rhddx
-git remote add -f upstream git@github.com:mindreeper2420/rhddx.git
+git remote add -f upstream git@github.com:redhat-developer/design-manual.git
 ```
 
 ### Initialize the Git Submodule (developers.redhat.com)
@@ -77,7 +77,7 @@ After the initial build, you can then run the local development environment by r
 
   - When in development mode, Gulp will watch the project folders for changes. Changes to `.scss` files will rebuild the styles and update the `main.css` file under `_site/assets/`. Changes to any `.html` files will kick of the Jekyll Build process, updating the HTML files under `_site/`
 
-  - To view the site locally, navigate to [localhost:4000](http://localhost:4000/).
+  - To view the site locally, navigate to [localhost:4000/design-manual](http://localhost:4000/design-manual).
 
 ### Run Netlify locally (optional)
 
@@ -131,7 +131,7 @@ You can test the demo site's TTFB (Time To First Byte) at [testmysite.io](https:
 
 ----
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/mindreeper2420/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/redhat-developer/design-manual)
 
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://github.com/topics/git)
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://github.com/topics/html)

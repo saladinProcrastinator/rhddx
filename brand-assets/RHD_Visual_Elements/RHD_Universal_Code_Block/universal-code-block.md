@@ -2,7 +2,7 @@
 layout: design
 title: Red Hat Developer Universal Code Block
 permalink: brand-assets/RHD_Visual_Elements/RHD_Universal_Code_Block/universal-code-block
-section: resources
+section: design
 image1: RHD_universal_code_block_dark_bg.png
 image2: RHD_universal_code_block_light_bg.png
 image3: RHD_universal_code_block_logo_lockup.png

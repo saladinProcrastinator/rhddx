@@ -2,7 +2,7 @@
 layout: design
 title: Red Hat Developer Morse Code
 permalink: brand-assets/RHD_Visual_Elements/RHD_Morse_Code/morse-code
-section: resources
+section: design
 image1: RHD_morse_code_ex_create.png
 image2: RHD_morse_code_ex_helloworld.png
 image3: RHD_morse_code_key.png

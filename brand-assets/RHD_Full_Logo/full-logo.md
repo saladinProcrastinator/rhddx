@@ -3,7 +3,7 @@ layout: design
 title: Full Logos
 permalink: brand-assets/RHD_Full_Logo/full-logo
 active_header: Full Logos
-section: resources
+section: design
 image1: NewRHDFullLogo_color.png
 image2: NewRHDFullLogo_color_white-wordmark.png
 image3: NewRHDFullLogo_4-color.png

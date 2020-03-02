@@ -127,6 +127,7 @@ const
 
   function watchSass(cb) {
     gulp.watch(cssConfig.dev, cssDev);
+    gulp.watch(cssConfig.dev, rhdpCSS);
   }
 
   // Image resizing using gulp-scale-images and
@@ -234,7 +235,7 @@ const
 
   exports.build = gulp.series(
     cleanJekyll,
-    gulp.parallel(copyStatic, minimizeImages, rhdpCSS),
+    gulp.parallel(copyStatic, minimizeImages, jsDev, rhdpCSS),
     cssDev,
     buildJekyll
   );
@@ -249,6 +250,7 @@ const
   exports.deploy = gulp.series(
     copyStatic,
     minimizeImages,
+    jsDev,
     buildSass,
     buildJekyll
   );

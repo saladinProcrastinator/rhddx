@@ -2,7 +2,7 @@
 layout: design
 title: Red Hat Developer Typography
 permalink: brand-assets/RHD_Typography/typography
-section: resources
+section: design
 image1: RHD_Type_Overview.png
 image2: RHD_Type_Examples_Uses/rh_ex_interstate.png
 image3: RHD_Type_Examples_Uses/rh_ex_liberation.png

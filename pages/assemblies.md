@@ -2,7 +2,7 @@
 layout: assemblies
 title: Assemblies Overview
 permalink: /assemblies
-section: overview
+section: assemblies
 intro_paragraph: >
     This is an example page of the available Assemblies.
 ---

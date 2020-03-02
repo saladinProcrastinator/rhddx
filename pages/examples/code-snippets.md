@@ -1,7 +1,7 @@
 ---
-layout: home
+layout: pages
 title: Code Snippets
-permalink: /code-snippets
+permalink: /examples/code-snippets
 section: pages
 intro_paragraph: >
   Various code snippet examples for the Design Manual site.
@@ -21,10 +21,24 @@ Supported languages:
 {% endhighlight %}
 
 {% highlight scss %}
-.rhddx-frontend {
-  font-family: Roboto;
-  .rhddx-frontend-hero {
-    font-size: 48px;
+div.code-toolbar > .toolbar .toolbar-item {
+  button.pf-c-button.pf-m-control {
+    padding: 8px 20px;
+    background-color: #fff;
+    border: 2px solid;
+    border-color: #f0f0f0;
+    border-bottom-color: #212121;
+    margin-top: 2px;
+    &::before {
+      content: "\f0c5";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
+      color: #151515;
+    }
+    &:focus,
+    &:active {
+      border-bottom-color: #0159C2;
+    }
   }
 }
 {% endhighlight %}

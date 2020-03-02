@@ -2,7 +2,8 @@
 # https://www.netlifycms.org/docs/configuration-options/
 
 backend:
-  name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
+  # name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
+  name: github # Netlify’s Git Gateway connects to Git provider’s API
   repo: redhat-developer/design-manual
   branch: master # Branch to update (master by default)
   squash_merges: true
@@ -13,7 +14,7 @@ backend:
     uploadMedia: Upload "{{path}}"
     deleteMedia: Delete "{{path}}"
 
-logo_url: https://redhat-developer-design-manual.com/assets/img/NewRHDFullLogo_black.png
+logo_url: https://redhat-developer.github.io/design-manual/assets/img/NewRHDFullLogo_black.png
 publish_mode: editorial_workflow # Enable drafts
 media_folder: "assets/uploads" # Folder where user uploaded files should go
 pull_request_url: https://github.com/redhat-developer/design-manual/pulls
@@ -98,14 +99,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Assembly Examples", value: "assemblies" }
           - { label: "Contact pages", value: "contact" }
           - { label: "About pages", value: "page" }
-      # - label: "Category (used to assign navigation)"
-      #   name: "category"
-      #   widget: "select"
-      #   options:
-      #     - { label: "pages", value: "pages" }
-      #     - { label: "design", value: "design" }
-      #     - { label: "getting-started", value: "getting-started" }
-        # required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "design"
@@ -145,15 +138,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Contact pages", value: "contact" }
           - { label: "About pages", value: "page" }
         required: true
-      # - label: "Category (used to assign navigation)"
-      #   name: "category"
-      #   widget: "select"
-      #   hint: "The area (section) where this page will live"
-      #   options:
-      #     - { label: "pages", value: "pages" }
-      #     - { label: "design", value: "design" }
-      #     - { label: "getting-started", value: "getting-started" }
-      #   required: true
       - {label: "Date", name: "date", widget: "datetime", format: "MM-DD-YYYY HH:mm:ss", required: true}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
@@ -194,14 +178,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Contact pages", value: "contact" }
           - { label: "About pages", value: "page" }
         required: true
-      # - label: "Category (used to assign navigation)"
-      #   name: "category"
-      #   widget: "select"
-      #   options:
-      #     - { label: "pages", value: "pages" }
-      #     - { label: "design", value: "design" }
-      #     - { label: "getting-started", value: "getting-started" }
-      #   required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "pages"
@@ -241,14 +217,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Contact pages", value: "contact" }
           - { label: "About pages", value: "page" }
         required: true
-      # - label: "Category (used to assign navigation)"
-      #   name: "category"
-      #   widget: "select"
-      #   options:
-      #     - { label: "pages", value: "pages" }
-      #     - { label: "design", value: "design" }
-      #     - { label: "getting-started", value: "getting-started" }
-      #   required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "examplesubpages"
@@ -288,14 +256,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Contact pages", value: "contact" }
           - { label: "About pages", value: "page" }
         required: true
-      # - label: "Category (used to assign navigation)"
-      #   name: "category"
-      #   widget: "select"
-      #   options:
-      #     - { label: "pages", value: "pages" }
-      #     - { label: "design", value: "design" }
-      #     - { label: "getting-started", value: "getting-started" }
-        # required: true
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
   # Navigation
@@ -304,17 +264,6 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: true
     files:
-      - label: "Main Navigation"
-        name: "nav"
-        file: "_data/navigation.yml"
-        fields:
-          - label: "Navigation Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Name", name: name, widget: string}
-              - {label: URL, name: url, widget: string}
-              - {label: "Title", name: title, width: string}
       - label: "Assemblies Page Navigation"
         name: "assemblies-nav"
         file: "_data/assemblies.yml"
