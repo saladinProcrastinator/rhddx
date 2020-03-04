@@ -28,7 +28,7 @@
   "author": "Adam J. Jolicoeur",
   "license": "MIT",
   "devDependencies": {
-    "@patternfly/patternfly": "2.56.3",
+    "@patternfly/patternfly": "2.65.2",
     "@skpm/child_process": "0.4.1",
     "autoprefixer": "9.7.3",
     "browser-sync": "2.26.7",

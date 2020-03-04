@@ -176,7 +176,7 @@ const
   function copyStatic(cb) {
     gulp.src('./assets/img/favicon.{png,ico}')
       .pipe(gulp.dest('./_site/assets/img/'));
-      gulp.src('./assets/themes/custom/rhdp2/fonts/patternfly/**/*.*')
+    gulp.src('./assets/themes/custom/rhdp2/fonts/patternfly/**/*.*')
       .pipe(gulp.dest('./_site/themes/custom/rhdp2/fonts/patternfly/'));
     cb();
   }
