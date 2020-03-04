@@ -163,13 +163,14 @@
 
   figure.highlight {
     position: relative;
-    margin: 24px 0 48px 0;
+    margin: 36px 0;
+    padding-top: 32px;
     pre {
       code {
         &[data-lang]::before {
           content: "\f121   "attr(data-lang)""; // extra spaces provide spacing between icon and text
           font-family: "Font Awesome 5 Free";
-          font-weight: 400;
+          font-weight: 700;
           text-transform: uppercase;
           position: absolute;
           top: -40px;
@@ -187,15 +188,6 @@
   table.highlight {
     tr {
       border-bottom: 0 !important;
-    }
-  }
-
-  /*
-  ** Add the link URL after the link when the page is printed
-  */
-  @media print {
-    a[href]:after {
-      content: " (" attr(href) ") ";
     }
   }
 }

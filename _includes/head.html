@@ -2,10 +2,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="Description" content="{{ site.description }}">
+  <meta name="theme-color" content="#ffffff">
   <title>{% if page.section == "home" %}{{ site.title }}{% else %} Design Manual: {{ page.title | default: site.title }}{% endif %}</title>
-  <link rel="icon" type="image/png" size="32x32" href="{{ site.baseurl }}/assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" size="32x32" href="{{ site.baseurl }}/assets/img/favicon-16x16.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
+  <link rel="icon" type="image/png" size="16x16" href="{{ site.baseurl }}/assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" size="32x32" href="{{ site.baseurl }}/assets/img/favicon-32x32.png">
+  <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/rhdp.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
   {% if jekyll.environment == 'production' and site.analytics %}
