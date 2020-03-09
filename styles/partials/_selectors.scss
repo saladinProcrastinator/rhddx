@@ -81,17 +81,17 @@
 
   .highlighter-rouge {
     font-family: Fira Coda, 'Andale Mono', 'Ubuntu Mono', monospace;
-    padding: .2em;
-    margin: .5em 0;
-    background-color: #2a3035;
-    border: 2px solid #2a3035;
-    color: #fff;
+    padding: 4px 8px;
+    background-color: #fff;
+    border: 2px solid #f0f0f0;
+    color: #2a3035;
     border-radius: 3px;
     line-height: 1.5;
   }
   [class*="language-"].highlighter-rouge {
     background-color: #fff;
-    border: 0;
+    border: 2px solid #f0f0f0;
+    color: #2a3035;
   }
 
   /*
