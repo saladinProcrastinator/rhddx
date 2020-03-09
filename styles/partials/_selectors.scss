@@ -87,6 +87,15 @@
     color: #2a3035;
     border-radius: 3px;
     line-height: 1.5;
+    &::-moz-selection { /* Code for Firefox */
+      color: #2a3035;
+      background-color: #cfe0f3;
+    }
+
+    &::selection {
+      color: #2a3035;
+      background-color: #cfe0f3;
+    }
   }
   [class*="language-"].highlighter-rouge {
     background-color: #fff;
@@ -165,6 +174,14 @@
     position: relative;
     margin: 36px 0;
     padding-top: 32px;
+    &::-moz-selection { /* Code for Firefox */
+      color: #2a3035;
+      background-color: #cfe0f3;
+    }
+    &::selection {
+      color: #2a3035;
+      background-color: #cfe0f3;
+    }
     pre {
       code {
         &[data-lang]::before {
@@ -181,6 +198,16 @@
           border-bottom: 0;
           color: #72767b;
           background-color: #fff;
+        }
+        &[data-lang] {
+          &::-moz-selection { /* Code for Firefox */
+            color: #2a3035;
+            background-color: #cfe0f3;
+          }
+          &::selection {
+            color: #2a3035;
+            background-color: #cfe0f3;
+          }
         }
       }
     }
