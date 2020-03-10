@@ -1,6 +1,6 @@
 [build]
-  base = "/"
-  publish = "/"
+  # base = "/"
+  # publish = "/"
   command = "scripts/./submodule.sh && npm run build && rm -rf docs && mkdir docs && rm -rf _site/docs && cp -r _site/** docs"
 
 [build.environment]
@@ -9,14 +9,14 @@
 # Production context: all deploys from the Production branch set in your site's
 # deploy contexts will inherit these settings.
 [context.production]
-  publish = "/"
+  # publish = "/"
   command = "scripts/./submodule.sh && npm run build && rm -rf docs && mkdir docs && rm -rf _site/docs && cp -r _site/** docs"
 
 # Deploy Preview context: all deploys generated from a pull/merge request will
 # inherit these settings.
 [context.deploy-preview]
-  base = "/"
-  publish = "/"
+  # base = "/"
+  # publish = "/"
   command = "scripts/./submodule.sh && npm run build && rm -rf docs && mkdir docs && rm -rf _site/docs && cp -r _site/** docs"
 
 # If skip_processing = true, all other settings are ignored
