@@ -9,26 +9,26 @@
   /*
   ** Add the external link icon to any URLs that contain 'patternfly.org', signifying that the user is leaving for the PatternFly site.
   */
-  a[href*="patternfly.org"]:after {
-    content: '';
-    display: inline-block;
-    background-image: url(../../assets/img/PF_logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 16px;
-    width: 17px;
-    margin-left: 4px;
-    .pf-c-nav__list > .pf-c-nav__item & {
-      content: '';
-      display: inline-block;
-      background-image: url(../../assets/img/PF_logo.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 16px;
-      width: 17px;
-      margin-left: 4px;
-    }
-  }
+  // a[href*="patternfly.org"]:after {
+  //   content: '';
+  //   display: inline-block;
+  //   background-image: url(../../assets/img/PF_logo.png);
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+  //   height: 16px;
+  //   width: 17px;
+  //   margin-left: 4px;
+  //   .pf-c-nav__list > .pf-c-nav__item & {
+  //     content: '';
+  //     display: inline-block;
+  //     background-image: url(../../assets/img/PF_logo.png);
+  //     background-size: contain;
+  //     background-repeat: no-repeat;
+  //     height: 16px;
+  //     width: 17px;
+  //     margin-left: 4px;
+  //   }
+  // }
 
   /*
   ** Add the GitHub icon to any URLs that contain 'github.com', signifying that the user is leaving the site and proceeding to GitHub.
@@ -64,6 +64,16 @@
       position: initial;
       background-color: transparent;
     }
+  }
+
+  /*
+  ** Add the Marvel icon to any URLs that contain 'marvel.com'
+  */
+  a[href*="marvelapp.com"]:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f53f";
+    margin-left: 4px;
   }
 
   /*
