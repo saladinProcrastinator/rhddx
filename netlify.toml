@@ -38,8 +38,8 @@
 [context.deploy-preview.processing]
   skip_processing = true
 
-[[redirects]]
-  from = "/"
-  to = "/design-manual"
-  status = 302
-  force = true
+# [[redirects]]
+#   from = "/"
+#   to = "/design-manual"
+#   status = 302
+#   force = true
